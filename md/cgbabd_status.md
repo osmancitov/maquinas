@@ -2,7 +2,7 @@
 
 Osmancito, con la asistencia de Instinct
 
-Actualizado: 13 de octubre de 2026, 13:58, hora de Caracas. Se sobrescribe al cambiar el estado.
+Actualizado: 13 de octubre de 2026, 13:58, VET.
 
 ## Corriendo ahora
 Ninguno.
@@ -23,4 +23,4 @@ Ninguno.
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
 - Arena: tercera voz de los 13 relatos; parada.
-WhatsApp: 210. · Palabras transcritas: 5.987. · Correos: 5.
+Mensajes enviados: 210. · Palabras voz: 5.987. · Correos: 5.
