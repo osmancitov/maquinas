@@ -16,11 +16,7 @@ Ninguno.
 - Aoki: prueba XSLT por capítulos enviada.
 - Journal del 12-oct y Capilla del 13-oct publicados.
 
-## Suyo
+## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
 - Arena: tercera voz de los 13 relatos; parada.
-
-
-WhatsApp: 210.
-Palabras transcritas: 5.987.
-Correos: 5.
+WhatsApp: 210. · Palabras transcritas: 5.987. · Correos: 5.
