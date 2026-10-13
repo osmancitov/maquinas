@@ -63,7 +63,7 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy est
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
-2026-10-13 | Nueva nube de Borges por cercanía al centro del libro | Una página aparte en Bodega 110, con ejes, desplazamiento, más zoom y navegación de frases por cercanía. Permite ver el libro entero o uno de sus trece cuentos. La nube anterior se conserva; los colores comparan frases dentro de cada modelo. | https://osmancitov.github.io/destileria/bodega-110/cgbabj_nube-arena-cercania.html
+2026-10-13 | Nube en 3D de El libro de arena actualizada | El contenido de cercanía al centro quedó en la dirección original, con su título y un dibujo arriba y como og:image. Conserva ejes, desplazamiento, zoom y navegación por cercanía; la página aparte se retiró. | https://osmancitov.github.io/destileria/bodega-110/cgbabe_nube-arena-3d.html
 2026-10-13 | Diseño de la nube de Borges con varios prototipos | Se hicieron varios prototipos previos para explorar el diseño. Fueron retirados del sitio; la nube en 3D se conserva.
 2026-10-13 | Mapa plano de Borges en cuatro modelos publicado | Cada punto abría una frase de El libro de arena; los cuatro modelos permitían comparar cómo se ordenan las frases. Fue retirado al ser superado por la nube en 3D.
 2026-10-13 | Macbeth completo con Gemma | Las 1.479 frases quedaron traducidas. La revisión literaria de las 236 recuperadas sigue en curso.
