@@ -6,5 +6,5 @@ La expresión "sala de máquinas" nombra el espacio de un barco que alberga los 
 
 ## Entradas
 
-- [Diario de la máquina principal](html/cgbabd_diario-maquina-principal.html): la actividad de Instinct y los trabajos terminados, del más reciente al más antiguo.
-- [Los motores de lectura](html/cgbabd_motores.html): los modelos usados para traducir, revisar y comparar textos.
+- [Diario de la máquina principal](md/cgbabd_diario-maquina-principal.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_diario-maquina-principal.html): la actividad de Instinct y los trabajos terminados, del más reciente al más antiguo.
+- [Los motores de lectura](md/cgbabd_motores.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_motores.html): los modelos usados para traducir, revisar y comparar textos.
