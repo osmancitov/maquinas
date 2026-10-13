@@ -48,7 +48,7 @@ for e in entries:
 (root/'md/pendientes.md').write_text(source)
 H='cgbabd_historial'
 E='cgbabd_status'
-(root/f'md/{H}.md').write_text('# Trabajos realizados\n\nOsmancito, con la asistencia de Instinct\n\nTrabajos terminados hasta el día anterior, del más reciente al más antiguo. Lo de hoy está en [Estado actual]('+E+'.md).\n\n'+'\n'.join(md))
+(root/f'md/{H}.md').write_text('# Trabajos realizados\n\nOsmancito, con la asistencia de Instinct\n\nTrabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en [Estado actual]('+E+'.md).\n\n'+'\n'.join(md))
 (root/f'md/{E}.md').write_text('# Estado actual\n\nOsmancito, con la asistencia de Instinct\n\n'+source)
 def page(title,desc,slug,body,other):
  return f"""<!doctype html>
@@ -81,6 +81,6 @@ CSS
 </body>
 </html>
 """.replace('CSS',STYLE)
-(root/f'html/{H}.html').write_text(page('Trabajos realizados','Trabajos terminados hasta el día anterior, de lo más reciente a lo más antiguo.',H,'<p>Trabajos terminados hasta el día anterior, del más reciente al más antiguo. Lo de hoy está en <a href="'+E+'.html">Estado actual</a>.</p>\n<section aria-label="Trabajos realizados">\n'+'\n'.join(blocks)+'\n</section>',(E,'Estado actual')))
+(root/f'html/{H}.html').write_text(page('Trabajos realizados','Trabajos terminados hasta ayer, de lo más reciente a lo más antiguo.',H,'<p>Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en <a href="'+E+'.html">Estado actual</a>.</p>\n<section aria-label="Trabajos realizados">\n'+'\n'.join(blocks)+'\n</section>',(E,'Estado actual')))
 (root/f'html/{E}.html').write_text(page('Estado actual','Qué corre ahora, qué se hizo hoy y qué queda pendiente.',E,markdown(source),(H,'Trabajos realizados')))
 print('Actualizados md/pendientes.md, md/'+E+'.md, md/'+H+'.md y sus dos páginas html')
