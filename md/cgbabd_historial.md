@@ -63,3 +63,12 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy est
 ### Primer mapa de Macbeth
 
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
+
+<!-- BORRADOR-DEL-DIA
+2026-10-13 | Macbeth completo con Gemma | Las 1.479 frases quedaron traducidas. La revisión literaria de las 236 recuperadas sigue en curso.
+2026-10-13 | Censo de modelos actualizado | Registro de configuraciones que funcionaron y de sus mediciones. Se mantiene al día al confirmar resultados nuevos.
+2026-10-13 | Revisión automática de Macbeth | Las 1.479 frases de la tercera voz fueron revisadas con Gemini 3.5 flash-lite. Nota global: 9,73/10. Es una evaluación automática, no una certificación de calidad literaria.
+2026-10-13 | Tercera voz de Macbeth completa | Una segunda traducción al español, hecha con la asistencia de Instinct: 1.479 frases de 1.479.
+2026-10-13 | Journal del 12 de octubre publicado | Rebeldes, didascalias, andamios y pausa: texto, ilustración y página propia. | https://osmancitov.github.io/journal/html/cgbabc_rebeldes-didascalias-pausa.html
+2026-10-13 | Capilla del 13 de octubre publicada | Mesa generosa: la lectura del día, con su ilustración y página propia. | https://osmancitov.github.io/capilla/html/cgbabd_mesa-generosa.html
+-->
