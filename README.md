@@ -9,5 +9,5 @@ La expresión "sala de máquinas" nombra el espacio de un barco que alberga los 
 - [Status](md/cgbabd_status.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_status.html): qué corre ahora, qué se hizo hoy y qué queda pendiente.
 - [Historial](md/cgbabd_historial.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_historial.html): los trabajos terminados hasta ayer, del más reciente al más antiguo.
 - [Los motores](md/cgbabd_motores.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_motores.html): los modelos de lectura usados para traducir, revisar y comparar textos.
-- [Fórmula actual](md/cgbabe_formula-actual.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabe_formula-actual.html): la receta con que la Destilería trabaja hoy. Mide el corpus frase por frase y dibuja su mapa antes de leerlo.
-- [Protocolos antiguos](md/cgbabe_protocolos-antiguos.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabe_protocolos-antiguos.html): los textos con que la Destilería funcionaba antes; ya no, porque la receta nueva los supera.
+- [Fórmula actual](md/cgbabe_formula-actual.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabe_formula-actual.html): Mide el corpus frase por frase y dibuja su mapa antes de leerlo.
+- [Protocolos antiguos](md/cgbabe_protocolos-antiguos.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabe_protocolos-antiguos.html): los textos con que la Destilería funcionó en su primera etapa.

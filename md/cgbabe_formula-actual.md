@@ -1,5 +1,7 @@
 # Fórmula actual
 
+Mide el corpus frase por frase y dibuja su mapa antes de leerlo.
+
 La primera receta de la Destilería leía un libro con instrumentos: una persona o un modelo de lenguaje recorría el texto y anotaba lo que veía. La receta 2.0 añade un paso anterior: medir el libro. Antes de opinar sobre un corpus, se le pone una regla encima, y la regla no sabe nada de literatura. Esta entrada cuenta qué es esa regla y qué se hace con lo que mide.
 
 ## Primer paso: partir el texto en frases
