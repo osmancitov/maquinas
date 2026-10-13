@@ -2,7 +2,7 @@
 
 Osmancito, con la asistencia de Instinct
 
-13 de octubre de 2026, 13:58, UTC-4.
+13 de octubre de 2026, 18:42, UTC-4.
 
 ## Corriendo ahora
 Ninguno.
@@ -13,7 +13,8 @@ Ninguno.
 - Journal: 23:00.
 
 ## Hecho hoy
-- Diseño de la nube de Borges: varios prototipos previos, retirados del sitio; la nube en 3D se conserva.
+- Nueva nube de Borges publicada aparte en Bodega 110: ejes, desplazamiento, más zoom y navegación por cercanía al centro del libro. Dos modos: libro entero o uno de los trece cuentos. La nube anterior queda intacta. Los colores comparan frases dentro de cada modelo, no entre modelos.
+- Diseño de la nube de Borges: retiradas las cuatro páginas de círculo y esfera, del libro y de «El otro», y sus referencias. Los prototipos se conservan en el historial de git; la nube en 3D se conserva en el sitio.
 - Macbeth: cuatro columnas completas, 1.479 de 1.479 frases cada una: Gemma 26B, tercera voz, Gemini 3.1 flash-lite (lotes) y Gemini 3.5 flash-lite (`flash-3.5-macbeth.json`).
 - Crítica de la tercera voz: 1.479 de 1.479 revisadas, nota global 9,73/10. Informe en `trans/Shakespeare Macbeth/critica-macbeth.md`. Los 8 sietes de la tercera voz se quedan como están.
 - Archivo provisional de flash eliminado, sin rastro en los documentos.
@@ -24,4 +25,4 @@ Ninguno.
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
 - Arena: tercera voz de los 13 relatos; parada.
-💬 210 · 🎙️ 5.987 · ✉️ 5 · 🎖️ 10
+💬 338 · 🎙️ 15.114 · ✉️ 5 · 🎖️ 14
