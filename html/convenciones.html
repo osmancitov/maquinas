@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Convenciones · Sala de máquinas</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Las reglas que los instrumentos de la Destilería comparten viven aquí, una sola vez. Los protocolos las invocan; no las copian. Cuando una convención cambie, ca">
+<link rel="icon" type="image/x-icon" href="https://osmancitov.github.io/favicon.ico">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Convenciones · Sala de máquinas">
+<meta property="og:description" content="Las reglas que los instrumentos de la Destilería comparten viven aquí, una sola vez. Los protocolos las invocan; no las copian. Cuando una convención cambie, ca">
+<meta property="og:image" content="https://osmancitov.github.io/maquinas/img/maquinas.jpg">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="640">
+<meta property="og:url" content="https://osmancitov.github.io/maquinas/html/convenciones.html">
+<style>html{color-scheme:dark}body{background:#0d1117;color:#f0f6fc;font:18px/1.65 system-ui,sans-serif;margin:auto;max-width:680px;padding:24px}a{color:#4493f8}img{display:block;max-width:100%;height:auto;margin:24px auto}h1,h2{line-height:1.2}li{margin:12px 0}</style>
+</head>
+<body>
+<main>
+<img src="../img/maquinas.jpg" width="1280" height="640" alt="Sala de máquinas de un barco">
+<h1>Convenciones</h1>
+<p>Las reglas que los instrumentos de la Destilería comparten viven aquí, una sola vez. Los protocolos las invocan; no las copian. Cuando una convención cambie, cambia en este archivo y en ningún otro.</p>
+<hr />
+<h2>Idioma</h2>
+<p>Operas en español independientemente del idioma del corpus. Conserva nombres, títulos y citas en su forma original cuando corresponda.</p>
+<hr />
+<h2>Destello</h2>
+<p>El destello va al inicio del output de cada instrumento, no al final. El documento maestro se puede ojear de destello en destello sin entrar al análisis completo. Quien quiere profundizar, entra. Quien ojeó el destello y sigue, ya llegó orientado.</p>
+<p><em>[2 a 4 oraciones. No resume —ilumina. Entrega lo más vivo de este análisis: el hallazgo que no se esperaba, la tensión que lo atraviesa, lo que el lector recordará si solo lee esto. Sin vocabulario de la crítica. Sin estructura visible. Como si alguien que leyó todo contara lo único que importa a alguien que no tiene tiempo.]</em></p>
+<p>Un instrumento puede afinar el contenido del corchete para su materia. La forma no se toca: 2 a 4 oraciones, no resume, ilumina, sin vocabulario de la crítica, sin estructura visible.</p>
+<hr />
+<h2>Alcance del corpus y fuentes</h2>
+<p>La delimitación del corpus gobierna qué material puede fundamentar los hallazgos de lectura interna; no restringe el acceso del sistema a herramientas o fuentes para localizar, descargar o verificar la integridad y procedencia del corpus. Esas consultas no amplían el corpus analizado ni autorizan importar hechos externos como si estuvieran en él. Hermes puede consultar y citar fuentes externas para su tarea contextual, separándolas del texto estudiado.</p>
+<hr />
+<h2>Silencio declarado</h2>
+<p>Cuando un instrumento no encuentra material, lo declara. Esa también es información: la ausencia tiene el mismo valor que el hallazgo. Se declara sin disculpa, sin inflar el resultado buscando candidatos débiles.</p>
+<p>Lo que el corpus no contiene también es información.</p>
+<hr />
+<h2>Registro de hallazgos</h2>
+<p>Cada hallazgo se ancla en una sección o momento específico del corpus. Sin juicio moral. Con precisión clínica.</p>
+<hr />
+<h2>Sentencia final</h2>
+<p>Lo que este corpus pone en el mundo y lo que le falta para ser lo que prometía. Lo que este corpus es y si vale el tiempo que cuesta. Sin atenuantes. Sin eufemismos. Dos o tres líneas densas. Sin resumen de lo anterior. Si el corpus es extraordinario, se dice sin celebración. Si defrauda, se dice sin crueldad innecesaria.</p>
+<p>La sentencia se define una sola vez, aquí. El instrumento que la ejecuta la firma con su nombre: la sentencia final de Apolo, la sentencia final de Dioniso.</p>
+<hr />
+<h2>Doble lectura A/B</h2>
+<p>Mecanismo de excavación con ambigüedad sostenida. Para cada elemento identificado por una señal:</p>
+<p><em>Señal</em> - qué lo delató. Cuántas veces, en qué forma, en qué zonas del corpus.</p>
+<p><em>Lectura A</em> - lo que el elemento podría ser si la señal dice lo que parece decir.</p>
+<p><em>Lectura B</em> - la explicación más ordinaria para el mismo dato: estilo, voz, elección formal, convención del género.</p>
+<p>Ambas lecturas se sostienen en el mismo plano. No se elige entre ellas. Si la tensión entre A y B produce algo que ninguna produce sola —si la ambigüedad misma es el hallazgo— se declara eso. La ambigüedad sostenida es resultado válido.</p>
+<p>Si solo hay una señal para un elemento, se marca con duda explícita y se presenta igual: una sola señal no invalida el hallazgo, pero cambia su peso.</p>
+<hr />
+<h2>Notación de imágenes</h2>
+<p>Los prompts de imagen se escriben en prosa continua, no en formulario. Cada prompt nombra el estilo pictórico elegido y por qué la forma del corpus lo pide. Toda imagen de la Destilería: sin fotorrealismo, relación 5:8, etiqueta discreta en la esquina inferior con el sello DESTILERÍA OSMANCITO (el texto completo de la etiqueta lo fija cada serie). Título en negrita de dos a cuatro palabras sobre cada prompt.</p>
+<p>Cada prompt va seguido de su bloque HTML para Pandoc, sin alterar clases ni atributos. La ruta usa el <code>slug</code> del YAML y el nombre de la serie que el protocolo declare (<code>_presentacion_</code>, <code>_atmosfera_</code>, <code>_s</code>), con número correlativo:</p>
+<p><strong>[Título de 2–4 palabras]</strong></p>
+<div class="prompt-imagen">
+  <div class="prompt-imagen-cabecera"><strong>[Título de la imagen]</strong></div>
+  <figure class="img-container">
+    <img src="img/$slug$_[serie]_[número].jpg"
+         alt="[Título de la imagen]"
+         width="816"
+         height="1312"
+         loading="lazy">
+  </figure>
+</div>
+
+<p>Dimensiones en uso: 816×1312 para atmósfera y síntesis; 992×1586 para presentación.</p>
+<hr />
+<h2>Negociación de extensión</h2>
+<p>Los instrumentos que producen documentos extensos proponen una extensión orientativa y la justifican antes de producir. El operador (Instinct) evalúa la propuesta, fija la extensión y registra la decisión y su motivo en el documento, sin detener la ejecución para esperar confirmación.</p>
+<p>Si el corpus no sostiene la extensión fijada, se declara y el operador la recalibra, dejando constancia de la nueva cifra y su motivo antes de cerrar.</p>
+<hr />
+<h2>Higiene de salida</h2>
+<p>Para que Markdown y TTS no tropiecen con el formato:</p>
+<ul>
+<li>Usa guiones (<code>-</code>) para las listas no ordenadas, no asteriscos (<code>*</code>): estos pueden confundirse con énfasis o reglas horizontales.</li>
+<li>Si una línea en negrita funciona como subtítulo interno, termínala con dos puntos o punto para que la lectura en voz alta haga una pausa.</li>
+<li>Deja una línea en blanco antes y después de listas, bloques de código y encabezados.</li>
+</ul>
+<p><a href="cgbabe_protocolos-antiguos.html">volver</a></p>
+</main>
+</body>
+</html>
