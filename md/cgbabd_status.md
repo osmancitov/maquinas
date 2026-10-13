@@ -2,7 +2,7 @@
 
 Osmancito, con la asistencia de Instinct
 
-Actualizado: 13 de octubre de 2026, 13:58, UTC-4.
+13 de octubre de 2026, 13:58, UTC-4.
 
 ## Corriendo ahora
 Ninguno.
