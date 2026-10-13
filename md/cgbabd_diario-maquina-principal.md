@@ -1,10 +1,8 @@
-# Diario de la máquina principal
+# Trabajos realizados
 
 Osmancito, con la asistencia de Instinct
 
-Trabajos terminados hasta el día anterior, del más reciente al más antiguo. Lo de hoy está en [Estado de la máquina principal](cgbabd_estado-maquina-principal.md).
-
-## Trabajos realizados
+Trabajos terminados hasta el día anterior, del más reciente al más antiguo. Lo de hoy está en [Estado actual](cgbabd_estado-maquina-principal.md).
 
 ### Macbeth en español publicado
 

@@ -6,6 +6,6 @@ La expresión "sala de máquinas" nombra el espacio de un barco que alberga los 
 
 ## Entradas
 
-- [Estado de la máquina principal](md/cgbabd_estado-maquina-principal.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_estado-maquina-principal.html): qué corre ahora, qué se hizo hoy y qué queda pendiente.
-- [Diario de la máquina principal](md/cgbabd_diario-maquina-principal.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_diario-maquina-principal.html): los trabajos terminados hasta el día anterior, del más reciente al más antiguo.
+- [Estado actual](md/cgbabd_estado-maquina-principal.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_estado-maquina-principal.html): qué corre ahora, qué se hizo hoy y qué queda pendiente.
+- [Trabajos realizados](md/cgbabd_diario-maquina-principal.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_diario-maquina-principal.html): los trabajos terminados hasta el día anterior, del más reciente al más antiguo.
 - [Los motores de lectura](md/cgbabd_motores.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_motores.html): los modelos usados para traducir, revisar y comparar textos.
