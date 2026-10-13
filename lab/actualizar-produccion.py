@@ -11,6 +11,17 @@ p.add_argument('--pendientes',type=Path,default=root/'md/pendientes.md')
 p.add_argument('--incluye-hoy',action='store_true',help='incluye en el historial los trabajos de hoy')
 a=p.parse_args()
 source=a.pendientes.read_text()
+# Mantén la etiqueta temporal y los contadores compactos en cada regeneración.
+lines=source.splitlines()
+lines=[re.sub(r'^##\s+(?:Lo suyo|Suyo)\s*$', '## Pendiente de Osmancito', line) for line in lines]
+counters=[]; kept=[]
+for line in lines:
+ if re.match(r'^(?:WhatsApp|Palabras transcritas|Correos):', line): counters.append(line.strip())
+ else: kept.append(line)
+if counters:
+ while kept and not kept[-1].strip(): kept.pop()
+ kept.append(' · '.join(counters))
+source='\n'.join(kept).rstrip()+'\n'
 # El contenido se escapa: un archivo de texto no puede insertar código en la página.
 def inline(s):
  s=html.escape(s)
