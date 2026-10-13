@@ -131,7 +131,7 @@ if a.dry_run:
 (root/'md/pendientes.md').write_text(source)
 (root/f'md/{H}.md').write_text(hist_md)
 (root/f'md/{E}.md').write_text(estado_md)
-def page(title,desc,slug,body,other):
+def page(title,desc,slug,body):
  return f"""<!doctype html>
 <html lang="es">
 <head>
@@ -157,11 +157,11 @@ CSS
 <img src="../img/cgbabd-mesa-produccion.jpg" alt="Mesa de trabajo: una asistente revisa manuscritos junto a los libros terminados" width="1280" height="720">
 <p>Osmancito, con la asistencia de Instinct</p>
 {body}
-<nav><a href="{other[0]}.html">{other[1]}</a> · <a href="../maquinas.html">Sala de máquinas</a></nav>
+<nav><a href="../maquinas.html">Sala de máquinas</a></nav>
 </main>
 </body>
 </html>
 """.replace('CSS',STYLE)
-(root/f'html/{H}.html').write_text(page('Trabajos realizados','Trabajos terminados hasta ayer, de lo más reciente a lo más antiguo.',H,'<p>Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en <a href="'+E+'.html">Estado actual</a>.</p>\n<section aria-label="Trabajos realizados">\n'+'\n'.join(blocks)+'\n</section>',(E,'Estado actual')))
-(root/f'html/{E}.html').write_text(page('Estado actual','Qué corre ahora, qué se hizo hoy y qué queda pendiente.',E,markdown(source),(H,'Trabajos realizados')))
+(root/f'html/{H}.html').write_text(page('Trabajos realizados','Trabajos terminados hasta ayer, de lo más reciente a lo más antiguo.',H,'<p>Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en <a href="'+E+'.html">Estado actual</a>.</p>\n<section aria-label="Trabajos realizados">\n'+'\n'.join(blocks)+'\n</section>'))
+(root/f'html/{E}.html').write_text(page('Estado actual','Qué corre ahora, qué se hizo hoy y qué queda pendiente.',E,markdown(source)))
 print('Actualizados md/pendientes.md, md/'+E+'.md, md/'+H+'.md y sus dos páginas html')

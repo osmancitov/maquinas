@@ -6,6 +6,6 @@ La expresión "sala de máquinas" nombra el espacio de un barco que alberga los 
 
 ## Entradas
 
-- [Estado actual](md/cgbabd_status.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_status.html): qué corre ahora, qué se hizo hoy y qué queda pendiente.
-- [Trabajos realizados](md/cgbabd_historial.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_historial.html): los trabajos terminados hasta el día anterior, del más reciente al más antiguo.
+- [Status](md/cgbabd_status.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_status.html): qué corre ahora, qué se hizo hoy y qué queda pendiente.
+- [Historial](md/cgbabd_historial.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_historial.html): los trabajos terminados hasta el día anterior, del más reciente al más antiguo.
 - [Los motores de lectura](md/cgbabd_motores.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_motores.html): los modelos usados para traducir, revisar y comparar textos.
