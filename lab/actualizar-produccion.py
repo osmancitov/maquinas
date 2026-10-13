@@ -19,8 +19,9 @@ PROCEDIMIENTO DE MEDIANOCHE (00:00 UTC-4, el día que termina es el de ayer)
   4. Cerrar el día:        python3 lab/actualizar-produccion.py --cierra-dia
      Esto hace: pasa las líneas del borrador al principio del historial como bloques con su fecha, vacía el borrador,
      deja "## Hecho hoy" de Estado en "- Nada todavía." y regenera los md y html de las dos páginas.
-  5. Contadores y bloque "Corriendo ahora"/"Pendiente de Osmancito": ajustarlos a mano en md/pendientes.md antes del paso 4
-     si cambian; la línea de fecha y hora se reescribe sola en UTC-4, sin etiqueta.
+  5. Contadores (💬 mensajes · 🎙️ palabras de voz · ✉️ correos · 🎖️ medallas, todos del día en Caracas) y bloque "Corriendo ahora"/"Pendiente de Osmancito": ajustarlos a mano en md/pendientes.md antes del paso 4
+     y reponerlos desde datos vivos cada vez que se actualiza Status (las medallas: mensajes de WhatsApp del usuario con 🎖
+     en observaciones phone_messages, service WhatsApp, author user, del día de Caracas; solo WhatsApp, no correo); la línea de fecha y hora se reescribe sola en UTC-4, sin etiqueta.
   6. git add -A && git commit -m "Cierra el día" && git push (token de Drive .github_key, sin espacios, nunca impreso)
      y comprobar las dos páginas en vivo.
 Sin opciones, solo regenera las páginas desde los md (no mueve nada).
@@ -83,15 +84,21 @@ if a.cierra_dia:
 lines=source.splitlines()
 lines=[re.sub(r'^##\s+(?:Lo suyo|Suyo)\s*$', '## Pendiente de Osmancito', line) for line in lines]
 counters=[]; kept=[]
+# Formato fijo: 💬 mensajes enviados · 🎙️ palabras de voz · ✉️ correos · 🎖️ medallas de WhatsApp (todos del día).
+emo={'mensajes':'💬','palabras':'🎙️','correos':'✉️','medallas':'🎖️'}
+orden=['mensajes','palabras','correos','medallas']
+pat=r'(?:(💬|🎙️?|✉️?|🎖️?)\s*(\d[\d.]*))|(?:(\d[\d.]*)\s+(mensajes enviados|mensajes|palabras voz|palabras|correos|medallas))'
+key={'💬':'mensajes','🎙':'palabras','✉':'correos','🎖':'medallas','mensajes enviados':'mensajes','mensajes':'mensajes','palabras voz':'palabras','palabras':'palabras','correos':'correos','medallas':'medallas'}
+vals={}
 for line in lines:
- found=re.findall(r'(\d[\d.]*)\s+(mensajes enviados|mensajes|palabras voz|palabras|correos)',line,re.I)
- if found:
-  labels={'mensajes enviados':'mensajes','mensajes':'mensajes','palabras voz':'palabras','palabras':'palabras','correos':'correos'}
-  counters.extend(f'{number} {labels[label.lower()]}' for number,label in found)
+ found=re.findall(pat,line,re.I)
+ if found and '·' in line:
+  for e,n1,n2,w in found:
+   k=key[(e.rstrip('\ufe0f') if e else w.lower())]; vals[k]=n1 or n2
  else: kept.append(line)
-if counters:
+if vals:
  while kept and not kept[-1].strip(): kept.pop()
- kept.append(' · '.join(counters))
+ kept.append(' · '.join(f'{emo[k]} {vals[k]}' for k in orden if k in vals))
 source='\n'.join(kept).rstrip()+'\n'
 # El contenido se escapa: un archivo de texto no puede insertar código en la página.
 def inline(s):

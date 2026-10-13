@@ -23,4 +23,4 @@ Ninguno.
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
 - Arena: tercera voz de los 13 relatos; parada.
-210 mensajes · 5.987 palabras · 5 correos
+💬 210 · 🎙️ 5.987 · ✉️ 5 · 🎖️ 10
