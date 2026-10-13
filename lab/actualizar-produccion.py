@@ -46,8 +46,8 @@ for e in entries:
  blocks.append(f'<article><p class="fecha">{date}</p><h3>{html.escape(e["title"])}</h3><p>{html.escape(e["detail"])}</p>{link}</article>')
  md.append(f'### {e["title"]}\n\n{date}. {e["detail"]}\n'+(f'\n[Leer]({e["url"]})\n' if e.get('url') else ''))
 (root/'md/pendientes.md').write_text(source)
-H='cgbabd_diario-maquina-principal'
-E='cgbabd_estado-maquina-principal'
+H='cgbabd_historial'
+E='cgbabd_status'
 (root/f'md/{H}.md').write_text('# Trabajos realizados\n\nOsmancito, con la asistencia de Instinct\n\nTrabajos terminados hasta el día anterior, del más reciente al más antiguo. Lo de hoy está en [Estado actual]('+E+'.md).\n\n'+'\n'.join(md))
 (root/f'md/{E}.md').write_text('# Estado actual\n\nOsmancito, con la asistencia de Instinct\n\n'+source)
 def page(title,desc,slug,body,other):
