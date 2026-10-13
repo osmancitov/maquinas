@@ -63,6 +63,7 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy est
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
+2026-10-13 | Diseño de la nube de Borges con varios prototipos | Se hicieron varios prototipos previos para explorar el diseño. Fueron retirados del sitio; la nube en 3D se conserva.
 2026-10-13 | Mapa plano de Borges en cuatro modelos publicado | Cada punto abría una frase de El libro de arena; los cuatro modelos permitían comparar cómo se ordenan las frases. Fue retirado al ser superado por la nube en 3D.
 2026-10-13 | Macbeth completo con Gemma | Las 1.479 frases quedaron traducidas. La revisión literaria de las 236 recuperadas sigue en curso.
 2026-10-13 | Censo de modelos actualizado | Registro de configuraciones que funcionaron y de sus mediciones. Se mantiene al día al confirmar resultados nuevos.
