@@ -13,6 +13,7 @@ Ninguno.
 - Journal: 23:00.
 
 ## Hecho hoy
+- Diseño de la nube de Borges: varios prototipos previos, retirados del sitio; la nube en 3D se conserva.
 - Macbeth: cuatro columnas completas, 1.479 de 1.479 frases cada una: Gemma 26B, tercera voz, Gemini 3.1 flash-lite (lotes) y Gemini 3.5 flash-lite (`flash-3.5-macbeth.json`).
 - Crítica de la tercera voz: 1.479 de 1.479 revisadas, nota global 9,73/10. Informe en `trans/Shakespeare Macbeth/critica-macbeth.md`. Los 8 sietes de la tercera voz se quedan como están.
 - Archivo provisional de flash eliminado, sin rastro en los documentos.
