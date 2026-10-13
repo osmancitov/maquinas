@@ -1,7 +1,7 @@
-Actualizado: 13 de octubre de 2026, 10:35, hora de Caracas. Se sobrescribe al cambiar el estado.
+Actualizado: 13 de octubre de 2026, 13:58, hora de Caracas. Se sobrescribe al cambiar el estado.
 
 ## Corriendo ahora
-- Crítica de las 236 traducciones nuevas de Macbeth 26B con Gemini 3.5 flash-lite, en paquetes de 100. Primera llamada: HTTP 503; reintento cada 25 minutos. No modifica las traducciones.
+Ninguno.
 
 ## Automáticos diarios
 - Capilla: 05:00.
@@ -9,18 +9,18 @@ Actualizado: 13 de octubre de 2026, 10:35, hora de Caracas. Se sobrescribe al ca
 - Journal: 23:00.
 
 ## Hecho hoy
-- Macbeth 26B: 1.479 de 1.479 frases traducidas; 0 pendientes. Revisión literaria de las 236 recuperadas en curso.
-- Tercera voz de Macbeth: 1.479 de 1.479 frases traducidas.
-- Crítica automática de la tercera voz de Macbeth: 1.479 de 1.479 frases revisadas (100 %); nota global 9,73/10. Informe en `trans/Shakespeare Macbeth/critica-macbeth.md`.
+- Macbeth: cuatro columnas completas, 1.479 de 1.479 frases cada una: Gemma 26B, tercera voz, Gemini 3.1 flash-lite (lotes) y Gemini 3.5 flash-lite (`flash-3.5-macbeth.json`).
+- Crítica de la tercera voz: 1.479 de 1.479 revisadas, nota global 9,73/10. Informe en `trans/Shakespeare Macbeth/critica-macbeth.md`. Los 8 sietes de la tercera voz se quedan como están.
+- Archivo provisional de flash eliminado, sin rastro en los documentos.
+- Arena: vectores completos, 1.853 de 1.853 frases de cuerpo en Nemotron, Cohere Embed v4 y Gemini Embedding 2.
+- Aoki: prueba XSLT por capítulos enviada.
 - Journal del 12-oct y Capilla del 13-oct publicados.
 
 ## Suyo
 - Debian Reference: lectura guiada desde cero.
-- Arena: embedding, tercera voz de los 13 relatos; parada.
+- Arena: tercera voz de los 13 relatos; parada.
 
 
-WhatsApp: 89.
-Palabras transcritas: 561.
-Correos: 1.
-
-
+WhatsApp: 210.
+Palabras transcritas: 5.987.
+Correos: 5.

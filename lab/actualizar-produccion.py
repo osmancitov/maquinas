@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Genera la página y su archivo de lectura desde pendientes y logros públicos."""
+"""Genera las dos páginas del diario: el estado actual (desde pendientes) y el historial de trabajos terminados antes de hoy."""
 import argparse, html, json, re
 from pathlib import Path
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 root=Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser(description=__doc__)
-p.add_argument('--pendientes',type=Path,required=True)
+p.add_argument('--pendientes',type=Path,default=root/'md/pendientes.md')
+p.add_argument('--incluye-hoy',action='store_true',help='incluye en el historial los trabajos de hoy')
 a=p.parse_args()
 source=a.pendientes.read_text()
 # El contenido se escapa: un archivo de texto no puede insertar código en la página.
@@ -31,7 +33,11 @@ def markdown(s):
  if listing: out.append('</ul>')
  return '\n'.join(out)
 
+STYLE='''<style>html{color-scheme:dark}body{background:#0d1117;color:#f0f6fc;font:18px/1.65 system-ui,sans-serif;margin:auto;max-width:680px;padding:24px}a{color:#4493f8}img{display:block;width:100%;height:auto;margin:24px 0}h1,h2,h3{line-height:1.25}h2{margin-top:36px}h3{font-size:1.12em}li{margin:12px 0}article{border-top:1px solid #30363d;padding:20px 0}article p{margin:10px 0}.fecha{color:#9198a1;font-size:.9em}code{overflow-wrap:anywhere}a{overflow-wrap:anywhere}nav a{display:inline-block;padding:10px 0}</style>'''
+
+today=datetime.now(ZoneInfo('America/Caracas')).date()
 entries=sorted(json.loads((root/'data/produccion.json').read_text()),key=lambda e:e['date'],reverse=True)
+if not a.incluye_hoy: entries=[e for e in entries if datetime.fromisoformat(e['date']).date()<today]
 months=['','enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre']
 blocks=[];md=[]
 for e in entries:
@@ -39,44 +45,42 @@ for e in entries:
  link=f'<p><a href="{html.escape(e["url"],quote=True)}">Leer</a></p>' if e.get('url') else ''
  blocks.append(f'<article><p class="fecha">{date}</p><h3>{html.escape(e["title"])}</h3><p>{html.escape(e["detail"])}</p>{link}</article>')
  md.append(f'### {e["title"]}\n\n{date}. {e["detail"]}\n'+(f'\n[Leer]({e["url"]})\n' if e.get('url') else ''))
-# La misma información se conserva legible en el repositorio.
 (root/'md/pendientes.md').write_text(source)
-(root/'md/cgbabd_diario-maquina-principal.md').write_text('# Diario de la máquina principal\n\nOsmancito, con la asistencia de Instinct\n\n## Actividad actual\n\n'+source+'\n## Trabajos realizados\n\n'+'\n'.join(md))
-page='''<!doctype html>
+H='cgbabd_diario-maquina-principal'
+E='cgbabd_estado-maquina-principal'
+(root/f'md/{H}.md').write_text('# Diario de la máquina principal\n\nOsmancito, con la asistencia de Instinct\n\nTrabajos terminados hasta el día anterior, del más reciente al más antiguo. Lo de hoy está en [Estado de la máquina principal]('+E+'.md).\n\n## Trabajos realizados\n\n'+'\n'.join(md))
+(root/f'md/{E}.md').write_text('# Estado de la máquina principal\n\nOsmancito, con la asistencia de Instinct\n\n'+source)
+def page(title,desc,slug,body,other):
+ return f"""<!doctype html>
 <html lang="es">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Diario de la máquina principal · Sala de máquinas</title>
-<meta name="description" content="Actividad actual y trabajos realizados con la asistencia de Instinct, de lo más reciente a lo más antiguo.">
+<title>{title} · Sala de máquinas</title>
+<meta name="description" content="{desc}">
 <link rel="icon" href="https://osmancitov.github.io/favicon.ico">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Diario de la máquina principal">
-<meta property="og:description" content="Actividad actual y trabajos realizados, de lo más reciente a lo más antiguo.">
-<meta property="og:url" content="https://osmancitov.github.io/maquinas/html/cgbabd_diario-maquina-principal.html">
+<meta property="og:title" content="{title}">
+<meta property="og:description" content="{desc}">
+<meta property="og:url" content="https://osmancitov.github.io/maquinas/html/{slug}.html">
 <meta property="og:image" content="https://osmancitov.github.io/maquinas/img/cgbabd-mesa-produccion.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1280">
 <meta property="og:image:height" content="720">
 <meta property="og:image:alt" content="Una asistente revisa manuscritos junto a una fila de libros terminados, en claroscuro de Rembrandt.">
-<style>html{color-scheme:dark}body{background:#0d1117;color:#f0f6fc;font:18px/1.65 system-ui,sans-serif;margin:auto;max-width:680px;padding:24px}a{color:#4493f8}img{display:block;width:100%;height:auto;margin:24px 0}h1,h2,h3{line-height:1.25}h2{margin-top:36px}h3{font-size:1.12em}li{margin:12px 0}article{border-top:1px solid #30363d;padding:20px 0}article p{margin:10px 0}.fecha{color:#9198a1;font-size:.9em}code{overflow-wrap:anywhere}a{overflow-wrap:anywhere}nav a{display:inline-block;padding:10px 0}</style>
+CSS
 </head>
 <body>
 <main>
-<h1>Diario de la máquina principal</h1>
+<h1>{title}</h1>
 <img src="../img/cgbabd-mesa-produccion.jpg" alt="Mesa de trabajo: una asistente revisa manuscritos junto a los libros terminados" width="1280" height="720">
 <p>Osmancito, con la asistencia de Instinct</p>
-<section aria-labelledby="actividad"><h2 id="actividad">Actividad actual</h2>
-PENDING
-</section>
-<section aria-labelledby="trabajos"><h2 id="trabajos">Trabajos realizados</h2>
-<p>Resultados confirmados, de lo más reciente a lo más antiguo. Las tareas canceladas no aparecen como éxitos.</p>
-HISTORY
-</section>
-<nav><a href="../maquinas.html">Sala de máquinas</a></nav>
+{body}
+<nav><a href="{other[0]}.html">{other[1]}</a> · <a href="../maquinas.html">Sala de máquinas</a></nav>
 </main>
 </body>
 </html>
-'''.replace('PENDING',markdown(source)).replace('HISTORY','\n'.join(blocks))
-(root/'html/cgbabd_diario-maquina-principal.html').write_text(page)
-print('Actualizados md/pendientes.md, md/cgbabd_diario-maquina-principal.md y html/cgbabd_diario-maquina-principal.html')
+""".replace('CSS',STYLE)
+(root/f'html/{H}.html').write_text(page('Diario de la máquina principal','Trabajos terminados hasta el día anterior, de lo más reciente a lo más antiguo.',H,'<p>Trabajos terminados hasta el día anterior, del más reciente al más antiguo. Lo de hoy está en <a href="'+E+'.html">Estado de la máquina principal</a>.</p>\n<section aria-labelledby="trabajos"><h2 id="trabajos">Trabajos realizados</h2>\n'+'\n'.join(blocks)+'\n</section>',(E,'Estado de la máquina principal')))
+(root/f'html/{E}.html').write_text(page('Estado de la máquina principal','Qué corre ahora, qué se hizo hoy y qué queda pendiente.',E,markdown(source),(H,'Diario de la máquina principal')))
+print('Actualizados md/pendientes.md, md/'+E+'.md, md/'+H+'.md y sus dos páginas html')
