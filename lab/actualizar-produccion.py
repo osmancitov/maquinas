@@ -84,9 +84,10 @@ lines=source.splitlines()
 lines=[re.sub(r'^##\s+(?:Lo suyo|Suyo)\s*$', '## Pendiente de Osmancito', line) for line in lines]
 counters=[]; kept=[]
 for line in lines:
- found=re.findall(r'(\d[\d.]*)\s+(mensajes enviados|palabras voz|correos)',line,re.I)
+ found=re.findall(r'(\d[\d.]*)\s+(mensajes enviados|mensajes|palabras voz|palabras|correos)',line,re.I)
  if found:
-  counters.extend(f'{number} {label.lower()}' for number,label in found)
+  labels={'mensajes enviados':'mensajes','mensajes':'mensajes','palabras voz':'palabras','palabras':'palabras','correos':'correos'}
+  counters.extend(f'{number} {labels[label.lower()]}' for number,label in found)
  else: kept.append(line)
 if counters:
  while kept and not kept[-1].strip(): kept.pop()
