@@ -1,4 +1,4 @@
-Actualizado: 13 de octubre de 2026, 13:58, VET.
+Actualizado: 13 de octubre de 2026, 13:58, UTC-4.
 
 ## Corriendo ahora
 Ninguno.
@@ -19,4 +19,4 @@ Ninguno.
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
 - Arena: tercera voz de los 13 relatos; parada.
-Mensajes enviados: 210 · Palabras voz: 5.987 · Correos: 5
+210 mensajes enviados · 5.987 palabras voz · 5 correos
