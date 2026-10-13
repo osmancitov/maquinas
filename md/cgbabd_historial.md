@@ -42,12 +42,6 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy est
 
 11 de octubre de 2026. Las publicaciones adoptan la firma: Osmancito, con la asistencia de Instinct.
 
-### Mapa interactivo de Borges publicado
-
-10 de octubre de 2026. Cada punto del mapa de El libro de arena permite abrir una frase.
-
-[Leer](https://osmancitov.github.io/destileria/bodega-110/cgbaba_mapa-arena.html)
-
 ### Protocolos disponibles en HTML
 
 10 de octubre de 2026. Veinticuatro páginas publicadas y vinculadas desde la Destilería.
