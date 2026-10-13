@@ -11,7 +11,7 @@ DURANTE EL DÍA
   Cada trabajo terminado se anota en dos sitios: como viñeta en "## Hecho hoy" de md/pendientes.md, y como línea del
   borrador del día en el historial (con --anota, ver abajo). El historial publicado no muestra el borrador.
 
-PROCEDIMIENTO DE MEDIANOCHE (00:00, hora de Caracas, el día que termina es el de ayer)
+PROCEDIMIENTO DE MEDIANOCHE (00:00 VET, el día que termina es el de ayer)
   1. git pull --rebase origin main
   2. Revisar el borrador: que tenga todo lo terminado ese día. Lo que falte se añade con
        python3 lab/actualizar-produccion.py --anota "Título" "Detalle en una o dos frases" ["url"] --fecha AAAA-MM-DD
@@ -20,7 +20,7 @@ PROCEDIMIENTO DE MEDIANOCHE (00:00, hora de Caracas, el día que termina es el d
      Esto hace: pasa las líneas del borrador al principio del historial como bloques con su fecha, vacía el borrador,
      deja "## Hecho hoy" de Estado en "- Nada todavía." y regenera los md y html de las dos páginas.
   5. Contadores y bloque "Corriendo ahora"/"Pendiente de Osmancito": ajustarlos a mano en md/pendientes.md antes del paso 4
-     si cambian; la línea "Actualizado:" se reescribe sola con la hora de Caracas.
+     si cambian; la línea "Actualizado:" se reescribe sola con la hora VET.
   6. git add -A && git commit -m "Cierra el día" && git push (token de Drive .github_key, sin espacios, nunca impreso)
      y comprobar las dos páginas en vivo.
 Sin opciones, solo regenera las páginas desde los md (no mueve nada).
@@ -78,13 +78,13 @@ source=a.pendientes.read_text()
 if a.cierra_dia:
  # Estado: lo logrado hoy ya pasó al historial.
  source=re.sub(r'(## Hecho hoy\n)(?:- .*\n?)+',r'\1- Nada todavía.\n',source)
- source=re.sub(r'^Actualizado:.*?(\. Se sobrescribe)',lambda m:f'Actualizado: {now.day} de {months[now.month]} de {now.year}, {now:%H:%M}, hora de Caracas'+m[1],source,count=1,flags=re.M)
+ source=re.sub(r'^Actualizado:.*$',lambda m:f'Actualizado: {now.day} de {months[now.month]} de {now.year}, {now:%H:%M} VET.',source,count=1,flags=re.M)
 # Mantén la etiqueta temporal y los contadores compactos en cada regeneración.
 lines=source.splitlines()
 lines=[re.sub(r'^##\s+(?:Lo suyo|Suyo)\s*$', '## Pendiente de Osmancito', line) for line in lines]
 counters=[]; kept=[]
 for line in lines:
- if re.match(r'^(?:WhatsApp|Palabras transcritas|Correos):', line): counters.append(line.strip())
+ if re.match(r'^(?:Mensajes enviados|Palabras voz|Correos):', line): counters.append(line.strip())
  else: kept.append(line)
 if counters:
  while kept and not kept[-1].strip(): kept.pop()
