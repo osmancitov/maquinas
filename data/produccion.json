@@ -1,0 +1,100 @@
+[
+  {
+    "date": "2026-10-13T10:26:33-04:00",
+    "title": "Macbeth completo con Gemma",
+    "detail": "Las 1.479 frases quedaron traducidas. La revisión literaria de las 236 recuperadas sigue en curso."
+  },
+  {
+    "date": "2026-10-13T10:00:52-04:00",
+    "title": "Censo de modelos actualizado",
+    "detail": "Registro de configuraciones que funcionaron y de sus mediciones. Se mantiene al día al confirmar resultados nuevos."
+  },
+  {
+    "date": "2026-10-13T09:50:22-04:00",
+    "title": "Revisión automática de Macbeth",
+    "detail": "Las 1.479 frases de la tercera voz fueron revisadas con Gemini 3.5 flash-lite. Nota global: 9,73/10. Es una evaluación automática, no una certificación de calidad literaria."
+  },
+  {
+    "date": "2026-10-13T08:07:29-04:00",
+    "title": "Tercera voz de Macbeth completa",
+    "detail": "Una segunda traducción al español, hecha con la asistencia de Instinct: 1.479 frases de 1.479."
+  },
+  {
+    "date": "2026-10-13T06:26:47-04:00",
+    "title": "Journal del 12 de octubre publicado",
+    "detail": "Rebeldes, didascalias, andamios y pausa: texto, ilustración y página propia.",
+    "url": "https://osmancitov.github.io/journal/html/cgbabc_rebeldes-didascalias-pausa.html"
+  },
+  {
+    "date": "2026-10-13T05:00:00-04:00",
+    "title": "Capilla del 13 de octubre publicada",
+    "detail": "Mesa generosa: la lectura del día, con su ilustración y página propia.",
+    "url": "https://osmancitov.github.io/capilla/html/cgbabd_mesa-generosa.html"
+  },
+  {
+    "date": "2026-10-12T19:18:33-04:00",
+    "title": "Macbeth en español publicado",
+    "detail": "Edición para leer en el sitio. Distingue el texto de Gemma del relleno provisional, mostrado en gris.",
+    "url": "https://osmancitov.github.io/destileria/bodega-110/cgbabc_macbeth-en-espanol.html"
+  },
+  {
+    "date": "2026-10-12T17:24:41-04:00",
+    "title": "Identificadores únicos en tres obras",
+    "detail": "Los tres moldes y sus medidas quedaron renumerados en orden de lectura, sin identificadores repetidos."
+  },
+  {
+    "date": "2026-10-12T16:58:43-04:00",
+    "title": "Lectura de los trece cuentos de Borges",
+    "detail": "El libro de arena: una lectura breve de cada cuento con citas centrales.",
+    "url": "https://osmancitov.github.io/destileria/bodega-110/cgbabc_arena-puentes.html"
+  },
+  {
+    "date": "2026-10-12T15:27:56-04:00",
+    "title": "Bóveda comprimida a ocho bits",
+    "detail": "Dieciocho archivos de medidas convertidos y verificados. Tamaño reducido de unos 188 MB a 24 MB."
+  },
+  {
+    "date": "2026-10-12T15:07:25-04:00",
+    "title": "Tres moldes unificados",
+    "detail": "Macbeth, Lear y El libro de arena quedaron en un esquema común; sus medidas fueron reasignadas y verificadas."
+  },
+  {
+    "date": "2026-10-12T14:38:42-04:00",
+    "title": "Molde universal documentado",
+    "detail": "Una estructura para conservar la obra íntegra y distinguir sus partes, con reglas de validación."
+  },
+  {
+    "date": "2026-10-12T07:19:58-04:00",
+    "title": "Galería del Journal completada",
+    "detail": "Las entradas antiguas recibieron ilustración y HTML propio. El índice reúne las lecturas.",
+    "url": "https://osmancitov.github.io/journal/journal.html"
+  },
+  {
+    "date": "2026-10-11T13:17:27-04:00",
+    "title": "Firma unificada",
+    "detail": "Las publicaciones adoptan la firma: Osmancito, con la asistencia de Instinct."
+  },
+  {
+    "date": "2026-10-10T20:52:06-04:00",
+    "title": "Mapa interactivo de Borges publicado",
+    "detail": "Cada punto del mapa de El libro de arena permite abrir una frase.",
+    "url": "https://osmancitov.github.io/destileria/bodega-110/cgbaba_mapa-arena.html"
+  },
+  {
+    "date": "2026-10-10T00:36:11-04:00",
+    "title": "Protocolos disponibles en HTML",
+    "detail": "Veinticuatro páginas publicadas y vinculadas desde la Destilería.",
+    "url": "https://osmancitov.github.io/destileria/protocolos/index.html"
+  },
+  {
+    "date": "2026-10-09T14:26:21-04:00",
+    "title": "Macbeth en ocho frases publicado",
+    "detail": "Una selección de frases centrales enlazadas en una lectura breve.",
+    "url": "https://osmancitov.github.io/destileria/bodega-110/cgbaaj_macbeth-ocho-frases.html"
+  },
+  {
+    "date": "2026-10-07T18:24:46-04:00",
+    "title": "Primer mapa de Macbeth",
+    "detail": "Conteos y densidad por escena para explorar la estructura de la obra."
+  }
+]
