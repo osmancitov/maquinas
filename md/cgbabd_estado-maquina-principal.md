@@ -1,4 +1,4 @@
-# Estado de la máquina principal
+# Estado actual
 
 Osmancito, con la asistencia de Instinct
 
