@@ -20,7 +20,7 @@ PROCEDIMIENTO DE MEDIANOCHE (00:00 UTC-4, el día que termina es el de ayer)
      Esto hace: pasa las líneas del borrador al principio del historial como bloques con su fecha, vacía el borrador,
      deja "## Hecho hoy" de Estado en "- Nada todavía." y regenera los md y html de las dos páginas.
   5. Contadores y bloque "Corriendo ahora"/"Pendiente de Osmancito": ajustarlos a mano en md/pendientes.md antes del paso 4
-     si cambian; la línea "Actualizado:" se reescribe sola con la hora UTC-4.
+     si cambian; la línea de fecha y hora se reescribe sola en UTC-4, sin etiqueta.
   6. git add -A && git commit -m "Cierra el día" && git push (token de Drive .github_key, sin espacios, nunca impreso)
      y comprobar las dos páginas en vivo.
 Sin opciones, solo regenera las páginas desde los md (no mueve nada).
@@ -78,8 +78,8 @@ source=a.pendientes.read_text()
 if a.cierra_dia:
  # Estado: lo logrado hoy ya pasó al historial.
  source=re.sub(r'(## Hecho hoy\n)(?:- .*\n?)+',r'\1- Nada todavía.\n',source)
- source=re.sub(r'^Actualizado:.*$',lambda m:f'Actualizado: {now.day} de {months[now.month]} de {now.year}, {now:%H:%M} UTC-4.',source,count=1,flags=re.M)
-# Mantén la etiqueta temporal y los contadores compactos en cada regeneración.
+ source=re.sub(r'^(?:Actualizado: )?.*UTC-4\.?$',lambda m:f'{now.day} de {months[now.month]} de {now.year}, {now:%H:%M} UTC-4.',source,count=1,flags=re.M)
+# Mantén el formato de fecha y hora sin etiqueta, y los contadores compactos en cada regeneración.
 lines=source.splitlines()
 lines=[re.sub(r'^##\s+(?:Lo suyo|Suyo)\s*$', '## Pendiente de Osmancito', line) for line in lines]
 counters=[]; kept=[]
