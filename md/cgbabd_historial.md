@@ -42,6 +42,10 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy est
 
 11 de octubre de 2026. Las publicaciones adoptan la firma: Osmancito, con la asistencia de Instinct.
 
+### Primer mapa plano de Borges publicado
+
+10 de octubre de 2026. El primer mapa de El libro de arena permitía abrir una frase en cada punto. Fue retirado al ser superado por la nube en 3D.
+
 ### Protocolos disponibles en HTML
 
 10 de octubre de 2026. Veinticuatro páginas publicadas y vinculadas desde la Destilería.
@@ -59,6 +63,7 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy est
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
+2026-10-13 | Mapa plano de Borges en cuatro modelos publicado | Cada punto abre una frase de El libro de arena; los cuatro modelos permiten comparar cómo se ordenan las frases. | https://osmancitov.github.io/destileria/bodega-110/cgbabe_mapa-arena-modelos.html
 2026-10-13 | Macbeth completo con Gemma | Las 1.479 frases quedaron traducidas. La revisión literaria de las 236 recuperadas sigue en curso.
 2026-10-13 | Censo de modelos actualizado | Registro de configuraciones que funcionaron y de sus mediciones. Se mantiene al día al confirmar resultados nuevos.
 2026-10-13 | Revisión automática de Macbeth | Las 1.479 frases de la tercera voz fueron revisadas con Gemini 3.5 flash-lite. Nota global: 9,73/10. Es una evaluación automática, no una certificación de calidad literaria.
