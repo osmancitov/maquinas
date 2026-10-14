@@ -1,4 +1,4 @@
-14 de October de 2026, 13:09 UTC-4.
+14 de October de 2026, 13:36 UTC-4.
 
 ## Corriendo ahora
 Ninguno.
@@ -23,6 +23,5 @@ Ninguno.
 
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
-- Taller: decidir si las ocho páginas que aún usan la foto general tendrán og:image propio.
 
 💬 80 · 🎙️ 1.190 · ✉️ 1 · 🎖️ 0
