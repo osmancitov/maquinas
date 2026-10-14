@@ -4,6 +4,68 @@ Osmancito, con la asistencia de Instinct
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en [Estado actual](cgbabd_status.md).
 
+### Journal del 13 de octubre publicado
+
+13 de octubre de 2026. Papeles, vectores, nube y receta: texto, ilustración y página propia.
+
+[Leer](https://osmancitov.github.io/journal/html/cgbabd_papeles-vectores-receta.html)
+
+### «El Otro: un Cuento de Borges» suelto, con introducción
+
+13 de octubre de 2026. El cuento quedó como pieza aparte, con una introducción propia.
+
+### Trece cuentos de El Libro de Arena con sus puentes
+
+13 de octubre de 2026. Los trece cuentos quedaron con puentes entre sí, y sus títulos se uniformaron en el Taller.
+
+### La nube de cercanía, entrada del Taller
+
+13 de octubre de 2026. Método y plantilla de la nube de cercanía, con su dibujo, publicados como cuaderno del Taller; luego recibió la nube en 3D de El Libro de Arena.
+
+[Leer](https://osmancitov.github.io/taller/html/cgbabj_nube-cercania.html)
+
+### Nube en 3D de El Libro de Arena actualizada
+
+13 de octubre de 2026. El contenido de cercanía al centro quedó en la dirección original, con su título y un dibujo arriba y como og:image. Conserva ejes, desplazamiento, zoom y navegación por cercanía; la página aparte se retiró.
+
+[Leer](https://osmancitov.github.io/taller/html/cgbabe_nube-arena-3d.html)
+
+### Diseño de la nube de Borges con varios prototipos
+
+13 de octubre de 2026. Se hicieron varios prototipos previos para explorar el diseño. Fueron retirados del sitio; la nube en 3D se conserva.
+
+### Mapa plano de Borges en cuatro modelos publicado
+
+13 de octubre de 2026. Cada punto abría una frase de El Libro de Arena; los cuatro modelos permitían comparar cómo se ordenan las frases. Fue retirado al ser superado por la nube en 3D.
+
+### Macbeth completo con Gemma
+
+13 de octubre de 2026. Las 1.479 frases quedaron traducidas. La revisión literaria de las 236 recuperadas sigue en curso.
+
+### Censo de modelos actualizado
+
+13 de octubre de 2026. Registro de configuraciones que funcionaron y de sus mediciones. Se mantiene al día al confirmar resultados nuevos.
+
+### Revisión automática de Macbeth
+
+13 de octubre de 2026. Las 1.479 frases de la tercera voz fueron revisadas con Gemini 3.5 flash-lite. Nota global: 9,73/10. Es una evaluación automática, no una certificación de calidad literaria.
+
+### Tercera voz de Macbeth completa
+
+13 de octubre de 2026. Una segunda traducción al español, hecha con la asistencia de Instinct: 1.479 frases de 1.479.
+
+### Journal del 12 de octubre publicado
+
+13 de octubre de 2026. Rebeldes, didascalias, andamios y pausa: texto, ilustración y página propia.
+
+[Leer](https://osmancitov.github.io/journal/html/cgbabc_rebeldes-didascalias-pausa.html)
+
+### Capilla del 13 de octubre publicada
+
+13 de octubre de 2026. Mesa generosa: la lectura del día, con su ilustración y página propia.
+
+[Leer](https://osmancitov.github.io/capilla/html/cgbabd_mesa-generosa.html)
+
 ### Macbeth en español publicado
 
 12 de octubre de 2026. Edición para leer en el sitio. Distingue el texto de Gemma del relleno provisional, mostrado en gris.
@@ -61,15 +123,3 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy est
 ### Primer mapa de Macbeth
 
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
-
-<!-- BORRADOR-DEL-DIA
-2026-10-13 | Nube en 3D de El Libro de Arena actualizada | El contenido de cercanía al centro quedó en la dirección original, con su título y un dibujo arriba y como og:image. Conserva ejes, desplazamiento, zoom y navegación por cercanía; la página aparte se retiró. | https://osmancitov.github.io/taller/html/cgbabe_nube-arena-3d.html
-2026-10-13 | Diseño de la nube de Borges con varios prototipos | Se hicieron varios prototipos previos para explorar el diseño. Fueron retirados del sitio; la nube en 3D se conserva.
-2026-10-13 | Mapa plano de Borges en cuatro modelos publicado | Cada punto abría una frase de El Libro de Arena; los cuatro modelos permitían comparar cómo se ordenan las frases. Fue retirado al ser superado por la nube en 3D.
-2026-10-13 | Macbeth completo con Gemma | Las 1.479 frases quedaron traducidas. La revisión literaria de las 236 recuperadas sigue en curso.
-2026-10-13 | Censo de modelos actualizado | Registro de configuraciones que funcionaron y de sus mediciones. Se mantiene al día al confirmar resultados nuevos.
-2026-10-13 | Revisión automática de Macbeth | Las 1.479 frases de la tercera voz fueron revisadas con Gemini 3.5 flash-lite. Nota global: 9,73/10. Es una evaluación automática, no una certificación de calidad literaria.
-2026-10-13 | Tercera voz de Macbeth completa | Una segunda traducción al español, hecha con la asistencia de Instinct: 1.479 frases de 1.479.
-2026-10-13 | Journal del 12 de octubre publicado | Rebeldes, didascalias, andamios y pausa: texto, ilustración y página propia. | https://osmancitov.github.io/journal/html/cgbabc_rebeldes-didascalias-pausa.html
-2026-10-13 | Capilla del 13 de octubre publicada | Mesa generosa: la lectura del día, con su ilustración y página propia. | https://osmancitov.github.io/capilla/html/cgbabd_mesa-generosa.html
--->
