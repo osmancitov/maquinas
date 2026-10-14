@@ -66,11 +66,11 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy est
 
 [Leer](https://osmancitov.github.io/capilla/html/cgbabd_mesa-generosa.html)
 
-### Macbeth en español publicado
+### Macbeth en castellano publicado
 
-12 de octubre de 2026. Edición para leer en el sitio. Distingue el texto de Gemma del relleno provisional, mostrado en gris.
+12 de octubre de 2026. Edición para leer en el sitio.
 
-[Leer](https://osmancitov.github.io/destileria/bodega-110/cgbabc_macbeth-en-espanol.html)
+[Leer](https://osmancitov.github.io/destileria/bodega-110/cgbabc_macbeth-en-castellano.html)
 
 ### Identificadores únicos en tres obras
 
