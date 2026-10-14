@@ -1,4 +1,4 @@
-14 de octubre de 2026, 13:51 UTC-4.
+14 de octubre de 2026, 14:17 UTC-4.
 
 ## Corriendo ahora
 Ninguno.
@@ -20,8 +20,12 @@ Ninguno.
 - Borradas las ocho selecciones largas de Macbeth del experimento de embeddings y purgado su material en el lab de Drive: renders mbr_, dos ZIP de datos e informes. README de Bodega 110 limpio. Macbeth en ocho frases intacta.
 - Ley de la casa: "castellano" para el idioma, "español" solo para España y su gente. Aplicados 44 cambios en 24 archivos de Destilería y Máquinas; quedan 17 menciones nacionales.
 - Warren Pool: añadida "Las batallas buenas no se ganan: se sostienen."
+- Taller: og:image propio publicado para las 8 páginas (dibujos de Gemini web con su sesión, JPG al 80%, 1280x640).
+- Status: medallas del pie quitadas y restauradas; corregido "October" por "octubre" en la cabecera.
+- Preferencias vigentes mudadas del Drive al repo: md/cgbabe_preferencias-vigentes.md y su gemelo HTML, enlazadas en la portada; el archivo del Drive borrado a pedido suyo.
+- Nueva regla en las preferencias: "La actualización del Status incluye los contadores en el pie."
 
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
 
-💬 111 · 🎙️ 1.301 · ✉️ 1 · 🎖️ 17
+💬 124 · 🎙️ 1.301 · ✉️ 1 · 🎖️ 19
