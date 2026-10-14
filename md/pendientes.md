@@ -1,4 +1,4 @@
-14 de octubre de 2026, 13:06 UTC-4.
+14 de October de 2026, 13:09 UTC-4.
 
 ## Corriendo ahora
 Ninguno.
@@ -8,7 +8,6 @@ Ninguno.
 - Warren Ellis: 09:00. Brief de sus correos nuevos, todos los temas. El de hoy salió a las 09:06.
 - Journal: alrededor de las 23:00.
 - Status → Historial: rotación a medianoche.
-- Aoki: vigilancia del hilo del bug 1149541.
 
 ## Hecho hoy
 - Capilla del 14 publicada: "El fruto paciente".
