@@ -2,19 +2,37 @@
 
 Osmancito, con la asistencia de Instinct
 
-14 de octubre de 2026, 00:04 UTC-4.
+14 de octubre de 2026, 17:21 UTC-4.
 
 ## Corriendo ahora
 Ninguno.
 
 ## Automáticos diarios
-- Capilla: 05:00.
-- Warren Ellis: 09:00. Brief de sus correos nuevos, todos los temas.
-- Journal: 23:00.
+- Capilla: 04:30.
+- Warren Ellis: 09:00. Brief de sus correos nuevos, todos los temas. El de hoy salió a las 09:06.
+- Journal: alrededor de las 23:00.
+- Status → Historial: rotación a medianoche.
 
 ## Hecho hoy
-- Nada todavía.
+- Capilla del 14 publicada: "El fruto paciente".
+- El Otro: añadido el bloque 62–73 sin la 69; pulidos el cierre y la pregunta duplicada sobre la memoria. Citas y Hugo/Whitman intactos.
+- Journal: las once entradas del 3 al 13 de octubre ya cierran con su copa, "En la copa: una bebida de...".
+- Bodega 103: menú simplificado a "Recuerdos de la primera Destilería".
+- Retirados de Drive los nueve archivos de la prueba de Google Translate; las cuatro traducciones completas de Macbeth conservadas.
+- La traducción de Macbeth de Instinct, renombrada en Drive y en los repos.
+- Macbeth en castellano publicado en Bodega 110: obra entera con Gemma 4 26B, sin párrafos provisionales.
+- Borradas las ocho selecciones largas de Macbeth del experimento de embeddings y purgado su material en el lab de Drive: renders mbr_, dos ZIP de datos e informes. README de Bodega 110 limpio. Macbeth en ocho frases intacta.
+- Ley de la casa: "castellano" para el idioma, "español" solo para España y su gente. Aplicados 44 cambios en 24 archivos de Destilería y Máquinas; quedan 17 menciones nacionales.
+- Warren Pool: añadida "Las batallas buenas no se ganan: se sostienen."
+- Taller: og:image propio publicado para las 8 páginas (dibujos de Gemini web con su sesión, JPG al 80%, 1280x640).
+- Status: medallas del pie quitadas y restauradas; corregido "October" por "octubre" en la cabecera.
+- Preferencias vigentes mudadas del Drive al repo: md/cgbabe_preferencias-vigentes.md y su gemelo HTML, enlazadas en la portada; el archivo del Drive borrado a pedido suyo.
+- Nueva regla en las preferencias: "La actualización del Status incluye los contadores en el pie."
+- El Otro (bodega 110) reescrito con plan de puentes y glosa escuela: 1.226 palabras de cita contra 716 de prosa, toda voz verdadera y sin paráfrasis. La glosa de la esquina donde vivió Borges cierra el día.
+- El procedimiento de la Destilería: perilla eliminada (criterio: plan de puentes y unión, frase y glosa escuela 1:1), manual general sin obras ni casos, "Sismograma" pasó a "Mapa de densidad" y regla nueva al final del paso 4: la frase dudosa llega con su glosa.
+- Preferencias vigentes: regla nueva "Las entregas llegan cerradas" y enlace largo de motores arreglado.
 
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
-💬 0 · 🎙️ 0 · ✉️ 0 · 🎖️ 0
+
+💬 207 · 🎙️ 1.301 · ✉️ 1 · 🎖️ 29
