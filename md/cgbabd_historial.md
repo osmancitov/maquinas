@@ -40,7 +40,7 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy est
 
 ### Macbeth completo con Gemma
 
-13 de octubre de 2026. Las 1.479 frases quedaron traducidas. La revisión literaria de las 236 recuperadas sigue en curso.
+13 de octubre de 2026. Las 1.479 frases quedaron traducidas. La revisión literaria de las 236 recuperadas terminó: nota global 9,47/10 y las 20 más débiles corregidas.
 
 ### Censo de modelos actualizado
 
