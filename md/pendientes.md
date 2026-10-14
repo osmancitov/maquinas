@@ -13,5 +13,4 @@ Ninguno.
 
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
-- Arena: tercera voz de los 13 relatos; parada.
 💬 0 · 🎙️ 0 · ✉️ 0 · 🎖️ 0
