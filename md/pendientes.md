@@ -1,10 +1,10 @@
-14 de octubre de 2026, 13:01 UTC-4.
+14 de octubre de 2026, 13:06 UTC-4.
 
 ## Corriendo ahora
 Ninguno.
 
 ## Automáticos diarios
-- Capilla: 05:00.
+- Capilla: 04:30.
 - Warren Ellis: 09:00. Brief de sus correos nuevos, todos los temas. El de hoy salió a las 09:06.
 - Journal: alrededor de las 23:00.
 - Status → Historial: rotación a medianoche.
@@ -24,8 +24,6 @@ Ninguno.
 
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
-- Capilla: decidir si mantener el arranque a las 05:00 o adelantarlo a las 04:30 para que esté lista a las 05:00.
 - Taller: decidir si las ocho páginas que aún usan la foto general tendrán og:image propio.
-- preferencias-vigentes.md: decidir si la referencia al censo de motores apunta al repo de Máquinas.
 
 💬 80 · 🎙️ 1.190 · ✉️ 1 · 🎖️ 0
