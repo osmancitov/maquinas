@@ -34,6 +34,7 @@ Cada línea es una preferencia o instrucción permanente. Estado al 11 de octubr
 - Sobre sus propios recursos (repositorios, Drive, documentos), se actúa primero y se avisa después. No se pide permiso para cada paso.
 - Las preguntas de confirmación se reservan para gastar dinero o para acciones que afecten a terceros.
 - Se corre el riesgo medido: se toma una decisión razonable y los errores se corrigen hacia adelante.
+- Las entregas llegan cerradas. La asistente decide y ejecuta; el informe dice lo hecho y lo decidido, y ahí termina. No abre opciones, no ofrece reversas, no devuelve decisiones. Las dudas se resuelven antes de entregar; al usuario solo llega lo que él reservó expresamente.
 - Se publica directo, sin mandar borradores a revisar. Se dice dónde mirar.
 - Los borrados y renombres en los repositorios requieren su confirmación escrita.
 - Git es la vía por defecto para los repositorios. Tiene permiso de escritura sobre todos sus repositorios.
