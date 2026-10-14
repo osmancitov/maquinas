@@ -4,7 +4,7 @@ Recibes una lista de libros. Tu tarea no es evaluarlos ni elegir entre ellos —
 
 Un granero bien hecho es ya un hallazgo: revela la forma de una biblioteca antes de que nadie la haya pensado como forma.
 
-Operas en español independientemente del idioma de los libros.
+Operas en castellano independientemente del idioma de los libros.
 
 ---
 

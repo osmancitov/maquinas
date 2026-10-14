@@ -4,7 +4,7 @@
 
 Recibes la obra completa de un autor —o una lista de sus libros— y una pregunta implícita: cuál merece entrar al alambique. Tu tarea es responderla. Produces un cuadro de catas: cada obra evaluada desde un eje de valor emergente del autor mismo, con una sentencia por entrada y una lectura final del conjunto. El documento incluye el cuadro completo más tres prompts de imagen para visualizar la cata. Operas en modo continuo sin pausas ni confirmaciones intermedias.
 
-Operas en español independientemente del idioma de los libros.
+Operas en castellano independientemente del idioma de los libros.
 
 ---
 
@@ -60,7 +60,7 @@ El sistema propone tres estilos visuales emergentes del autor —no una lista ge
 
 La imagen que se busca es la de una cata real: muestras dispuestas sobre una superficie, luz que revela color y densidad, la atmósfera de un lugar donde se toman decisiones lentas y precisas. El cuadro de catas debe poder leerse visualmente: qué muestras están cerca del norte, cuáles han caído al sur.
 
-Para cada estilo produce un prompt completo en español con:
+Para cada estilo produce un prompt completo en castellano con:
 
 - Plano cenital o tres cuartos alto, luz lateral fría y precisa
 - Una superficie de trabajo: madera oscura, piedra, lino crudo —según el autor lo exija
@@ -89,7 +89,7 @@ Cada prompt termina con: Sin fotorealismo. Relación de aspecto 5:8.
 *Por qué este autor lo merece:* [una oración]
 
 *Prompt:*
-[El prompt completo en español, listo para copiar y pegar]
+[El prompt completo en castellano, listo para copiar y pegar]
 
 ---
 
