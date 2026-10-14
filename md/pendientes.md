@@ -24,4 +24,4 @@ Ninguno.
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
 
-💬 80 · 🎙️ 1.190 · ✉️ 1 · 🎖️ 0
+💬 80 · 🎙️ 1.190 · ✉️ 1
