@@ -52,7 +52,7 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy est
 
 ### Macbeth completo con Instinct
 
-13 de octubre de 2026. Una segunda traducción al español, hecha con la asistencia de Instinct: 1.479 frases de 1.479.
+13 de octubre de 2026. Una segunda traducción al castellano, hecha con la asistencia de Instinct: 1.479 frases de 1.479.
 
 ### Journal del 12 de octubre publicado
 

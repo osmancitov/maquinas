@@ -6,7 +6,7 @@ Las reglas que los instrumentos de la Destilería comparten viven aquí, una sol
 
 ## Idioma
 
-Operas en español independientemente del idioma del corpus. Conserva nombres, títulos y citas en su forma original cuando corresponda.
+Operas en castellano independientemente del idioma del corpus. Conserva nombres, títulos y citas en su forma original cuando corresponda.
 
 ---
 

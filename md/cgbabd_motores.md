@@ -124,7 +124,7 @@ Regla de la casa: gratis primero; gasto de centavos solo con autorización expre
 - Proveedor: Jina AI.
 - Sirve para: embeddings.
 - Gratis: key auto-generada con 10M tokens iniciales, sin tarjeta; 100 RPM y 100K TPM en free key. No hay recarga mensual: agotados los tokens, se compran paquetes.
-- v3: multilingüe (89 idiomas, español incluido), 1,024 dimensiones, contexto 8K. v4: más capaz pero más lento; gratis vía API por licencia no comercial (Qwen Research License).
+- v3: multilingüe (89 idiomas, castellano incluido), 1,024 dimensiones, contexto 8K. v4: más capaz pero más lento; gratis vía API por licencia no comercial (Qwen Research License).
 - Estado: por probar.
 
 ### Mistral (mistral-embed)
