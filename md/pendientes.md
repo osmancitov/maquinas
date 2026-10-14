@@ -1,4 +1,4 @@
-14 de octubre de 2026, 10:52 UTC-4.
+14 de octubre de 2026, 13:01 UTC-4.
 
 ## Corriendo ahora
 Ninguno.
@@ -25,7 +25,6 @@ Ninguno.
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
 - Capilla: decidir si mantener el arranque a las 05:00 o adelantarlo a las 04:30 para que esté lista a las 05:00.
-- Taller, La nube de cercanía: decidir la corrección del cuaderno con versiones, precisión numérica y pasos de lectura de los vectores.
 - Taller: decidir si las ocho páginas que aún usan la foto general tendrán og:image propio.
 - preferencias-vigentes.md: decidir si la referencia al censo de motores apunta al repo de Máquinas.
 
