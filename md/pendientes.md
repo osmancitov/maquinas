@@ -1,4 +1,4 @@
-14 de October de 2026, 13:36 UTC-4.
+14 de octubre de 2026, 13:51 UTC-4.
 
 ## Corriendo ahora
 Ninguno.
@@ -24,4 +24,4 @@ Ninguno.
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
 
-💬 80 · 🎙️ 1.190 · ✉️ 1
+💬 111 · 🎙️ 1.301 · ✉️ 1 · 🎖️ 1
