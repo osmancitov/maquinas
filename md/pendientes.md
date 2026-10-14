@@ -9,8 +9,8 @@ Ninguno.
 - Journal: 23:00.
 
 ## Hecho hoy
-- Nube en 3D de El libro de arena actualizada con el contenido de cercanía: ejes, desplazamiento, más zoom y navegación por cercanía al centro del libro. Dos modos: libro entero o uno de los trece cuentos. Conserva el título y la dirección originales; la página aparte se retiró. El dibujo aparece arriba y como og:image. Los colores comparan frases dentro de cada modelo, no entre modelos.
-- Diseño de la nube de Borges: retiradas las cuatro páginas de círculo y esfera, del libro y de «El otro», y sus referencias. Los prototipos se conservan en el historial de git; la nube en 3D se conserva en el sitio.
+- Nube en 3D de El Libro de Arena actualizada con el contenido de cercanía: ejes, desplazamiento, más zoom y navegación por cercanía al centro del libro. Dos modos: libro entero o uno de los trece cuentos. Conserva el título y la dirección originales; la página aparte se retiró. El dibujo aparece arriba y como og:image. Los colores comparan frases dentro de cada modelo, no entre modelos.
+- Diseño de la nube de Borges: retiradas las cuatro páginas de círculo y esfera, del libro y de «El Otro», y sus referencias. Los prototipos se conservan en el historial de git; la nube en 3D se conserva en el sitio.
 - Macbeth: cuatro columnas completas, 1.479 de 1.479 frases cada una: Gemma 26B, tercera voz, Gemini 3.1 flash-lite (lotes) y Gemini 3.5 flash-lite (`flash-3.5-macbeth.json`).
 - Crítica de la tercera voz: 1.479 de 1.479 revisadas, nota global 9,73/10. Informe en `trans/Shakespeare Macbeth/critica-macbeth.md`. Los 8 sietes de la tercera voz se quedan como están.
 - Archivo provisional de flash eliminado, sin rastro en los documentos.
