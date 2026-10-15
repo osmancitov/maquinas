@@ -70,7 +70,7 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy est
 
 12 de octubre de 2026. Edición para leer en el sitio.
 
-[Leer](https://osmancitov.github.io/destileria/bodega-110/cgbabc_macbeth-en-castellano.html)
+[Leer](https://osmancitov.github.io/destileria/html/cgbabc_macbeth-en-castellano.html)
 
 ### Identificadores únicos en tres obras
 
@@ -80,7 +80,7 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy est
 
 12 de octubre de 2026. El Libro de Arena: una lectura breve de cada cuento con citas centrales.
 
-[Leer](https://osmancitov.github.io/destileria/bodega-110/cgbabc_arena-puentes.html)
+[Leer](https://osmancitov.github.io/destileria/html/cgbabc_arena-puentes.html)
 
 ### Bóveda comprimida a ocho bits
 
@@ -118,7 +118,7 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy est
 
 9 de octubre de 2026. Una selección de frases centrales enlazadas en una lectura breve.
 
-[Leer](https://osmancitov.github.io/destileria/bodega-110/cgbaaj_macbeth-ocho-frases.html)
+[Leer](https://osmancitov.github.io/destileria/html/cgbaaj_macbeth-ocho-frases.html)
 
 ### Primer mapa de Macbeth
 
