@@ -4,8 +4,8 @@
 FUENTES (no hay carpeta data/ ni json):
   md/pendientes.md        Estado actual. Se edita a mano durante el día; el bloque "## Hecho hoy" es lo logrado hoy y el bloque
                           "## Frentes sociales" es el estado de las tareas sociales y de interacción con los mercados:
-                          X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y toda otra red donde se busca dejar huella y
-                          tener contacto con la gente. Una viñeta por frente: red, cuenta y lo logrado hoy.
+                          X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y toda otra red donde Osmancito deja huella y tiene contacto con el mundo.
+                          Una viñeta por frente: red, cuenta y lo logrado hoy.
                           Cada reporte va directo y corto: un renglón por frente o por interacción, sin detalle. Presupuesto
                           inicial: unas 500 palabras en total en esa sección; si las interacciones crecen, se agrupan por red.
   md/cgbabf_historial-social.md  Historial social. Un bloque "## fecha larga" por día, el más reciente arriba, con las viñetas
@@ -163,7 +163,7 @@ estado_md='# Estado actual\n\nOsmancito, con la asistencia de Instinct\n\n'+sour
 if a.dry_run:
  print('DRY RUN: no se escribe nada.');print('--- historial (primeras líneas) ---');print('\n'.join(hist_md.splitlines()[:24]));print('--- borrador restante:',len(draft),'líneas ---');print('--- estado ---');print(estado_md)
  raise SystemExit(0)
-SOC_INTRO='# Historial social\n\nOsmancito, con la asistencia de Instinct\n\nLo que se hizo cada día en X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y las demás redes donde Osmancito busca dejar huella y tener contacto con la gente, del día más reciente al más antiguo. Lo de hoy está en [Estado actual]('+E+'.md).\n'
+SOC_INTRO='# Historial social\n\nOsmancito, con la asistencia de Instinct\n\nLo que se hizo cada día en X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y las demás redes donde Osmancito deja huella y tiene contacto con el mundo, del día más reciente al más antiguo. Lo de hoy está en [Estado actual]('+E+'.md).\n'
 soc_md=SOC_INTRO+''.join('\n## '+d+'\n\n'+'\n'.join('- '+x for x in items)+'\n' for d,items in soc_days)
 (root/'md/pendientes.md').write_text(source)
 (root/f'md/{S}.md').write_text(soc_md)
@@ -201,7 +201,7 @@ CSS
 </html>
 """.replace('CSS',STYLE)
 (root/f'html/{H}.html').write_text(page('Historial de tareas','Trabajos terminados hasta ayer, de lo más reciente a lo más antiguo.',H,'<p>Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en <a href="'+E+'.html">Estado actual</a>.</p>\n<section aria-label="Historial de tareas">\n'+'\n'.join(blocks)+'\n</section>'))
-soc_html='<p>Lo que se hizo cada día en X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y las demás redes donde Osmancito busca dejar huella y tener contacto con la gente, del día más reciente al más antiguo. Lo de hoy está en <a href="'+E+'.html">Estado actual</a>.</p>\n'+'\n'.join(f'<section><h2>{html.escape(d)}</h2>\n<ul>\n'+'\n'.join(f'<li>{inline(x)}</li>' for x in items)+'\n</ul></section>' for d,items in soc_days)
-(root/f'html/{S}.html').write_text(page('Historial social','Lo que se hizo cada día en las redes donde Osmancito busca dejar huella.',S,soc_html,img='cgbabf-historial-social.jpg',w=1280,h=640,alt='Una asistente iza banderas de señales en un puerto al atardecer, hacia muchos barcos lejanos, al estilo de Claudio de Lorena.',alt_corto='Puerto al atardecer: una asistente iza banderas de señales hacia los barcos lejanos'))
+soc_html='<p>Lo que se hizo cada día en X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y las demás redes donde Osmancito deja huella y tiene contacto con el mundo, del día más reciente al más antiguo. Lo de hoy está en <a href="'+E+'.html">Estado actual</a>.</p>\n'+'\n'.join(f'<section><h2>{html.escape(d)}</h2>\n<ul>\n'+'\n'.join(f'<li>{inline(x)}</li>' for x in items)+'\n</ul></section>' for d,items in soc_days)
+(root/f'html/{S}.html').write_text(page('Historial social','Lo que se hizo cada día en las redes donde Osmancito deja huella.',S,soc_html,img='cgbabf-historial-social.jpg',w=1280,h=640,alt='Una asistente iza banderas de señales en un puerto al atardecer, hacia muchos barcos lejanos, al estilo de Claudio de Lorena.',alt_corto='Puerto al atardecer: una asistente iza banderas de señales hacia los barcos lejanos'))
 (root/f'html/{E}.html').write_text(page('Estado actual','Qué corre ahora, qué se hizo hoy y qué queda pendiente.',E,markdown(source)))
 print('Actualizados md/pendientes.md, md/'+E+'.md, md/'+H+'.md, md/'+S+'.md y sus tres páginas html')
