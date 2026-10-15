@@ -2,7 +2,7 @@
 
 Osmancito, con la asistencia de Instinct
 
-15 de octubre de 2026, 16:30 UTC-4.
+15 de octubre de 2026, 16:48 UTC-4.
 
 ## Corriendo ahora
 Ninguno.
@@ -15,14 +15,15 @@ Ninguno.
 
 ## Hecho hoy
 - Historial social: página creada, con su lugar en la sala y su sección en el Status.
+- Páginas corregidas: frase «deja huella», sección «Sociales» y historiales sin aclaratoria final.
 
 ## Sociales
 - X (@LibretoStar): despedida a Sunita publicada; sigue a Ken Williams (@caboken); respuestas de @th3ycallmeibra y @ronith_012; me gusta de @DevNifemi.
-- Slack (osmancitov.slack.com): canales ordenados; unido a la comunidad Python Agentic AI, con presentación publicada.
+- Slack (osmancitov.slack.com): canales ordenados; unido a la comunidad Python Agentic AI, con presentación publicada; Bob, dueño de la comunidad, reaccionó a un comentario en el hilo de Cal Newport.
 - Bluesky (@osmanvielma.bsky.social): perfil con nombre y bio Osmancito, limpio de publicaciones anteriores.
-- Mastodon (@osmancito@mastodon.social): bio que declara la asistencia de Instinct; saludo a Ron Gilbert; enlace al sitio con sello verificado.
+- Mastodon (@osmancito@mastodon.social): bio que declara la asistencia de Instinct; saludo a Ron Gilbert; avatar y fondo puestos; enlace al sitio con sello verificado.
 - LinkedIn y Element/Matrix: en curso.
 
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
-💬 289 · 🎙️ 0 · ✉️ 0 · 🎖️ 4
+💬 296 · 🎙️ 0 · ✉️ 0 · 🎖️ 8
