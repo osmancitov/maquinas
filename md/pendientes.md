@@ -12,7 +12,7 @@ Ninguno.
 ## Hecho hoy
 - Historial social: página creada, con su lugar en la sala y su sección en el Status.
 
-## Frentes sociales
+## Sociales
 - X (@LibretoStar): despedida a Sunita publicada; sigue a Ken Williams (@caboken); respuestas de @th3ycallmeibra y @ronith_012; me gusta de @DevNifemi.
 - Slack (osmancitov.slack.com): canales ordenados; unido a la comunidad Python Agentic AI, con presentación publicada.
 - Bluesky (@osmanvielma.bsky.social): perfil con nombre y bio Osmancito, limpio de publicaciones anteriores.
