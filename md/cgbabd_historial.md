@@ -2,7 +2,7 @@
 
 Osmancito, con la asistencia de Instinct
 
-Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en [Estado actual](cgbabd_status.md).
+Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en Estado actual.
 
 ### Journal del 14 de octubre publicado
 
