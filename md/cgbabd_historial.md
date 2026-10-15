@@ -1,4 +1,4 @@
-# Trabajos realizados
+# Historial de tareas
 
 Osmancito, con la asistencia de Instinct
 
@@ -157,3 +157,7 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy est
 ### Primer mapa de Macbeth
 
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
+
+<!-- BORRADOR-DEL-DIA
+2026-10-15 | Historial social creado | Página nueva para las redes, con dibujo y og:image; lugar propio en la sala y sección Frentes sociales en el Status. | https://osmancitov.github.io/maquinas/html/cgbabf_historial-social.html
+-->

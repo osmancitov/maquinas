@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
-"""Genera las dos páginas: Estado actual (desde md/pendientes.md) y Trabajos realizados (desde md/cgbabd_historial.md).
+"""Genera las tres páginas: Estado actual (desde md/pendientes.md), Historial de tareas (desde md/cgbabd_historial.md) e Historial social (desde md/cgbabf_historial-social.md).
 
 FUENTES (no hay carpeta data/ ni json):
-  md/pendientes.md        Estado actual. Se edita a mano durante el día; el bloque "## Hecho hoy" es lo logrado hoy.
-  md/cgbabd_historial.md  Trabajos realizados. Cada trabajo es un bloque "### Título" con "fecha. detalle" y, si hay, "[Leer](url)".
+  md/pendientes.md        Estado actual. Se edita a mano durante el día; el bloque "## Hecho hoy" es lo logrado hoy y el bloque
+                          "## Frentes sociales" es el estado de las tareas sociales y de interacción con los mercados:
+                          X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y toda otra red donde se busca dejar huella y
+                          tener contacto con la gente. Una viñeta por frente: red, cuenta y lo logrado hoy.
+                          Cada reporte va directo y corto: un renglón por frente o por interacción, sin detalle. Presupuesto
+                          inicial: unas 500 palabras en total en esa sección; si las interacciones crecen, se agrupan por red.
+  md/cgbabf_historial-social.md  Historial social. Un bloque "## fecha larga" por día, el más reciente arriba, con las viñetas
+                          que ese día tuvo "## Frentes sociales".
+  md/cgbabd_historial.md  Historial de tareas. Cada trabajo es un bloque "### Título" con "fecha. detalle" y, si hay, "[Leer](url)".
                           Al final tiene un bloque oculto <!-- BORRADOR-DEL-DIA ... --> con los trabajos de hoy, aún sin publicar,
                           una línea por trabajo: "AAAA-MM-DD | título | detalle | url (opcional)".
 
@@ -18,12 +25,13 @@ PROCEDIMIENTO DE MEDIANOCHE (00:00 UTC-4, el día que termina es el de ayer)
   3. Probar sin escribir:  python3 lab/actualizar-produccion.py --cierra-dia --dry-run
   4. Cerrar el día:        python3 lab/actualizar-produccion.py --cierra-dia
      Esto hace: pasa las líneas del borrador al principio del historial como bloques con su fecha, vacía el borrador,
-     deja "## Hecho hoy" de Estado en "- Nada todavía." y regenera los md y html de las dos páginas.
+     deja "## Hecho hoy" de Estado en "- Nada todavía.", pasa las viñetas de "## Frentes sociales" al principio del
+     historial social bajo la fecha del día que termina y deja ese bloque en "- Nada todavía.", y regenera los md y html de las tres páginas.
   5. Contadores (💬 mensajes · 🎙️ palabras de voz · ✉️ correos · 🎖️ medallas, todos del día en Caracas) y bloque "Corriendo ahora"/"Pendiente de Osmancito": ajustarlos a mano en md/pendientes.md antes del paso 4
      y reponerlos desde datos vivos cada vez que se actualiza Status (las medallas: mensajes de WhatsApp del usuario con 🎖
      en observaciones phone_messages, service WhatsApp, author user, del día de Caracas; solo WhatsApp, no correo); la línea de fecha y hora se reescribe sola en UTC-4, sin etiqueta.
   6. git add -A && git commit -m "Cierra el día" && git push (token de Drive .github_key, sin espacios, nunca impreso)
-     y comprobar las dos páginas en vivo.
+     y comprobar las tres páginas en vivo.
 Sin opciones, solo regenera las páginas desde los md (no mueve nada).
 """
 import argparse, html, re
@@ -32,7 +40,7 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 root=Path(__file__).resolve().parents[1]
-p=argparse.ArgumentParser(description='Regenera Estado actual y Trabajos realizados; ver cabecera para el cierre del día.')
+p=argparse.ArgumentParser(description='Regenera Estado actual, Historial de tareas e Historial social; ver cabecera para el cierre del día.')
 p.add_argument('--pendientes',type=Path,default=root/'md/pendientes.md')
 p.add_argument('--cierra-dia',action='store_true',help='mueve el borrador del día al historial y vacía "Hecho hoy"')
 p.add_argument('--anota',nargs='+',metavar=('TITULO','DETALLE'),help='añade al borrador: título, detalle y url opcional')
@@ -76,8 +84,25 @@ if a.cierra_dia:
  draft=[]
 
 source=a.pendientes.read_text()
+S='cgbabf_historial-social'
+soc_path=root/f'md/{S}.md'
+soc=soc_path.read_text()
+soc_intro,*soc_blocks=re.split(r'\n(?=## )',soc.rstrip('\n')+'\n')
+soc_days=[]
+for b in soc_blocks:
+ head,*bl=b.strip().split('\n',1)
+ soc_days.append((head.removeprefix('## ').strip(),[l[2:] for l in (bl[0] if bl else '').splitlines() if l.startswith('- ')]))
 if a.cierra_dia:
  # Estado: lo logrado hoy ya pasó al historial.
+ mf=re.search(r'## Frentes sociales\n((?:- .*\n?)+)',source)
+ dia=datetime.fromisoformat(a.fecha) if a.fecha else (now-timedelta(days=1) if now.hour<12 else now)
+ hoy=[l[2:] for l in (mf[1].splitlines() if mf else []) if l.startswith('- ') and 'Nada todavía' not in l]
+ if hoy:
+  fl=fecha_larga(dia.strftime('%Y-%m-%d'))
+  if soc_days and soc_days[0][0]==fl: soc_days[0]=(fl,hoy+soc_days[0][1])
+  else: soc_days.insert(0,(fl,hoy))
+  print(f'Cierre social: {len(hoy)} frentes pasan al historial social ({fl}).')
+ source=re.sub(r'(## Frentes sociales\n)(?:- .*\n?)+',r'\1- Nada todavía.\n',source)
  source=re.sub(r'(## Hecho hoy\n)(?:- .*\n?)+',r'\1- Nada todavía.\n',source)
  source=re.sub(r'^(?:Actualizado: )?.*UTC-4\.?$',lambda m:f'{now.day} de {months[now.month]} de {now.year}, {now:%H:%M} UTC-4.',source,count=1,flags=re.M)
 # Mantén el formato de fecha y hora sin etiqueta, y los contadores compactos en cada regeneración.
@@ -132,16 +157,19 @@ for e in entries:
  md.append(f'### {e["title"]}\n\n{date}. {e["detail"]}\n'+(f'\n[Leer]({e["url"]})\n' if e.get('url') else ''))
 H='cgbabd_historial'
 E='cgbabd_status'
-hist_md='# Trabajos realizados\n\nOsmancito, con la asistencia de Instinct\n\nTrabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en [Estado actual]('+E+'.md).\n\n'+'\n'.join(md)
+hist_md='# Historial de tareas\n\nOsmancito, con la asistencia de Instinct\n\nTrabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en [Estado actual]('+E+'.md).\n\n'+'\n'.join(md)
 if draft: hist_md=hist_md.rstrip('\n')+'\n\n<!-- BORRADOR-DEL-DIA\n'+'\n'.join(draft)+'\n-->\n'
 estado_md='# Estado actual\n\nOsmancito, con la asistencia de Instinct\n\n'+source
 if a.dry_run:
  print('DRY RUN: no se escribe nada.');print('--- historial (primeras líneas) ---');print('\n'.join(hist_md.splitlines()[:24]));print('--- borrador restante:',len(draft),'líneas ---');print('--- estado ---');print(estado_md)
  raise SystemExit(0)
+SOC_INTRO='# Historial social\n\nOsmancito, con la asistencia de Instinct\n\nLo que se hizo cada día en X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y las demás redes donde Osmancito busca dejar huella y tener contacto con la gente, del día más reciente al más antiguo. Lo de hoy está en [Estado actual]('+E+'.md).\n'
+soc_md=SOC_INTRO+''.join('\n## '+d+'\n\n'+'\n'.join('- '+x for x in items)+'\n' for d,items in soc_days)
 (root/'md/pendientes.md').write_text(source)
+(root/f'md/{S}.md').write_text(soc_md)
 (root/f'md/{H}.md').write_text(hist_md)
 (root/f'md/{E}.md').write_text(estado_md)
-def page(title,desc,slug,body):
+def page(title,desc,slug,body,img='cgbabd-mesa-produccion.jpg',w=1280,h=720,alt='Una asistente revisa manuscritos junto a una fila de libros terminados, en claroscuro de Rembrandt.',alt_corto='Mesa de trabajo: una asistente revisa manuscritos junto a los libros terminados'):
  return f"""<!doctype html>
 <html lang="es">
 <head>
@@ -154,17 +182,17 @@ def page(title,desc,slug,body):
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
 <meta property="og:url" content="https://osmancitov.github.io/maquinas/html/{slug}.html">
-<meta property="og:image" content="https://osmancitov.github.io/maquinas/img/cgbabd-mesa-produccion.jpg">
+<meta property="og:image" content="https://osmancitov.github.io/maquinas/img/{img}">
 <meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:width" content="1280">
-<meta property="og:image:height" content="720">
-<meta property="og:image:alt" content="Una asistente revisa manuscritos junto a una fila de libros terminados, en claroscuro de Rembrandt.">
+<meta property="og:image:width" content="{w}">
+<meta property="og:image:height" content="{h}">
+<meta property="og:image:alt" content="{alt}">
 CSS
 </head>
 <body>
 <main>
 <h1>{title}</h1>
-<img src="../img/cgbabd-mesa-produccion.jpg" alt="Mesa de trabajo: una asistente revisa manuscritos junto a los libros terminados" width="1280" height="720">
+<img src="../img/{img}" alt="{alt_corto}" width="{w}" height="{h}">
 <p>Osmancito, con la asistencia de Instinct</p>
 {body}
 <nav><a href="../maquinas.html">Sala de máquinas</a></nav>
@@ -172,6 +200,8 @@ CSS
 </body>
 </html>
 """.replace('CSS',STYLE)
-(root/f'html/{H}.html').write_text(page('Trabajos realizados','Trabajos terminados hasta ayer, de lo más reciente a lo más antiguo.',H,'<p>Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en <a href="'+E+'.html">Estado actual</a>.</p>\n<section aria-label="Trabajos realizados">\n'+'\n'.join(blocks)+'\n</section>'))
+(root/f'html/{H}.html').write_text(page('Historial de tareas','Trabajos terminados hasta ayer, de lo más reciente a lo más antiguo.',H,'<p>Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en <a href="'+E+'.html">Estado actual</a>.</p>\n<section aria-label="Historial de tareas">\n'+'\n'.join(blocks)+'\n</section>'))
+soc_html='<p>Lo que se hizo cada día en X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y las demás redes donde Osmancito busca dejar huella y tener contacto con la gente, del día más reciente al más antiguo. Lo de hoy está en <a href="'+E+'.html">Estado actual</a>.</p>\n'+'\n'.join(f'<section><h2>{html.escape(d)}</h2>\n<ul>\n'+'\n'.join(f'<li>{inline(x)}</li>' for x in items)+'\n</ul></section>' for d,items in soc_days)
+(root/f'html/{S}.html').write_text(page('Historial social','Lo que se hizo cada día en las redes donde Osmancito busca dejar huella.',S,soc_html,img='cgbabf-historial-social.jpg',w=1280,h=640,alt='Una asistente iza banderas de señales en un puerto al atardecer, hacia muchos barcos lejanos, al estilo de Claudio de Lorena.',alt_corto='Puerto al atardecer: una asistente iza banderas de señales hacia los barcos lejanos'))
 (root/f'html/{E}.html').write_text(page('Estado actual','Qué corre ahora, qué se hizo hoy y qué queda pendiente.',E,markdown(source)))
-print('Actualizados md/pendientes.md, md/'+E+'.md, md/'+H+'.md y sus dos páginas html')
+print('Actualizados md/pendientes.md, md/'+E+'.md, md/'+H+'.md, md/'+S+'.md y sus tres páginas html')
