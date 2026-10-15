@@ -14,6 +14,12 @@ FUENTES (no hay carpeta data/ ni json):
                           Al final tiene un bloque oculto <!-- BORRADOR-DEL-DIA ... --> con los trabajos de hoy, aún sin publicar,
                           una línea por trabajo: "AAAA-MM-DD | título | detalle | url (opcional)".
 
+ENLACES
+  Cada página generada es independiente: no enlaza a sus páginas hermanas (Estado actual, Historial de tareas, Historial social).
+  Los textos que las nombran las nombran en texto plano. Solo llevan enlace el regreso a la sala, al final de cada página, y el
+  "Leer" de cada trabajo hacia su contenido. Razón: las páginas a veces se mudan y los puentes habría que mudarlos uno a uno;
+  las redes de vínculos son para bases de conocimiento, no para este sitio. Las ramitas se mantienen independientes.
+
 DURANTE EL DÍA
   Cada trabajo terminado se anota en dos sitios: como viñeta en "## Hecho hoy" de md/pendientes.md, y como línea del
   borrador del día en el historial (con --anota, ver abajo). El historial publicado no muestra el borrador.
@@ -157,13 +163,13 @@ for e in entries:
  md.append(f'### {e["title"]}\n\n{date}. {e["detail"]}\n'+(f'\n[Leer]({e["url"]})\n' if e.get('url') else ''))
 H='cgbabd_historial'
 E='cgbabd_status'
-hist_md='# Historial de tareas\n\nOsmancito, con la asistencia de Instinct\n\nTrabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en [Estado actual]('+E+'.md).\n\n'+'\n'.join(md)
+hist_md='# Historial de tareas\n\nOsmancito, con la asistencia de Instinct\n\nTrabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en Estado actual.\n\n'+'\n'.join(md)
 if draft: hist_md=hist_md.rstrip('\n')+'\n\n<!-- BORRADOR-DEL-DIA\n'+'\n'.join(draft)+'\n-->\n'
 estado_md='# Estado actual\n\nOsmancito, con la asistencia de Instinct\n\n'+source
 if a.dry_run:
  print('DRY RUN: no se escribe nada.');print('--- historial (primeras líneas) ---');print('\n'.join(hist_md.splitlines()[:24]));print('--- borrador restante:',len(draft),'líneas ---');print('--- estado ---');print(estado_md)
  raise SystemExit(0)
-SOC_INTRO='# Historial social\n\nOsmancito, con la asistencia de Instinct\n\nLo que se hizo cada día en X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y las demás redes donde Osmancito deja huella y tiene contacto con el mundo, del día más reciente al más antiguo. Lo de hoy está en [Estado actual]('+E+'.md).\n'
+SOC_INTRO='# Historial social\n\nOsmancito, con la asistencia de Instinct\n\nLo que se hizo cada día en X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y las demás redes donde Osmancito deja huella y tiene contacto con el mundo, del día más reciente al más antiguo. Lo de hoy está en Estado actual.\n'
 soc_md=SOC_INTRO+''.join('\n## '+d+'\n\n'+'\n'.join('- '+x for x in items)+'\n' for d,items in soc_days)
 (root/'md/pendientes.md').write_text(source)
 (root/f'md/{S}.md').write_text(soc_md)
@@ -200,8 +206,8 @@ CSS
 </body>
 </html>
 """.replace('CSS',STYLE)
-(root/f'html/{H}.html').write_text(page('Historial de tareas','Trabajos terminados hasta ayer, de lo más reciente a lo más antiguo.',H,'<p>Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en <a href="'+E+'.html">Estado actual</a>.</p>\n<section aria-label="Historial de tareas">\n'+'\n'.join(blocks)+'\n</section>'))
-soc_html='<p>Lo que se hizo cada día en X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y las demás redes donde Osmancito deja huella y tiene contacto con el mundo, del día más reciente al más antiguo. Lo de hoy está en <a href="'+E+'.html">Estado actual</a>.</p>\n'+'\n'.join(f'<section><h2>{html.escape(d)}</h2>\n<ul>\n'+'\n'.join(f'<li>{inline(x)}</li>' for x in items)+'\n</ul></section>' for d,items in soc_days)
+(root/f'html/{H}.html').write_text(page('Historial de tareas','Trabajos terminados hasta ayer, de lo más reciente a lo más antiguo.',H,'<p>Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en Estado actual.</p>\n<section aria-label="Historial de tareas">\n'+'\n'.join(blocks)+'\n</section>'))
+soc_html='<p>Lo que se hizo cada día en X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y las demás redes donde Osmancito deja huella y tiene contacto con el mundo, del día más reciente al más antiguo. Lo de hoy está en Estado actual.</p>\n'+'\n'.join(f'<section><h2>{html.escape(d)}</h2>\n<ul>\n'+'\n'.join(f'<li>{inline(x)}</li>' for x in items)+'\n</ul></section>' for d,items in soc_days)
 (root/f'html/{S}.html').write_text(page('Historial social','Lo que se hizo cada día en las redes donde Osmancito deja huella.',S,soc_html,img='cgbabf-historial-social.jpg',w=1280,h=640,alt='Una asistente iza banderas de señales en un puerto al atardecer, hacia muchos barcos lejanos, al estilo de Claudio de Lorena.',alt_corto='Puerto al atardecer: una asistente iza banderas de señales hacia los barcos lejanos'))
 (root/f'html/{E}.html').write_text(page('Estado actual','Qué corre ahora, qué se hizo hoy y qué queda pendiente.',E,markdown(source)))
 print('Actualizados md/pendientes.md, md/'+E+'.md, md/'+H+'.md, md/'+S+'.md y sus tres páginas html')
