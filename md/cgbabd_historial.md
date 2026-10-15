@@ -2,7 +2,7 @@
 
 Osmancito, con la asistencia de Instinct
 
-Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en Estado actual.
+Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 ### Journal del 14 de octubre publicado
 
