@@ -4,6 +4,40 @@ Osmancito, con la asistencia de Instinct
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo. Lo de hoy está en [Estado actual](cgbabd_status.md).
 
+### Journal del 14 de octubre publicado
+
+14 de octubre de 2026. Castellano, glosas e hidra: texto, ilustración y página propia.
+
+[Leer](https://osmancitov.github.io/journal/html/cgbabe_castellano-glosas-hidra.html)
+
+### Destilería en una sola carpeta de páginas
+
+14 de octubre de 2026. Bodega 110 vertida a html/ con git mv, índice rehecho (lo reciente arriba, Arena encima de Macbeth) y enlaces reescritos.
+
+### Traducción de la 31B completa, entregada y archivada
+
+14 de octubre de 2026. 561/561 frases en 78 min 38 s; archivada en Drive, carpeta gemma 4 31B. Revisada por Osmancito, no se publica como versión.
+
+### Veredicto de la 26B contra la traducción de Instinct
+
+14 de octubre de 2026. 659 versos cotejados: se conserva la nuestra; seis mejoras de la 26B aplicadas.
+
+### Siete propuestas del informe Gemini aplicadas al castellano
+
+14 de octubre de 2026. Siete aplicadas, cada una cotejada con el francés; las otras 20 se descartaron.
+
+### Revisión de Gemini 3.8 Flash al poema
+
+14 de octubre de 2026. 561/561 frases, nota ponderada 9,18/10, 27 observaciones; informe archivado en Drive.
+
+### Auditoría de glosas del poema de Hugo
+
+14 de octubre de 2026. 63 versos con referencia culta, 87 % ya glosados; se agregaron los 6 restantes, con 15 glosas de comentario aprobadas.
+
+### Poema de Hugo «Ce que dit la bouche d’ombre» publicado
+
+14 de octubre de 2026. 800 versos con interlineado francés/castellano, 129 glosas (108 selectivas, 6 de cobertura y 15 de comentario), dibujo y og. Coda de la hidra en El Otro.
+
 ### Journal del 13 de octubre publicado
 
 13 de octubre de 2026. Papeles, vectores, nube y receta: texto, ilustración y página propia.
