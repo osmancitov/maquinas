@@ -3,13 +3,13 @@
 
 FUENTES (no hay carpeta data/ ni json):
   md/pendientes.md        Estado actual. Se edita a mano durante el día; el bloque "## Hecho hoy" es lo logrado hoy y el bloque
-                          "## Frentes sociales" es el estado de las tareas sociales y de interacción con los mercados:
+                          "## Sociales" es el estado de las tareas sociales y de interacción con los mercados:
                           X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y toda otra red donde Osmancito deja huella y tiene contacto con el mundo.
                           Una viñeta por frente: red, cuenta y lo logrado hoy.
                           Cada reporte va directo y corto: un renglón por frente o por interacción, sin detalle. Presupuesto
                           inicial: unas 500 palabras en total en esa sección; si las interacciones crecen, se agrupan por red.
   md/cgbabf_historial-social.md  Historial social. Un bloque "## fecha larga" por día, el más reciente arriba, con las viñetas
-                          que ese día tuvo "## Frentes sociales".
+                          que ese día tuvo "## Sociales".
   md/cgbabd_historial.md  Historial de tareas. Cada trabajo es un bloque "### Título" con "fecha. detalle" y, si hay, "[Leer](url)".
                           Al final tiene un bloque oculto <!-- BORRADOR-DEL-DIA ... --> con los trabajos de hoy, aún sin publicar,
                           una línea por trabajo: "AAAA-MM-DD | título | detalle | url (opcional)".
@@ -25,7 +25,7 @@ PROCEDIMIENTO DE MEDIANOCHE (00:00 UTC-4, el día que termina es el de ayer)
   3. Probar sin escribir:  python3 lab/actualizar-produccion.py --cierra-dia --dry-run
   4. Cerrar el día:        python3 lab/actualizar-produccion.py --cierra-dia
      Esto hace: pasa las líneas del borrador al principio del historial como bloques con su fecha, vacía el borrador,
-     deja "## Hecho hoy" de Estado en "- Nada todavía.", pasa las viñetas de "## Frentes sociales" al principio del
+     deja "## Hecho hoy" de Estado en "- Nada todavía.", pasa las viñetas de "## Sociales" al principio del
      historial social bajo la fecha del día que termina y deja ese bloque en "- Nada todavía.", y regenera los md y html de las tres páginas.
   5. Contadores (💬 mensajes · 🎙️ palabras de voz · ✉️ correos · 🎖️ medallas, todos del día en Caracas) y bloque "Corriendo ahora"/"Pendiente de Osmancito": ajustarlos a mano en md/pendientes.md antes del paso 4
      y reponerlos desde datos vivos cada vez que se actualiza Status (las medallas: mensajes de WhatsApp del usuario con 🎖
@@ -94,7 +94,7 @@ for b in soc_blocks:
  soc_days.append((head.removeprefix('## ').strip(),[l[2:] for l in (bl[0] if bl else '').splitlines() if l.startswith('- ')]))
 if a.cierra_dia:
  # Estado: lo logrado hoy ya pasó al historial.
- mf=re.search(r'## Frentes sociales\n((?:- .*\n?)+)',source)
+ mf=re.search(r'## Sociales\n((?:- .*\n?)+)',source)
  dia=datetime.fromisoformat(a.fecha) if a.fecha else (now-timedelta(days=1) if now.hour<12 else now)
  hoy=[l[2:] for l in (mf[1].splitlines() if mf else []) if l.startswith('- ') and 'Nada todavía' not in l]
  if hoy:
@@ -102,7 +102,7 @@ if a.cierra_dia:
   if soc_days and soc_days[0][0]==fl: soc_days[0]=(fl,hoy+soc_days[0][1])
   else: soc_days.insert(0,(fl,hoy))
   print(f'Cierre social: {len(hoy)} frentes pasan al historial social ({fl}).')
- source=re.sub(r'(## Frentes sociales\n)(?:- .*\n?)+',r'\1- Nada todavía.\n',source)
+ source=re.sub(r'(## Sociales\n)(?:- .*\n?)+',r'\1- Nada todavía.\n',source)
  source=re.sub(r'(## Hecho hoy\n)(?:- .*\n?)+',r'\1- Nada todavía.\n',source)
  source=re.sub(r'^(?:Actualizado: )?.*UTC-4\.?$',lambda m:f'{now.day} de {months[now.month]} de {now.year}, {now:%H:%M} UTC-4.',source,count=1,flags=re.M)
 # Mantén el formato de fecha y hora sin etiqueta, y los contadores compactos en cada regeneración.
