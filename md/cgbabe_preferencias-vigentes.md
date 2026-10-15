@@ -102,3 +102,4 @@ Cada línea es una preferencia o instrucción permanente. Estado al 11 de octubr
 
 - Censo de motores (modelos de lenguaje de Google por API directa: Gemma 4 26B y 31B, Gemini flash y flash-lite, y el agente Antigravity): mantener al día [`cgbabd_motores.md`](https://osmancitov.github.io/maquinas/html/cgbabd_motores.html), con la configuración que funciona por motor, cada vez que una medición la confirme o la cambie.
 - La actualización del Status incluye los contadores en el pie.
+- El Status lleva la sección «Frentes sociales», con las tareas sociales y de interacción con los mercados: un renglón directo y corto por frente o por interacción, unas 500 palabras en total. A medianoche esa sección pasa al Historial social.
