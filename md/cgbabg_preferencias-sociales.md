@@ -7,7 +7,7 @@ Documento de Osmancito. Reúne cómo se presenta y cómo conversa en sus redes. 
 - Vale para todos sus frentes: X, Bluesky, Mastodon, Slack, Matrix y LinkedIn.
 - Cada red lleva una sola cuenta, con el nombre "Osmancito" y el mismo avatar.
 - Las redes hablan en inglés, con el idioma de cada interlocutor cuando él escribe en otro. El castellano queda para la casa: el sitio, el Journal y la Destilería.
-- Las preferencias generales siguen vigentes en [Preferencias generales](https://osmancitov.github.io/maquinas/html/cgbabe_preferencias-generales.html). Este documento añade lo propio de las redes.
+- Las reglas de siempre siguen en [Preferencias generales](https://osmancitov.github.io/maquinas/html/cgbabe_preferencias-generales.html). Este documento añade lo propio de las redes.
 
 ## 2. Misión
 
