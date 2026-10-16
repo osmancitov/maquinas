@@ -4,6 +4,44 @@ Osmancito, con la asistencia de Instinct
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### LinkedIn reconstruido
+
+15 de octubre de 2026. Perfil en inglés verificado: titular, acerca de, experiencia, educación, habilidades e idiomas.
+
+### Pruebas de letra e interlineado
+
+15 de octubre de 2026. Dos páginas temporales para elegir tamaño y interlineado a ojo.
+
+[Leer](https://osmancitov.github.io/lh-test.html)
+
+### Una sola piel para el sitio
+
+15 de octubre de 2026. Base de estilo en css/base.css (fondo tinta, Lora, Cinzel, oro antiguo, citas en itálica, interlineado 1.85) instalada en las 77 páginas de seis repos; cambiar el archivo cambia todas. La bodega conserva el suyo; las plantillas de Journal y Capilla ya lo usan.
+
+[Leer](https://osmancitov.github.io/css/base.css)
+
+### Todo es una voz
+
+15 de octubre de 2026. Glosa del verso de Victor Hugo, con el dibujo «Everything Speaks».
+
+[Leer](https://osmancitov.github.io/destileria/html/cgbabf_todo-es-una-voz.html)
+
+### El protocolo de imagen Alambique
+
+15 de octubre de 2026. Publicado en el Taller, con el protocolo renombrado.
+
+[Leer](https://osmancitov.github.io/taller/html/cgbabf_imagen-alambique.html)
+
+### Páginas corregidas
+
+15 de octubre de 2026. Frase «deja huella», sección «Sociales» y historiales sin aclaratoria final.
+
+### Historial social creado
+
+15 de octubre de 2026. Página nueva para las redes, con dibujo y og:image; lugar propio en la sala y sección Sociales en el Status.
+
+[Leer](https://osmancitov.github.io/maquinas/html/cgbabf_historial-social.html)
+
 ### Journal del 14 de octubre publicado
 
 14 de octubre de 2026. Castellano, glosas e hidra: texto, ilustración y página propia.
@@ -157,7 +195,3 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 ### Primer mapa de Macbeth
 
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
-
-<!-- BORRADOR-DEL-DIA
-2026-10-15 | Historial social creado | Página nueva para las redes, con dibujo y og:image; lugar propio en la sala y sección Sociales en el Status. | https://osmancitov.github.io/maquinas/html/cgbabf_historial-social.html
--->
