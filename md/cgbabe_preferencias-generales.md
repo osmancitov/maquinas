@@ -1,4 +1,4 @@
-# Preferencias vigentes
+# Preferencias generales
 
 Cada línea es una preferencia o instrucción permanente. Estado al 11 de octubre de 2026.
 
