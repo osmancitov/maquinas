@@ -28,8 +28,8 @@ PROCEDIMIENTO DE MEDIANOCHE (00:00 UTC-4, el día que termina es el de ayer)
      deja "## Hecho hoy" de Estado en "- Nada todavía.", pasa las viñetas de "## Sociales" al principio del
      historial social bajo la fecha del día que termina y deja ese bloque en "- Nada todavía.", y regenera los md y html de las tres páginas.
   5. Contadores (💬 mensajes · 🎙️ palabras de voz · ✉️ correos · 🎖️ medallas, todos del día en Caracas) y bloque "Corriendo ahora"/"Pendiente de Osmancito": ajustarlos a mano en md/pendientes.md antes del paso 4
-     y reponerlos desde datos vivos cada vez que se actualiza Status (las medallas: mensajes de WhatsApp del usuario con 🎖
-     en observaciones phone_messages, service WhatsApp, author user, del día de Caracas; solo WhatsApp, no correo); la línea de fecha y hora se reescribe sola en UTC-4, sin etiqueta.
+     y reponerlos desde datos vivos cada vez que se actualiza Status (las medallas: cada emoji 🎖 individual, no los mensajes que lo contienen, en los mensajes y en las reacciones del usuario
+     en WhatsApp, del día de Caracas; en observaciones phone_messages, service WhatsApp, author user, se cuentan las apariciones del emoji; solo WhatsApp, no correo); la línea de fecha y hora se reescribe sola en UTC-4, sin etiqueta.
   6. git add -A && git commit -m "Cierra el día" && git push (token de Drive .github_key, sin espacios, nunca impreso)
      y comprobar las tres páginas en vivo.
 Sin opciones, solo regenera las páginas desde los md (no mueve nada).
