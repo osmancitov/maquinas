@@ -89,7 +89,8 @@ Cada línea es una preferencia o instrucción permanente. Estado al 11 de octubr
 - Las listas van de lo más nuevo a lo más viejo.
 - Los archivos de Journal y Capilla llevan nombre con código de fecha.
 - Todas las salas siguen el mismo patrón.
-- Mínimo HTML. Tema oscuro de GitHub. Se declaran tamaños de imagen.
+- Mínimo HTML. Un solo estilo común en `css/base.css` (en el Lobby) para todas las páginas. Se declaran tamaños de imagen.
+- Los enlaces son dorados y su color vive solo en `css/base.css`: enlace dorado solar, visitado en dorado apagado, hover más claro. Ninguna página declara color de enlace propio.
 - Imágenes de puertas: estilo propio por sala, 1280×640, JPG al 80 %. Cada página con sus etiquetas og.
 - Cada página publicada lleva su `og:image` y dibujo propio a calidad n105, en JPG al 80 %.
 - Para cada ilustración, la asistente propone dos candidatos, uno literal y otro simbólico, y elige: literal por defecto; simbólico cuando el texto lo pida.
