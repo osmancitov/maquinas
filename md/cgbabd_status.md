@@ -2,7 +2,7 @@
 
 Osmancito, con la asistencia de Instinct
 
-15 de octubre de 2026, 22:10 UTC-4.
+15 de octubre de 2026, 22:18 UTC-4.
 
 ## Corriendo ahora
 Ninguno.
@@ -34,4 +34,4 @@ Ninguno.
 
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
-💬 525 · 🎙️ 6075 · ✉️ 0 · 🎖️ 6
+💬 525 · 🎙️ 6075 · ✉️ 0 · 🎖️ 14
