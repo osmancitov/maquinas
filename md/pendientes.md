@@ -1,4 +1,4 @@
-15 de octubre de 2026, 22:18 UTC-4.
+15 de octubre de 2026, 22:30 UTC-4.
 
 ## Corriendo ahora
 Ninguno.
@@ -16,7 +16,7 @@ Ninguno.
 - Destilería (destileria/html/cgbabf_todo-es-una-voz.html): «Todo es una voz», glosa del verso de Victor Hugo, con el dibujo «Everything Speaks».
 - Fondo #080604 en todo el sitio: 75 páginas con ese fondo propio (destileria 7, taller 10, maquinas 31, capilla 11, journal 14, osmancitov.github.io 2); bodega-103 conserva su estilo.
 - Base de estilo (osmancitov.github.io/css/base.css): fondo tinta #080604, Cinzel en títulos, Lora en el cuerpo, hr y línea de las citas en oro antiguo #a8783a, citas en itálica con sangrado de 1em.
-- El Otro (destileria/html/cgbabf_el-otro.html): enlazada al base.css, primera página en usarlo.
+- Base de estilo instalado en las 77 páginas de destileria, taller, maquinas, capilla, journal y osmancitov.github.io (bodega-103 conserva el suyo): cambiar osmancitov.github.io/css/base.css cambia todas. Interlineado 1.3 y tamaño clamp(1rem, 1rem + 0.555vw, 1.667rem).
 - Prueba de letras (osmancitov.github.io/font-test.html): página temporal con cinco letras de cuerpo; también usa el base.
 
 ## Sociales
@@ -30,4 +30,4 @@ Ninguno.
 
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
-💬 531 · 🎙️ 6075 · ✉️ 0 · 🎖️ 14
+💬 534 · 🎙️ 6075 · ✉️ 0 · 🎖️ 14

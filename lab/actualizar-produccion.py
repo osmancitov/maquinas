@@ -147,7 +147,8 @@ def markdown(s):
  if listing: out.append('</ul>')
  return '\n'.join(out)
 
-STYLE='''<style>html{color-scheme:dark}body{background:#080604;color:#f0f6fc;font:18px/1.65 system-ui,sans-serif;margin:auto;max-width:680px;padding:24px}a{color:#4493f8}img{display:block;width:100%;height:auto;margin:24px 0}h1,h2,h3{line-height:1.25}h2{margin-top:36px}h3{font-size:1.12em}li{margin:12px 0}article{border-top:1px solid #30363d;padding:20px 0}article p{margin:10px 0}.fecha{color:#9198a1;font-size:.9em}code{overflow-wrap:anywhere}a{overflow-wrap:anywhere}nav a{display:inline-block;padding:10px 0}</style>'''
+STYLE='''<link rel="stylesheet" href="/css/base.css">
+<style>html{color-scheme:dark}body{margin:auto;max-width:680px;padding:24px}a{color:#4493f8}img{display:block;width:100%;height:auto;margin:24px 0}h1,h2,h3{line-height:1.25}h2{margin-top:36px}h3{font-size:1.12em}li{margin:12px 0}article{border-top:1px solid #30363d;padding:20px 0}article p{margin:10px 0}.fecha{color:#9198a1;font-size:.9em}code{overflow-wrap:anywhere}a{overflow-wrap:anywhere}nav a{display:inline-block;padding:10px 0}</style>'''
 
 blocks=[];md=[]
 for e in entries:
