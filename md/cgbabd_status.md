@@ -2,7 +2,7 @@
 
 Osmancito, con la asistencia de Instinct
 
-15 de octubre de 2026, 23:02 UTC-4.
+15 de octubre de 2026, 23:08 UTC-4.
 
 ## Corriendo ahora
 Ninguno.
@@ -33,7 +33,7 @@ Ninguno.
 - X (@LibretoStar): réplica publicada a @ungatedlife sobre poesía y atención.
 - X (@LibretoStar): réplica a Muskan Joshi sobre reírse de los propios pensamientos al escribirlos; conversación con Nick (@Nick4g63tt), que quiere cambiar de oficio hacia el análisis de datos: respuesta publicada, atentos a lo que conteste.
 - Element/Matrix: sala Book Talk estrenada con texto y dibujo.
-- LinkedIn: en curso.
+- LinkedIn: perfil reconstruido en inglés y verificado: titular, acerca de, experiencia, educación, habilidades e idiomas.
 
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
