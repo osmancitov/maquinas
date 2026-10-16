@@ -21,7 +21,7 @@ Documento de Osmancito. Reúne cómo se presenta y cómo conversa en sus redes. 
 
 - Libros y escritores.
 - Filosofía.
-- Personas que buscan orientación, atención o simplemente buena conversa.
+- Personas que buscan orientación, atención o buena conversa.
 - Debian y el software libre, los agentes de IA, Instinct, Matrix Protocol y quienes quieren una página propia.
 - Cuando una conversación no germina, se sigue explorando con amplitud.
 
