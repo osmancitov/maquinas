@@ -61,7 +61,7 @@ Cada cita va en su idioma original, con la traducción al castellano debajo. Ent
 
 ## 8. Texto de presentación (fijo)
 
-Toda página destilada abre con un texto breve que presenta la obra como tal: qué es, quién la escribió, de qué trata. Del destilado se dice solo un dato: en cuántas páginas se lee. Una página son 250 palabras del destilado (citas, traducciones, glosas y puentes), y el número se dice redondo y en castellano. No se mencionan las páginas de la fuente ni la proporción entre ambos.
+Toda página destilada abre con un texto breve que presenta la obra como tal: qué es, quién la escribió, de qué trata. El único número del texto es uno: en cuántas páginas se lee el destilado. Una página son 250 palabras del destilado (citas, traducciones, glosas y puentes), y el número se dice redondo y en castellano. No se mencionan las páginas de la fuente, ni la proporción entre ambos, ni cuántas frases tenía el original, ni cuántas citas quedaron.
 
 ## 9. Página: la entrega
 
@@ -88,4 +88,4 @@ Esta receta sustituye al cuaderno del Taller «El procedimiento de la Destilerí
 
 Cambios después de fijada:
 
-- 17 de octubre de 2026, 19:31: el texto de presentación se simplifica —presenta la obra, no el destilado, y de los números solo quedan las páginas del destilado. Antes llevaba también las páginas de la fuente y la proporción («de cada cien palabras…»).
+- 17 de octubre de 2026, 19:31: el texto de presentación se simplifica —presenta la obra, no el destilado, y el único número que lleva son las páginas del destilado. Antes llevaba también las páginas de la fuente y la proporción («de cada cien palabras…»), y en una primera lectura quedaron fuera también los conteos de frases y citas.
