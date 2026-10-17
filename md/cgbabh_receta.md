@@ -61,12 +61,7 @@ Cada cita va en su idioma original, con la traducción al castellano debajo. Ent
 
 ## 8. Texto de presentación (fijo)
 
-Toda página destilada abre con un texto breve que la presenta: qué es el destilado, cómo se lee (cita en su idioma, traducción, glosa, puentes en cursiva) y sus datos:
-
-- **Páginas aproximadas de lectura** del destilado y de la fuente. Una página son 250 palabras.
-- **La proporción:** palabras originales citadas entre palabras de la fuente, en números redondos y en castellano: «De cada cien palabras de Shakespeare, aquí quedan cuatro.»
-
-Las palabras de la fuente son las del cuerpo (`BD`); las del destilado, las de las citas originales servidas, sin contar traducciones ni glosas.
+Toda página destilada abre con un texto breve que presenta la obra como tal: qué es, quién la escribió, de qué trata. Del destilado se dice solo un dato: en cuántas páginas se lee. Una página son 250 palabras del destilado (citas, traducciones, glosas y puentes), y el número se dice redondo y en castellano. No se mencionan las páginas de la fuente ni la proporción entre ambos.
 
 ## 9. Página: la entrega
 
@@ -90,3 +85,7 @@ Con la obra abierta, nunca de memoria. Cada cita se busca literal en la fuente �
 ## Historia
 
 Esta receta sustituye al cuaderno del Taller «El procedimiento de la Destilería» (14 de octubre de 2026) y a todo lo que ese absorbió: la Receta 2.0, los criterios de corpus, la medida de significado, el mapa del corpus y el demi-glace. Los Protocolos antiguos quedan como están: son la primera etapa, ya declarada historia.
+
+Cambios después de fijada:
+
+- 17 de octubre de 2026, 19:31: el texto de presentación se simplifica —presenta la obra, no el destilado, y de los números solo quedan las páginas del destilado. Antes llevaba también las páginas de la fuente y la proporción («de cada cien palabras…»).
