@@ -1,6 +1,6 @@
 # Los motores de lectura
 
-13 de octubre de 2026
+17 de octubre de 2026
 
 Un motor, aquí, es un modelo que recibe textos y devuelve un resultado. Algunos traducen o revisan frases. Otros convierten cada fragmento en una lista de números, llamada vector, que permite buscar pasajes parecidos. Esa segunda operación se llama embedding: no escribe una traducción ni decide por sí sola qué significa una obra.
 
@@ -8,6 +8,8 @@ Un motor, aquí, es un modelo que recibe textos y devuelve un resultado. Algunos
 Los motores de la Destilería: qué se usó, qué está disponible y qué falta probar. Para cada uno: nombre exacto, proveedor, para qué sirve, gratis o pago, límites conocidos y estado. Las fichas de configuración práctica se actualizan con mediciones del 13 de octubre de 2026. Las cuotas citadas conservan la fecha de verificación de su fuente.
 
 Regla de la casa: gratis primero; gasto de centavos solo con autorización expresa.
+
+Regla de acceso: los motores de Google (Gemma, Gemini y los embeddings de Google) se llaman siempre por la API directa de Google con la key gratis de AI Studio, nunca por OpenRouter. Para motores que no son de Google, OpenRouter sí es vía válida: su capa gratis (50 llamadas al día, 20 por minuto) se usa sin restricción; el saldo pago no se gasta.
 
 ## Embeddings: en la bóveda
 
@@ -27,7 +29,7 @@ Regla de la casa: gratis primero; gasto de centavos solo con autorización expre
 - Proveedor: Google, Gemini Developer API.
 - Sirve para: embeddings.
 - Gratis, misma cuota diaria por modelo que 001; 3,072 dimensiones.
-- Estado: usado. Lear en la bóveda; Arena en curso (842/1,802 el primer día). Las corridas se planifican para que un corpus quepa en días enteros de cuota.
+- Estado: usado. Lear y Arena completos en la bóveda (Arena el 13 de octubre, Lear el 16 de octubre). Las corridas se planifican para que un corpus quepa en días enteros de cuota.
 
 ### pplx-embed-v1-0.6b
 - Proveedor: Perplexity.
@@ -38,8 +40,8 @@ Regla de la casa: gratis primero; gasto de centavos solo con autorización expre
 ### voyage-4, voyage-4-lite, voyage-4-large
 - Proveedor: Voyage AI.
 - Sirve para: embeddings.
-- Gratis con saldo inicial (el panel muestra 2M tokens para el trio voyage-4; cuenta sin tarjeta: 3 RPM, 10K TPM). Con tarjeta el límite sube a 2,000 RPM, pero vincularla exige un pago mínimo de $5.
-- Estado: usados. Los tres en la bóveda de Macbeth; voyage-4-large ganó las dos medidas de vecinos.
+- Gratis con saldo inicial: la documentación vigente (docs.voyageai.com/docs/pricing, verificada el 17 de octubre de 2026) regala los primeros 200 millones de tokens por cuenta para voyage-4-large, voyage-4 y voyage-4-lite; el panel de la cuenta mostraba 2M el 4 de octubre, así que conviene confirmar el saldo en el panel antes de una corrida grande. Cuenta sin tarjeta: 3 RPM, 10K TPM. Con tarjeta el límite sube a 2,000 RPM, pero vincularla exige un pago mínimo de $5.
+- Estado: usados. Los tres en la bóveda de Macbeth; voyage-4-large ganó las dos medidas de vecinos y el 17 de octubre vectorizó completo el King (On Writing, 4,253 frases, 99,199 tokens según el uso informado por la API, en 14 llamadas dentro del límite sin tarjeta).
 
 ### qwen3-embedding-8b
 - Proveedor: Alibaba, vía OpenRouter.
@@ -57,7 +59,15 @@ Regla de la casa: gratis primero; gasto de centavos solo con autorización expre
 - Proveedor: Liquid, vía OpenRouter (capa gratis).
 - Sirve para: embeddings.
 - Gratis. 128 textos por llamada, 1,024 dimensiones, contexto de solo 512 tokens; ojo: el free tier puede retener los inputs.
-- Estado: usado. Macbeth en la bóveda (se conserva como motor más, sin medallas).
+- Estado: usado. Macbeth y Arena en la bóveda (se conserva como motor más, sin medallas).
+
+### Cohere Embed (embed-v4.0)
+- Proveedor: Cohere, API propia.
+- Sirve para: embeddings.
+- Trial key gratis, sin tarjeta: Embed 2,000 inputs/minuto, tope general 1,000 llamadas/mes por key, máximo 96 textos por llamada. embed-v4.0: 1,536 dimensiones por defecto (también 256/512/1024), contexto 128K, texto e imágenes. Los embedding_types int8 y uint8 corren con trial key.
+- Modelos más nuevos: embed-v5.0-pro y embed-v5.0-fast (2,048 dimensiones por defecto); la documentación no dice si están habilitados para keys trial.
+- Bonus traducción: Aya Expanse (chat, 23 idiomas) corre con la misma trial key dentro del tope mensual.
+- Estado: usado. Arena completo en la bóveda (1,853/1,853, verificado el 13 de octubre), dentro del tope trial mensual.
 
 ## Generación y traducción: en uso
 
@@ -109,22 +119,11 @@ Regla de la casa: gratis primero; gasto de centavos solo con autorización expre
 
 ## Por probar
 
-### Cohere Embed (candidato nuevo, embeddings)
-- Proveedor: Cohere, API propia.
-- Modelos actuales: embed-v5.0-pro y embed-v5.0-fast (los más nuevos; 2,048 dimensiones por defecto, contexto 128K), embed-v4.0 (1,536 por defecto; también 256/512/1024; contexto 128K; texto e imágenes) y la familia v3 (embed-multilingual-v3.0: 1,024 dimensiones, contexto 512, multilingüe explícito).
-- Trial key gratis, sin tarjeta: se crea la cuenta en dashboard.cohere.com/welcome/register y la key trial se genera sola; se copia en dashboard.cohere.com/api-keys.
-- Límites trial: Embed 2,000 inputs/minuto; tope general 1,000 llamadas/mes por key; máximo 96 textos por llamada (confirmado en la referencia del API).
-- embedding_types int8 y uint8: disponibles desde Embed v3.0 en adelante y la documentación no los restringe por nivel, o sea que sí corren con trial key (también binary, ubinary y base64). Sirven para guardar vectores a un cuarto del tamaño.
-- Pago: production key pay-as-you-go; la trial está prohibida para uso en producción.
-- Ojo: la documentación no dice si los v5.0 están habilitados para keys trial; v4.0 y v3 sí son modelos corrientes de la plataforma.
-- Bonus traducción: Aya Expanse (chat, 23 idiomas) corre con la misma trial key dentro del tope mensual.
-- Estado: por probar.
-
 ### Jina (jina-embeddings-v3, jina-embeddings-v4)
 - Proveedor: Jina AI.
 - Sirve para: embeddings.
 - Gratis: key auto-generada con 10M tokens iniciales, sin tarjeta; 100 RPM y 100K TPM en free key. No hay recarga mensual: agotados los tokens, se compran paquetes.
-- v3: multilingüe (89 idiomas, castellano incluido), 1,024 dimensiones, contexto 8K. v4: más capaz pero más lento; gratis vía API por licencia no comercial (Qwen Research License).
+- Modelos: la familia actual es v5 (febrero de 2026): v5-text-small y v5-text-nano, multilingües, licencia CC-BY-NC-4.0, y v5-omni (texto, imagen, audio y video en un solo espacio). Siguen disponibles v3 (multilingüe, 89 idiomas, castellano incluido, 1,024 dimensiones, contexto 8K) y v4 (más capaz pero más lento; gratis vía API por licencia no comercial Qwen Research License).
 - Estado: por probar.
 
 ### Mistral (mistral-embed)
@@ -137,7 +136,8 @@ Regla de la casa: gratis primero; gasto de centavos solo con autorización expre
 
 - docs.cohere.com/docs/models y docs.cohere.com/reference/embed (modelos, 96 textos por llamada, embedding_types)
 - docs.cohere.com/docs/rate-limits y cohere.com/pricing (límites trial, key auto-generada)
-- jina.ai/embeddings (free key, límites, licencia de v4)
+- jina.ai/embeddings (free key, límites) y jina.ai/news/jina-embeddings-v5-text-distilling-4b-quality-into-sub-1b-multilingual-embeddings (familia v5)
+- docs.voyageai.com/docs/pricing (200 millones de tokens gratis por cuenta en la familia voyage-4; verificado el 17 de octubre de 2026)
 - docs.mistral.ai/admin/billing-usage/usage-limits (free mode y verificación)
 - La bóveda del Drive (motores archivados por obra) y las bitácoras del garaje para los motores ya usados
 
@@ -150,6 +150,6 @@ Regla de la casa: gratis primero; gasto de centavos solo con autorización expre
 - https://ai.google.dev/gemini-api/docs/changelog
 - Mediciones de traducción 26B y prueba Antigravity; registros de los responsables de Lear31B y críticaGemini, comunicados el 13 de octubre.
 
-Este registro es el censo completo del taller, al 13 de octubre de 2026. Distingue lo usado, lo detenido y lo que aún no se ha probado. No contiene claves.
+Este registro es el censo completo del taller, al 17 de octubre de 2026. Distingue lo usado, lo detenido y lo que aún no se ha probado. No contiene claves.
 
 Osmancito, con la asistencia de Instinct
