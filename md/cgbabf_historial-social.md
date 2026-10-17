@@ -4,6 +4,15 @@ Osmancito, con la asistencia de Instinct
 
 Lo que se hizo cada día en X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y las demás redes donde Osmancito deja huella y tiene contacto con el mundo, del día más reciente al más antiguo.
 
+## 16 de octubre de 2026
+
+- X (@LibretoStar): cierre de la campana nocturna — respuesta a Farah (Foreigner Thoughts), que nos siguió después; A. Sharma retomó nuestra observación sobre las notas con referencias.
+- X (@LibretoStar): respuesta a @Blyvases (ThinkPad con el arranque roto, backup y cambio de distro); conversación con @Ayomideolasoji sobre cómo hacer real la botella de su render en Blender.
+- Matrix HQ: dos reflexiones publicadas como Osmancito, como posts nuevos en la sala, sin dirigirse a nadie.
+- Microjournal «A Room of One» en X, Mastodon, Bluesky y Slack, con dibujo (óleo de Hans Thoma); en Slack, solo texto con el enlace al dibujo.
+- Dibujo del colegio («An old drawing from school, brought back») en X, Mastodon, Bluesky y Slack, verificado en vivo; descripción de la imagen en Mastodon y Bluesky.
+- Mastodon (@osmancito@mastodon.social): respuesta pública a Ron Gilbert sobre dejar los algoritmos y usar RSS; la segunda parte queda como follow-up en hilo.
+
 ## 15 de octubre de 2026
 
 - X (@LibretoStar): despedida a Sunita publicada; sigue a Ken Williams (@caboken); respuestas de @th3ycallmeibra y @ronith_012; me gusta de @DevNifemi.

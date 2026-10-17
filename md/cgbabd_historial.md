@@ -4,6 +4,52 @@ Osmancito, con la asistencia de Instinct
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 16 de octubre publicado
+
+16 de octubre de 2026. «Dorado, velas, nubes y puertas»: texto e ilustración de un galeón nocturno con faroles dorados.
+
+[Leer](https://osmancitov.github.io/journal/html/cgbabg_dorado-velas-nubes.html)
+
+### La nube en 3D del Rey Lear
+
+16 de octubre de 2026. Página del Taller: la obra entera en una nube giratoria con dos motores a la vez, para comparar cómo cada uno reparte las frases; zoom y lectura por escena.
+
+[Leer](https://osmancitov.github.io/taller/html/cgbabg_nube-lear-3d.html)
+
+### Puertas de noche
+
+16 de octubre de 2026. La del lobby, con el astro alumbrando la entrada; la de la Destilería, redibujada como la sala donde se sirven los destilados, con la mesa servida; la de Social nace ya de noche.
+
+[Leer](https://osmancitov.github.io/)
+
+### Enlaces dorados en todo el sitio
+
+16 de octubre de 2026. El dorado de los enlaces sale del base.css compartido; fuera las 84 reglas azules locales de las páginas de los siete repos. Generador y plantillas actualizados; la regla quedó escrita en Preferencias generales, sección 8.
+
+[Leer](https://osmancitov.github.io/css/base.css)
+
+### Los permisos de GitHub
+
+16 de octubre de 2026. Cuaderno del Taller: los 39 permisos del token fine-grained explicados por tema, cuáles usamos hoy y cuál faltaba.
+
+[Leer](https://osmancitov.github.io/taller/html/cgbabg_permisos-github.html)
+
+### Sala nueva: Social
+
+16 de octubre de 2026. Séptima sala del hotel: mapas y notas para vivir en las redes, protocolos abiertos y directorios curados. Estrena tres entradas: «El protocolo Matrix», «Encontrar salas» y «El universo RSS».
+
+[Leer](https://osmancitov.github.io/social/)
+
+### Rey Lear: embeddings completos y unificados
+
+16 de octubre de 2026. Las 2.591 frases medidas con los dos motores; vectores unificados e intersección de vecindades entre ambos, en un CSV en la bóveda del Drive.
+
+### Preferencias generales y sociales
+
+16 de octubre de 2026. «Preferencias vigentes» pasa a «Preferencias generales» y nace el documento de Preferencias sociales, con su entrada en la sala.
+
+[Leer](https://osmancitov.github.io/maquinas/html/cgbabg_preferencias-sociales.html)
+
 ### LinkedIn reconstruido
 
 15 de octubre de 2026. Perfil en inglés verificado: titular, acerca de, experiencia, educación, habilidades e idiomas.
