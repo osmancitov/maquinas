@@ -1,0 +1,92 @@
+17 de octubre de 2026
+
+# La receta
+
+![Sala de máquinas](../img/maquinas.jpg)
+
+La receta completa de la Destilería, de principio a fin: de un libro a su página destilada. Queda fijada el 17 de octubre de 2026 («la misma receta, 1, con glosa nivel 3 escuela. Esa receta va fija de ahora en adelante hasta que consigamos una mejor»). Vive en este archivo y en ningún otro; lo que la cambie, la cambia aquí.
+
+## 1. Fuente: del epub al markdown
+
+El libro llega como epub a la bóveda (una carpeta por obra, «Autor Obra»). Se convierte a un solo `.md`, que queda suelto en la carpeta, junto al epub:
+
+- Se leen los archivos del lomo en orden de lectura. La portada (imagen) y la tabla de contenido automática se omiten.
+- Los rótulos de capítulo y sección quedan como encabezados `## `; el título del libro, como `# `.
+- Las marcas de nota al pie se quitan del texto corrido; las notas se conservan numeradas al final, bajo `## Footnotes`.
+- La letra capital suelta que abre un capítulo se reintegra a su palabra («T HE» → «THE»).
+- Los pies de foto se conservan como texto; las imágenes no entran al `.md`.
+- El texto se guarda llano, sin marcas de cursiva ni negrita.
+
+## 2. Molde: la segmentación canónica
+
+El `.md` se parte en frases y cada frase recibe su identidad. El molde es `embeds/segmentacion-canonica.json`, con la especificación completa en `boveda/README.md`:
+
+- IDs de dos letras y un contador corrido por obra: `BD` (cuerpo), `SD` (didascalia), `EP` (epígrafe), `PT` (paratexto), `DS` (descarte).
+- Cada segmento guarda sus offsets exactos en la fuente (`char_start`, `char_end`), su texto normalizado y su texto literal, su tipo y su localización (escena o capítulo).
+- El paratexto preliminar se localiza en `Preliminares`; las notas, índices, créditos, dedicatorias, firmas y pies de foto son `PT` con su subtipo.
+- El molde pasa cinco pruebas mecánicas: fidelidad, cobertura, catálogo, IDs y localización. No se admite sin las cinco.
+- Solo las frases `BD` se vectorizan: se vectoriza lo que se estudia.
+
+## 3. Vectores: medir una sola vez
+
+Un motor basta. El motor es gratuito y el gasto es cero. Los vectores se guardan en `embeds/<nombre exacto del motor>/`, en un solo `.json.gz` cuantizado a int8 (cada coordenada ×128, redondeada y recortada a [-128, 127]), como diccionario `{ID: [enteros]}`. Con molde y vectores guardados, todo lo demás se regenera local, sin volver a llamar a la máquina.
+
+Motores usados hasta ahora: `voyage-4-large` (Voyage) y `gemini-embedding-001` y `gemini-embedding-2` (Google, llave gratuita, lotes de cien textos, un lote por minuto, tope de mil textos al día por modelo).
+
+## 4. Reserva: el ranking al centroide
+
+Cómputo local sobre los vectores guardados:
+
+- Se promedian los vectores `BD` de la obra: ese promedio es el centroide, el centro de gravedad del libro.
+- Cada frase se ordena por su cercanía al centroide (coseno).
+- De cada unidad —la escena en teatro, el capítulo o la sección en prosa— entra a la reserva el 10% superior de su ranking.
+
+La reserva es el material del que se escogen las citas. Las unidades cortas pueden quedar con reserva pobre; se sirven con lo que haya y el resto va a los puentes.
+
+## 5. Selección: los tres criterios
+
+De la reserva se eligen las citas una a una, con tres criterios:
+
+1. **Movimiento:** la frase hace avanzar algo —la acción, la idea, el corazón.
+2. **Se entiende sola:** se sostiene fuera de su contexto.
+3. **Voz propia:** suena a su autor y a nadie más.
+
+## 6. Glosa nivel tres
+
+Cada cita lleva su glosa en castellano llano, de nivel escolar: explica lo que la cita supone —quién habla, qué pasó antes, la palabra rara— sin vocabulario de crítica. La glosa acompaña la decisión: la frase que necesita tres líneas de rescate para sostenerse confiesa que no entra.
+
+## 7. Traducción y puentes
+
+Cada cita va en su idioma original, con la traducción al castellano debajo. Entre cita y cita, los puentes en cursiva cuentan lo que ocurre, abren la pieza y la orientan. Una prohibición: nunca se parafrasea lo que el texto ya dice; si la frase existe, se cita.
+
+## 8. Texto de presentación (fijo)
+
+Toda página destilada abre con un texto breve que la presenta: qué es el destilado, cómo se lee (cita en su idioma, traducción, glosa, puentes en cursiva) y sus datos:
+
+- **Páginas aproximadas de lectura** del destilado y de la fuente. Una página son 250 palabras.
+- **La proporción:** palabras originales citadas entre palabras de la fuente, en números redondos y en castellano: «De cada cien palabras de Shakespeare, aquí quedan cuatro.»
+
+Las palabras de la fuente son las del cuerpo (`BD`); las del destilado, las de las citas originales servidas, sin contar traducciones ni glosas.
+
+## 9. Página: la entrega
+
+- La página vive en la Destilería como gemelos `html/cgbabX_nombre.md` y `html/cgbabX_nombre.html`, y entra al tope de la lista en `destileria.html` y en el `README.md`: lo más nuevo primero.
+- Lleva fecha arriba, título, su dibujo (1280×640, `html/img/cgbabX_nombre_og.jpg`, declarado en el `og:image`), el autor, el texto de presentación y el cuerpo por unidad, con un `## ` por escena o capítulo.
+- Las citas van en bloque, la traducción debajo, el hablante cuando lo hay, los puentes en cursiva.
+- Cierra con la firma: «Osmancito, con la asistencia de Instinct».
+
+## 10. Verificación
+
+Con la obra abierta, nunca de memoria. Cada cita se busca literal en la fuente —el molde da sus offsets—. La página se ve en el navegador antes de publicarse.
+
+## Reglas transversales
+
+- Gasto cero sin permiso expreso.
+- La frase es la referencia y la moneda de la casa.
+- Castellano, nunca «español».
+- Sin URLs en las páginas.
+- Los archivos viejos que una versión nueva reemplaza se borran, con su confirmo.
+
+## Historia
+
+Esta receta sustituye al cuaderno del Taller «El procedimiento de la Destilería» (14 de octubre de 2026) y a todo lo que ese absorbió: la Receta 2.0, los criterios de corpus, la medida de significado, el mapa del corpus y el demi-glace. Los Protocolos antiguos quedan como están: son la primera etapa, ya declarada historia.
