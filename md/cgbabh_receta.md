@@ -77,6 +77,7 @@ Con la obra abierta, nunca de memoria. Cada cita se busca literal en la fuente �
 ## Reglas transversales
 
 - Gasto cero sin permiso expreso.
+- Los dibujos de las páginas se generan con Gemini Web (su sesión de Google), nunca con la herramienta de imágenes de Instinct; la cuota propia de Instinct es solo para la Capilla.
 - La frase es la referencia y la moneda de la casa.
 - Castellano, nunca «español».
 - Sin URLs en las páginas.
@@ -89,3 +90,4 @@ Esta receta sustituye al cuaderno del Taller «El procedimiento de la Destilerí
 Cambios después de fijada:
 
 - 17 de octubre de 2026, 19:31: el texto de presentación se simplifica —presenta la obra, no el destilado, y el único número que lleva son las páginas del destilado. Antes llevaba también las páginas de la fuente y la proporción («de cada cien palabras…»), y en una primera lectura quedaron fuera también los conteos de frases y citas.
+- 17 de octubre de 2026, 19:37: regla de dibujos anotada en transversales: Gemini Web con su sesión, nunca la herramienta de imágenes de Instinct (regla suya ya vigente).
