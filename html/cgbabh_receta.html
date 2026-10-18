@@ -23,31 +23,31 @@
 <img src="../img/maquinas.jpg" width="1280" height="640" alt="Sala de máquinas de un barco">
 <p>La receta completa de la Destilería, de principio a fin: de un libro a su página destilada. Queda fijada el 17 de octubre de 2026 («la misma receta, 1, con glosa nivel 3 escuela. Esa receta va fija de ahora en adelante hasta que consigamos una mejor»). Vive en este archivo y en ningún otro; lo que la cambie, la cambia aquí.</p>
 <h2>1. Fuente: del epub al markdown</h2>
-<p>El libro llega como epub a la bóveda (una carpeta por obra, «Autor Obra»). Se convierte a un solo `.md`, que queda suelto en la carpeta, junto al epub:</p>
+<p>El libro llega como epub a la bóveda (una carpeta por obra, «Autor Obra»). Se convierte a un solo <code>.md</code>, que queda suelto en la carpeta, junto al epub:</p>
 <ul>
 <li>Se leen los archivos del lomo en orden de lectura. La portada (imagen) y la tabla de contenido automática se omiten.</li>
-<li>Los rótulos de capítulo y sección quedan como encabezados `## `; el título del libro, como `# `.</li>
-<li>Las marcas de nota al pie se quitan del texto corrido; las notas se conservan numeradas al final, bajo `## Footnotes`.</li>
+<li>Los rótulos de capítulo y sección quedan como encabezados <code>## </code>; el título del libro, como <code># </code>.</li>
+<li>Las marcas de nota al pie se quitan del texto corrido; las notas se conservan numeradas al final, bajo <code>## Footnotes</code>.</li>
 <li>La letra capital suelta que abre un capítulo se reintegra a su palabra («T HE» → «THE»).</li>
-<li>Los pies de foto se conservan como texto; las imágenes no entran al `.md`.</li>
+<li>Los pies de foto se conservan como texto; las imágenes no entran al <code>.md</code>.</li>
 <li>El texto se guarda llano, sin marcas de cursiva ni negrita.</li>
 </ul>
 <h2>2. Molde: la segmentación canónica</h2>
-<p>El `.md` se parte en frases y cada frase recibe su identidad. El molde es `embeds/segmentacion-canonica.json`, con la especificación completa en `boveda/README.md`:</p>
+<p>El <code>.md</code> se parte en frases y cada frase recibe su identidad. El molde es <code>embeds/segmentacion-canonica.json</code>, con la especificación completa en <code>boveda/README.md</code>:</p>
 <ul>
-<li>IDs de dos letras y un contador corrido por obra: `BD` (cuerpo), `SD` (didascalia), `EP` (epígrafe), `PT` (paratexto), `DS` (descarte).</li>
-<li>Cada segmento guarda sus offsets exactos en la fuente (`char_start`, `char_end`), su texto normalizado y su texto literal, su tipo y su localización (escena o capítulo).</li>
-<li>El paratexto preliminar se localiza en `Preliminares`; las notas, índices, créditos, dedicatorias, firmas y pies de foto son `PT` con su subtipo.</li>
+<li>IDs de dos letras y un contador corrido por obra: <code>BD</code> (cuerpo), <code>SD</code> (didascalia), <code>EP</code> (epígrafe), <code>PT</code> (paratexto), <code>DS</code> (descarte).</li>
+<li>Cada segmento guarda sus offsets exactos en la fuente (<code>char_start</code>, <code>char_end</code>), su texto normalizado y su texto literal, su tipo y su localización (escena o capítulo).</li>
+<li>El paratexto preliminar se localiza en <code>Preliminares</code>; las notas, índices, créditos, dedicatorias, firmas y pies de foto son <code>PT</code> con su subtipo.</li>
 <li>El molde pasa cinco pruebas mecánicas: fidelidad, cobertura, catálogo, IDs y localización. No se admite sin las cinco.</li>
-<li>Solo las frases `BD` se vectorizan: se vectoriza lo que se estudia.</li>
+<li>Solo las frases <code>BD</code> se vectorizan: se vectoriza lo que se estudia.</li>
 </ul>
 <h2>3. Vectores: medir una sola vez</h2>
-<p>Un motor basta. El motor es gratuito y el gasto es cero. Los vectores se guardan en `embeds/<nombre exacto del motor>/`, en un solo `.json.gz` cuantizado a int8 (cada coordenada ×128, redondeada y recortada a [-128, 127]), como diccionario `{ID: [enteros]}`. Con molde y vectores guardados, todo lo demás se regenera local, sin volver a llamar a la máquina.</p>
-<p>Motores usados hasta ahora: `voyage-4-large` (Voyage) y `gemini-embedding-001` y `gemini-embedding-2` (Google, llave gratuita, lotes de cien textos, un lote por minuto, tope de mil textos al día por modelo).</p>
+<p>Un motor basta. El motor es gratuito y el gasto es cero. Los vectores se guardan en <code>embeds/<nombre exacto del motor>/</code>, en un solo <code>.json.gz</code> cuantizado a int8 (cada coordenada ×128, redondeada y recortada a [-128, 127]), como diccionario <code>{ID: [enteros]}</code>. Con molde y vectores guardados, todo lo demás se regenera local, sin volver a llamar a la máquina.</p>
+<p>Motores usados hasta ahora: <code>voyage-4-large</code> (Voyage) y <code>gemini-embedding-001</code> y <code>gemini-embedding-2</code> (Google, llave gratuita, lotes de cien textos, un lote por minuto, tope de mil textos al día por modelo).</p>
 <h2>4. Reserva: el ranking al centroide</h2>
 <p>Cómputo local sobre los vectores guardados:</p>
 <ul>
-<li>Se promedian los vectores `BD` de la obra: ese promedio es el centroide, el centro de gravedad del libro.</li>
+<li>Se promedian los vectores <code>BD</code> de la obra: ese promedio es el centroide, el centro de gravedad del libro.</li>
 <li>Cada frase se ordena por su cercanía al centroide (coseno).</li>
 <li>De cada unidad —la escena en teatro, el capítulo o la sección en prosa— entra a la reserva el 10% superior de su ranking.</li>
 </ul>
@@ -67,8 +67,9 @@
 <p>Toda página destilada abre con una sola pieza: un párrafo que presenta la obra como tal —qué es, quién la escribió, de qué trata—. Ninguna cifra en la intro: ni las páginas del destilado, ni las de la fuente, ni la proporción entre ambos, ni cuántas frases tenía el original, ni cuántas citas quedaron, ni ninguna frase que explique el oficio de la página (cómo van las citas, las traducciones, las glosas o los puentes), porque se ve a simple vista.</p>
 <h2>9. Página: la entrega</h2>
 <ul>
-<li>La página vive en la Destilería como gemelos `html/cgbabX_nombre.md` y `html/cgbabX_nombre.html`, y entra al tope de la lista en `destileria.html` y en el `README.md`: lo más nuevo primero.</li>
-<li>Lleva fecha arriba, título, su dibujo (1280×640, `html/img/cgbabX_nombre_og.jpg`, declarado en el `og:image`), el autor, el texto de presentación y el cuerpo por unidad, con un `## ` por escena o capítulo.</li>
+<li>La página vive en la Destilería como gemelos <code>html/cgbabX_nombre.md</code> y <code>html/cgbabX_nombre.html</code>, y entra al tope de la lista en <code>destileria.html</code> y en el <code>README.md</code>: lo más nuevo primero.</li>
+<li>Lleva fecha arriba, título, su dibujo (1280×640, <code>html/img/cgbabX_nombre_og.jpg</code>, declarado en el <code>og:image</code>), el autor, el texto de presentación y el cuerpo por unidad, con un <code>## </code> por escena o capítulo.</li>
+<li>Cada escena o capítulo puede llevar además su propio dibujo, cuando él lo pida para esa obra; se genera igualmente con Gemini Web y se coloca justo bajo el encabezado <code>## </code> de la unidad. (El Yogi llevará dibujo por capítulo; se generan cuando la sesión de Gemini Web quede libre, porque solo cabe una sesión a la vez.)</li>
 <li>Las citas van en bloque, la traducción debajo, el hablante cuando lo hay, los puentes en cursiva.</li>
 <li>Cierra con la firma: «Osmancito, con la asistencia de Instinct».</li>
 </ul>
@@ -88,6 +89,7 @@
 <p>Cambios después de fijada:</p>
 <ul>
 <li>17 de octubre de 2026, 19:31: el texto de presentación se simplifica —presenta la obra, no el destilado, y el único número que lleva son las páginas del destilado. Antes llevaba también las páginas de la fuente y la proporción («de cada cien palabras…»), y en una primera lectura quedaron fuera también los conteos de frases y citas.</li>
+<li>17 de octubre de 2026, 21:59: él decide que el Yogi lleve un dibujo por capítulo además del de portada; queda anotado en la sección 9. Los dibujos se generan después, cuando Macbeth libere la sesión de Gemini Web.</li>
 <li>17 de octubre de 2026, 19:53: se quita de la intro la línea con el dato de páginas; la introducción queda solo con el párrafo que presenta la obra. «Definitivamente no fue buena idea meter el dato de las páginas. El resto de la introducción está excelente.»</li>
 <li>17 de octubre de 2026, 19:47: el cierre de la intro queda en una sola línea —«La obra completa, destilada en N páginas.»—; reemplaza las dos líneas anteriores («destilada escena por escena…» + «se lee en unas N páginas»). «Qué cuesta decir lo que hay que decir y ya.»</li>
 <li>17 de octubre de 2026, 19:39: el texto de presentación queda en dos piezas solas —el párrafo de la obra y la línea de las páginas—; se borra de todas las intros la frase que explicaba el formato de citas, glosas y puentes («se ve a simple vista», dijo).</li>

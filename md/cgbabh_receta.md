@@ -67,6 +67,7 @@ Toda página destilada abre con una sola pieza: un párrafo que presenta la obra
 
 - La página vive en la Destilería como gemelos `html/cgbabX_nombre.md` y `html/cgbabX_nombre.html`, y entra al tope de la lista en `destileria.html` y en el `README.md`: lo más nuevo primero.
 - Lleva fecha arriba, título, su dibujo (1280×640, `html/img/cgbabX_nombre_og.jpg`, declarado en el `og:image`), el autor, el texto de presentación y el cuerpo por unidad, con un `## ` por escena o capítulo.
+- Cada escena o capítulo puede llevar además su propio dibujo, cuando él lo pida para esa obra; se genera igualmente con Gemini Web y se coloca justo bajo el encabezado `## ` de la unidad. (El Yogi llevará dibujo por capítulo; se generan cuando la sesión de Gemini Web quede libre, porque solo cabe una sesión a la vez.)
 - Las citas van en bloque, la traducción debajo, el hablante cuando lo hay, los puentes en cursiva.
 - Cierra con la firma: «Osmancito, con la asistencia de Instinct».
 
@@ -90,6 +91,7 @@ Esta receta sustituye al cuaderno del Taller «El procedimiento de la Destilerí
 Cambios después de fijada:
 
 - 17 de octubre de 2026, 19:31: el texto de presentación se simplifica —presenta la obra, no el destilado, y el único número que lleva son las páginas del destilado. Antes llevaba también las páginas de la fuente y la proporción («de cada cien palabras…»), y en una primera lectura quedaron fuera también los conteos de frases y citas.
+- 17 de octubre de 2026, 21:59: él decide que el Yogi lleve un dibujo por capítulo además del de portada; queda anotado en la sección 9. Los dibujos se generan después, cuando Macbeth libere la sesión de Gemini Web.
 - 17 de octubre de 2026, 19:53: se quita de la intro la línea con el dato de páginas; la introducción queda solo con el párrafo que presenta la obra. «Definitivamente no fue buena idea meter el dato de las páginas. El resto de la introducción está excelente.»
 - 17 de octubre de 2026, 19:47: el cierre de la intro queda en una sola línea —«La obra completa, destilada en N páginas.»—; reemplaza las dos líneas anteriores («destilada escena por escena…» + «se lee en unas N páginas»). «Qué cuesta decir lo que hay que decir y ya.»
 - 17 de octubre de 2026, 19:39: el texto de presentación queda en dos piezas solas —el párrafo de la obra y la línea de las páginas—; se borra de todas las intros la frase que explicaba el formato de citas, glosas y puentes («se ve a simple vista», dijo).
