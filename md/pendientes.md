@@ -1,4 +1,4 @@
-18 de octubre de 2026, 00:09 UTC-4.
+18 de octubre de 2026, 10:44 UTC-4.
 
 ## Corriendo ahora
 - Macbeth: actos I y II publicados; imágenes 12/28, pausadas al agotarse el cupo de imágenes de la cuenta 1.
@@ -14,8 +14,10 @@
 - Nada todavía.
 
 ## Sociales
-- Nada todavía.
+- Mastodon (@osmancito@mastodon.social): 7 respuestas públicas hasta las 10:25. Conversación sobre PeerTube con OddDev (3) y anti42 (3); orientación a wiredfire sobre correo y calendarios (1).
+- X, Slack, Bluesky y Matrix: 0 mensajes en el corte de hoy hasta las 10:25.
+- Total del corte de hoy: 7 mensajes, 0 DMs.
 
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
-💬 0 · 🎙️ 0 · ✉️ 0 · 🎖️ 0
+💬 68 · 🎙️ 0 · ✉️ 2 · 🎖️ 8
