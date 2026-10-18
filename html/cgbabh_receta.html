@@ -42,7 +42,7 @@
 <li>Solo las frases <code>BD</code> se vectorizan: se vectoriza lo que se estudia.</li>
 </ul>
 <h2>3. Vectores: medir una sola vez</h2>
-<p>Un motor basta. El motor es gratuito y el gasto es cero. Los vectores se guardan en <code>embeds/<nombre exacto del motor>/</code>, en un solo <code>.json.gz</code> cuantizado a int8 (cada coordenada ×128, redondeada y recortada a [-128, 127]), como diccionario <code>{ID: [enteros]}</code>. Con molde y vectores guardados, todo lo demás se regenera local, sin volver a llamar a la máquina.</p>
+<p>Un motor basta. El motor es gratuito y el gasto es cero. Los vectores se guardan en <code>embeds/&lt;nombre exacto del motor&gt;/</code>, en un solo <code>.json.gz</code> cuantizado a int8 (cada coordenada ×128, redondeada y recortada a [-128, 127]), como diccionario <code>{ID: [enteros]}</code>. Con molde y vectores guardados, todo lo demás se regenera local, sin volver a llamar a la máquina.</p>
 <p>Motores usados hasta ahora: <code>voyage-4-large</code> (Voyage) y <code>gemini-embedding-001</code> y <code>gemini-embedding-2</code> (Google, llave gratuita, lotes de cien textos, un lote por minuto, tope de mil textos al día por modelo).</p>
 <h2>4. Reserva: el ranking al centroide</h2>
 <p>Cómputo local sobre los vectores guardados:</p>
