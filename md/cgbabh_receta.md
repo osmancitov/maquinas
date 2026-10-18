@@ -57,7 +57,7 @@ La glosa es una de las tres piezas de la página: las frases originales, los pue
 
 ## 7. Traducción y puentes
 
-Cada cita va en su idioma original, con la traducción al castellano debajo. Entre cita y cita, los puentes en cursiva cuentan lo que ocurre, abren la pieza y la orientan. Lo que se observa es el presupuesto del diez por ciento: la suma de las palabras de las tres piezas —las citas, los puentes y la glosa— ronda la décima parte de las palabras del capítulo original. El criterio para distribuir ese presupuesto entre citas, puentes y glosa queda por definir. Una prohibición: nunca se parafrasea lo que el texto ya dice; si la frase existe, se cita.
+Cada cita va en su idioma original, con la traducción al castellano debajo. Entre cita y cita, los puentes en cursiva cuentan lo que ocurre, abren la pieza y la orientan. Lo que se observa es el presupuesto del diez por ciento: la suma de las palabras de las tres piezas —las citas, los puentes y la glosa— ronda la décima parte de las palabras del capítulo original. Dentro de ese presupuesto aproximado del diez por ciento, se incluye glosa educativa donde se pueda. Una prohibición: nunca se parafrasea lo que el texto ya dice; si la frase existe, se cita.
 
 ## 8. Texto de presentación (fijo)
 
