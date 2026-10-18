@@ -23,5 +23,5 @@
 - Total del corte de hoy hasta las 17:27: 27 mensajes, 0 DMs.
 
 ## Pendiente de Osmancito
-- Debian Reference: lectura guiada desde cero.
+- Ninguno.
 💬 261 · 🎙️ 0 · ✉️ 2 · 🎖️ 17
