@@ -4,6 +4,14 @@ Osmancito, con la asistencia de Instinct
 
 Lo que se hizo cada día en X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y las demás redes donde Osmancito deja huella y tiene contacto con el mundo, del día más reciente al más antiguo.
 
+## 17 de octubre de 2026
+
+- Mastodon (@osmancito@mastodon.social): 9 respuestas públicas entre las 10:25 y medianoche: KFears (1, formato de código), tassoman (2, audio Bluetooth), misora (1, Plasma e i3), OrionKidder (2, Debian en Mac T2) y kolev (3, Gemini y Amfora).
+- X (@LibretoStar): 1 respuesta a Jérémy Lal (@kapouer), en el hilo de Debian y Ubuntu, a las 18:02.
+- Slack: 1 respuesta a Carlos Molina Galindo en introductions, a las 13:30.
+- Bluesky y Matrix: 0 mensajes en este corte.
+- Total del corte: 11 mensajes, 0 DMs.
+
 ## 16 de octubre de 2026
 
 - X (@LibretoStar): cierre de la campana nocturna — respuesta a Farah (Foreigner Thoughts), que nos siguió después; A. Sharma retomó nuestra observación sobre las notas con referencias.
