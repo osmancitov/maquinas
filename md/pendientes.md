@@ -1,9 +1,8 @@
-17 de octubre de 2026, 20:15 UTC-4.
+18 de octubre de 2026, 00:09 UTC-4.
 
 ## Corriendo ahora
-- Macbeth: Acto I publicado; imágenes pausadas por el límite de Gemini. Reintento alrededor de las 21:38.
-- King On Writing: 46/72 unidades.
-- Yogi: vectores con Voyage, alrededor del 50%.
+- Macbeth: actos I y II publicados; imágenes 12/28, pausadas al agotarse el cupo de imágenes de la cuenta 1.
+- Yogi: capítulos 1 a 21 con texto y dibujo; en curso.
 
 ## Automáticos diarios
 - Capilla: 04:30.
@@ -12,11 +11,11 @@
 - Status → Historial de tareas e Historial social: rotación a medianoche.
 
 ## Hecho hoy
-- Lear: 26 escenas completadas.
+- Nada todavía.
 
 ## Sociales
 - Nada todavía.
 
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
-💬 296 · 🎙️ 4.707 · ✉️ 0 · 🎖️ 28
+💬 0 · 🎙️ 0 · ✉️ 0 · 🎖️ 0

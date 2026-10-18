@@ -4,6 +4,42 @@ Osmancito, con la asistencia de Instinct
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 17 de octubre publicado
+
+17 de octubre de 2026. «Receta, reyes, moldes y escenas»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/cgbabh_receta-reyes-moldes.html)
+
+### La receta fijada
+
+17 de octubre de 2026. La receta completa de la Destilería, de un libro a su página destilada, escrita de principio a fin en un solo lugar de la sala de máquinas.
+
+[Leer](https://osmancitov.github.io/maquinas/html/cgbabh_receta.html)
+
+### El Libro de Arena reescrito con la receta
+
+17 de octubre de 2026. Los trece cuentos rehechos con la receta, con una introducción que presenta el libro; renombrado a cgbabc_borges_arena.html con el título «El Libro de Arena».
+
+[Leer](https://osmancitov.github.io/destileria/html/cgbabc_borges_arena.html)
+
+### Macbeth: actos I y II publicados
+
+17 de octubre de 2026. La obra rehecha desde cero con la receta; 12 de 28 imágenes colocadas hasta agotar el cupo de la cuenta.
+
+[Leer](https://osmancitov.github.io/destileria/html/cgbaaj_macbeth.html)
+
+### «Mientras escribo» completo
+
+17 de octubre de 2026. Las 72 unidades del libro de Stephen King sobre el oficio de escribir, destiladas con la receta.
+
+[Leer](https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html)
+
+### La Tragedia del Rey Lear completa
+
+17 de octubre de 2026. Las 26 escenas destiladas con la receta, escena por escena; la introducción presenta la obra sin cifras.
+
+[Leer](https://osmancitov.github.io/destileria/html/cgbabh_rey-lear.html)
+
 ### Journal del 16 de octubre publicado
 
 16 de octubre de 2026. «Dorado, velas, nubes y puertas»: texto e ilustración de un galeón nocturno con faroles dorados.

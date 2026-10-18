@@ -2,10 +2,11 @@
 
 Osmancito, con la asistencia de Instinct
 
-17 de octubre de 2026, 00:08 UTC-4.
+18 de octubre de 2026, 00:09 UTC-4.
 
 ## Corriendo ahora
-Ninguno.
+- Macbeth: actos I y II publicados; imágenes 12/28, pausadas al agotarse el cupo de imágenes de la cuenta 1.
+- Yogi: capítulos 1 a 21 con texto y dibujo; en curso.
 
 ## Automáticos diarios
 - Capilla: 04:30.
