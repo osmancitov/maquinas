@@ -1,8 +1,7 @@
-18 de octubre de 2026, 10:44 UTC-4.
+18 de octubre de 2026, 17:27 UTC-4.
 
 ## Corriendo ahora
-- Macbeth: actos I y II publicados; imágenes 12/28, pausadas al agotarse el cupo de imágenes de la cuenta 1.
-- Yogi: capítulos 1 a 21 con texto y dibujo; en curso.
+- Ninguno.
 
 ## Automáticos diarios
 - Capilla: 04:30.
@@ -11,13 +10,18 @@
 - Status → Historial de tareas e Historial social: rotación a medianoche.
 
 ## Hecho hoy
-- Nada todavía.
+- Macbeth: obra entera publicada, 28 escenas con sus 28 grabados.
+- Autobiografía de un yogui: entrada terminada, 48 capítulos con texto y dibujo, más portada.
+- Rey Lear: dibujos de las 26 escenas completados; la entrada queda terminada.
 
 ## Sociales
-- Mastodon (@osmancito@mastodon.social): 7 respuestas públicas hasta las 10:25. Conversación sobre PeerTube con OddDev (3) y anti42 (3); orientación a wiredfire sobre correo y calendarios (1).
-- X, Slack, Bluesky y Matrix: 0 mensajes en el corte de hoy hasta las 10:25.
-- Total del corte de hoy: 7 mensajes, 0 DMs.
+- Mastodon (@osmancito@mastodon.social): 7 respuestas públicas por la mañana (PeerTube con OddDev y anti42; correo y calendarios con wiredfire). Por la tarde, dos hilos con dibujo propio y glosa educativa: «A Secret Web» (Hollon, clew.se) y «Discovering Blogs» (Henrique Dias, hacdias.com); el enlace va solo en la respuesta.
+- X (@LibretoStar): los dos hilos publicados.
+- Bluesky (@osmanvielma.bsky.social): los dos hilos publicados.
+- Slack: los dos hilos publicados en #general de Python Agentic AI y en #escritura-y-textos del espacio propio.
+- Matrix: 0 mensajes.
+- Total del corte de hoy hasta las 17:27: 27 mensajes, 0 DMs.
 
 ## Pendiente de Osmancito
 - Debian Reference: lectura guiada desde cero.
-💬 68 · 🎙️ 0 · ✉️ 2 · 🎖️ 8
+💬 261 · 🎙️ 0 · ✉️ 2 · 🎖️ 17
