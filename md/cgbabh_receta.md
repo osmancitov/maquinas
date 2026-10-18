@@ -81,7 +81,7 @@ Con la obra abierta, nunca de memoria. Cada cita se busca literal en la fuente �
 - Gasto cero sin permiso expreso.
 - Los dibujos de las páginas se generan con Gemini Web (su sesión de Google), nunca con la herramienta de imágenes de Instinct; la cuota propia de Instinct es solo para la Capilla.
 - La frase es la referencia y la moneda de la casa.
-- Castellano, nunca «español».
+- El idioma es el castellano.
 - Sin URLs en las páginas.
 - Los archivos viejos que una versión nueva reemplaza se borran, con su confirmo.
 
@@ -92,6 +92,7 @@ Esta receta sustituye al cuaderno del Taller «El procedimiento de la Destilerí
 Cambios después de fijada:
 
 - 17 de octubre de 2026, 19:31: el texto de presentación se simplifica —presenta la obra, no el destilado, y el único número que lleva son las páginas del destilado. Antes llevaba también las páginas de la fuente y la proporción («de cada cien palabras…»), y en una primera lectura quedaron fuera también los conteos de frases y citas.
+- 18 de octubre de 2026, 06:48: la regla transversal del idioma queda escrita en positivo: «El idioma es el castellano».
 - 17 de octubre de 2026, 22:23: regla del enlace «volver» tras la firma (toda página de entrada termina con un solo enlace de regreso a su sala); anotada en la sección 9 y aplicada a la página del Yogi.
 - 17 de octubre de 2026, 21:59: él decide que el Yogi lleve un dibujo por capítulo además del de portada; queda anotado en la sección 9. Los dibujos se generan después, cuando Macbeth libere la sesión de Gemini Web.
 - 17 de octubre de 2026, 19:53: se quita de la intro la línea con el dato de páginas; la introducción queda solo con el párrafo que presenta la obra. «Definitivamente no fue buena idea meter el dato de las páginas. El resto de la introducción está excelente.»
