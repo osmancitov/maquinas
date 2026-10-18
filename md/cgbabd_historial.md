@@ -198,7 +198,7 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 12 de octubre de 2026. El Libro de Arena: una lectura breve de cada cuento con citas centrales.
 
-[Leer](https://osmancitov.github.io/destileria/html/cgbabc_arena-puentes.html)
+[Leer](https://osmancitov.github.io/destileria/html/cgbabc_borges_arena.html)
 
 ### Bóveda comprimida a ocho bits
 
