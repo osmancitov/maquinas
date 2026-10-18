@@ -5,7 +5,6 @@
 
 ## Automáticos diarios
 - Capilla: 04:30.
-- Warren Ellis: 09:00. Brief de sus correos nuevos, todos los temas.
 - Journal: alrededor de las 23:00.
 - Status → Historial de tareas e Historial social: rotación a medianoche.
 
