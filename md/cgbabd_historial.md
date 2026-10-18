@@ -90,11 +90,6 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 15 de octubre de 2026. Perfil en inglés verificado: titular, acerca de, experiencia, educación, habilidades e idiomas.
 
-### Pruebas de letra e interlineado
-
-15 de octubre de 2026. Dos páginas temporales para elegir tamaño y interlineado a ojo.
-
-[Leer](https://osmancitov.github.io/lh-test.html)
 
 ### Una sola piel para el sitio
 
