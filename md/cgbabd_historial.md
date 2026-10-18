@@ -90,7 +90,6 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 15 de octubre de 2026. Perfil en inglés verificado: titular, acerca de, experiencia, educación, habilidades e idiomas.
 
-
 ### Una sola piel para el sitio
 
 15 de octubre de 2026. Base de estilo en css/base.css (fondo tinta, Lora, Cinzel, oro antiguo, citas en itálica, interlineado 1.85) instalada en las 77 páginas de seis repos; cambiar el archivo cambia todas. La bodega conserva el suyo; las plantillas de Journal y Capilla ya lo usan.
