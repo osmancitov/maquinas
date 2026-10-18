@@ -53,11 +53,11 @@ De la reserva se eligen las citas una a una, con tres criterios:
 
 ## 6. Glosa nivel tres
 
-Cada cita lleva su glosa en castellano llano, de nivel escolar: explica lo que la cita supone —quién habla, qué pasó antes, la palabra rara— sin vocabulario de crítica. La glosa acompaña la decisión: la frase que necesita tres líneas de rescate para sostenerse confiesa que no entra.
+La glosa es una de las tres piezas de la página, con el mismo peso que las demás: las frases originales, los puentes que cubren los huecos y la glosa escuela que enseña cosas. Cada cita lleva su glosa en castellano llano, de nivel escolar y académico: explica lo que la cita supone —quién habla, qué pasó antes, la palabra rara— y enseña algo, sin vocabulario de crítica. La glosa acompaña la decisión: la frase que necesita tres líneas de rescate para sostenerse confiesa que no entra.
 
 ## 7. Traducción y puentes
 
-Cada cita va en su idioma original, con la traducción al castellano debajo. Entre cita y cita, los puentes en cursiva cuentan lo que ocurre, abren la pieza y la orientan. Una prohibición: nunca se parafrasea lo que el texto ya dice; si la frase existe, se cita.
+Cada cita va en su idioma original, con la traducción al castellano debajo, nunca más larga que la cita. Entre cita y cita, los puentes en cursiva cuentan lo que ocurre, abren la pieza y la orientan; cuando son buenos, no hay problema en que sean extensos. Lo que se observa es el presupuesto del diez por ciento: la suma de las palabras de las citas ronda la décima parte de las palabras del capítulo original. Una prohibición: nunca se parafrasea lo que el texto ya dice; si la frase existe, se cita.
 
 ## 8. Texto de presentación (fijo)
 
@@ -93,6 +93,8 @@ Cambios después de fijada:
 
 - 17 de octubre de 2026, 19:31: el texto de presentación se simplifica —presenta la obra, no el destilado, y el único número que lleva son las páginas del destilado. Antes llevaba también las páginas de la fuente y la proporción («de cada cien palabras…»), y en una primera lectura quedaron fuera también los conteos de frases y citas.
 - 18 de octubre de 2026, 06:48: la regla transversal del idioma queda escrita en positivo: «El idioma es el castellano».
+- 18 de octubre de 2026, 07:50: los puentes y la glosa, cuando son buenos, pueden ser extensos; lo que se observa es el presupuesto del 10% de la extensión del capítulo original, medido en las citas. Anotado en la sección 7.
+- 18 de octubre de 2026, 07:51: la glosa sube a primera pieza: «super importante es la glosa académica. Las tres cosas son importantes: las frases originales, los puentes que cubren los huecos, y la glosa escuela que enseñe cosas». Sección 6 reescrita.
 - 17 de octubre de 2026, 22:23: regla del enlace «volver» tras la firma (toda página de entrada termina con un solo enlace de regreso a su sala); anotada en la sección 9 y aplicada a la página del Yogi.
 - 17 de octubre de 2026, 21:59: él decide que el Yogi lleve un dibujo por capítulo además del de portada; queda anotado en la sección 9. Los dibujos se generan después, cuando Macbeth libere la sesión de Gemini Web.
 - 17 de octubre de 2026, 19:53: se quita de la intro la línea con el dato de páginas; la introducción queda solo con el párrafo que presenta la obra. «Definitivamente no fue buena idea meter el dato de las páginas. El resto de la introducción está excelente.»
