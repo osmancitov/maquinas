@@ -46,12 +46,6 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 [Leer](https://osmancitov.github.io/journal/html/cgbabg_dorado-velas-nubes.html)
 
-### La nube en 3D del Rey Lear
-
-16 de octubre de 2026. Página del Taller: la obra entera en una nube giratoria con dos motores a la vez, para comparar cómo cada uno reparte las frases; zoom y lectura por escena.
-
-[Leer](https://osmancitov.github.io/taller/html/cgbabg_nube-lear-3d.html)
-
 ### Puertas de noche
 
 16 de octubre de 2026. La del lobby, con el astro alumbrando la entrada; la de la Destilería, redibujada como la sala donde se sirven los destilados, con la mesa servida; la de Social nace ya de noche.
@@ -166,26 +160,6 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 13 de octubre de 2026. Los trece cuentos quedaron con puentes entre sí, y sus títulos se uniformaron en el Taller.
 
-### La nube de cercanía, entrada del Taller
-
-13 de octubre de 2026. Método y plantilla de la nube de cercanía, con su dibujo, publicados como cuaderno del Taller; luego recibió la nube en 3D de El Libro de Arena.
-
-[Leer](https://osmancitov.github.io/taller/html/cgbabj_nube-cercania.html)
-
-### Nube en 3D de El Libro de Arena actualizada
-
-13 de octubre de 2026. El contenido de cercanía al centro quedó en la dirección original, con su título y un dibujo arriba y como og:image. Conserva ejes, desplazamiento, zoom y navegación por cercanía; la página aparte se retiró.
-
-[Leer](https://osmancitov.github.io/taller/html/cgbabe_nube-arena-3d.html)
-
-### Diseño de la nube de Borges con varios prototipos
-
-13 de octubre de 2026. Se hicieron varios prototipos previos para explorar el diseño. Fueron retirados del sitio; la nube en 3D se conserva.
-
-### Mapa plano de Borges en cuatro modelos publicado
-
-13 de octubre de 2026. Cada punto abría una frase de El Libro de Arena; los cuatro modelos permitían comparar cómo se ordenan las frases. Fue retirado al ser superado por la nube en 3D.
-
 ### Macbeth completo con Gemma
 
 13 de octubre de 2026. Las 1.479 frases quedaron traducidas. La revisión literaria de las 236 recuperadas terminó: nota global 9,47/10 y las 20 más débiles corregidas.
@@ -251,10 +225,6 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 ### Firma unificada
 
 11 de octubre de 2026. Las publicaciones adoptan la firma: Osmancito, con la asistencia de Instinct.
-
-### Primer mapa plano de Borges publicado
-
-10 de octubre de 2026. El primer mapa de El Libro de Arena permitía abrir una frase en cada punto. Fue retirado al ser superado por la nube en 3D.
 
 ### Protocolos disponibles en HTML
 
