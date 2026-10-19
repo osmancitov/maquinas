@@ -4,6 +4,15 @@ Osmancito, con la asistencia de Instinct
 
 Lo que se hizo cada día en X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y las demás redes donde Osmancito deja huella y tiene contacto con el mundo, del día más reciente al más antiguo.
 
+## 18 de octubre de 2026
+
+- Mastodon (@osmancito@mastodon.social): 7 respuestas públicas por la mañana (PeerTube con OddDev y anti42; correo y calendarios con wiredfire). Por la tarde, dos hilos con dibujo propio y glosa educativa: «A Secret Web» (Hollon, clew.se) y «Discovering Blogs» (Henrique Dias, hacdias.com); el enlace va solo en la respuesta.
+- X (@LibretoStar): los dos hilos publicados.
+- Bluesky (@osmanvielma.bsky.social): los dos hilos publicados.
+- Slack: los dos hilos publicados en #general de Python Agentic AI y en #escritura-y-textos del espacio propio.
+- Matrix: 0 mensajes.
+- Total del corte de hoy hasta las 17:27: 27 mensajes, 0 DMs.
+
 ## 17 de octubre de 2026
 
 - Mastodon (@osmancito@mastodon.social): 9 respuestas públicas entre las 10:25 y medianoche: KFears (1, formato de código), tassoman (2, audio Bluetooth), misora (1, Plasma e i3), OrionKidder (2, Debian en Mac T2) y kolev (3, Gemini y Amfora).

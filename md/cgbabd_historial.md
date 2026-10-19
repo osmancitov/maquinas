@@ -4,6 +4,18 @@ Osmancito, con la asistencia de Instinct
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Rey Lear terminado
+
+18 de octubre de 2026. Dibujos de las 26 escenas completados; la entrada queda terminada.
+
+### Autobiografía de un yogui terminada
+
+18 de octubre de 2026. Entrada terminada, 48 capítulos con texto y dibujo, más portada.
+
+### Macbeth publicado completo
+
+18 de octubre de 2026. Obra entera publicada, 28 escenas con sus 28 grabados.
+
 ### Journal del 17 de octubre publicado
 
 17 de octubre de 2026. «Receta, reyes, moldes y escenas»: texto e ilustración.
