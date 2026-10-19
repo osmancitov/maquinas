@@ -74,8 +74,6 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 16 de octubre de 2026. Cuaderno del Taller: los 39 permisos del token fine-grained explicados por tema, cuáles usamos hoy y cuál faltaba.
 
-[Leer](https://osmancitov.github.io/taller/html/cgbabg_permisos-github.html)
-
 ### Sala nueva: Social
 
 16 de octubre de 2026. Séptima sala del hotel: mapas y notas para vivir en las redes, protocolos abiertos y directorios curados. Estrena tres entradas: «El protocolo Matrix», «Encontrar salas» y «El universo RSS».
