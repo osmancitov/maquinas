@@ -64,3 +64,8 @@ Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, c
 52. Títulos de obras en Title Case («El Libro de Arena», «El Otro»): en títulos de página, og tags, índices de sala y prosa; las citas y los nombres de archivo quedan intactos. *(hotel-sitio)*
 53. Él navega el sitio, no las rutas: mientras trabaja una página va a la sala y busca la entrada; decir «está en Bodega 110» es suficiente. *(2026-10-13 · hotel-sitio)*
 
+
+
+## Publicación programada
+
+54. La Capilla sale servida a las 05:00 (el trabajo arranca a las 04:30); el Journal sale hacia las 23:00; a medianoche el Status pasa al Historial en el repo maquinas. *(autonomy, 2026-10-14)*
