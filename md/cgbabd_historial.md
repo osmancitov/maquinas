@@ -4,6 +4,46 @@ Osmancito, con la asistencia de Instinct
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Investigación de hashtags
+
+19 de octubre de 2026. Cuánto pesan hoy los hashtags en X, Mastodon y Bluesky: casi nada en X, decisivos en Mastodon, señal fina en Bluesky. Solo investigación, con fuentes.
+
+### Dos imágenes para la cita de Butler
+
+19 de octubre de 2026. «Otro huevo» y «El camino del huevo», generadas en Gemini con el protocolo n104 en formato 1:1; quedan sin publicar.
+
+### Regla 55: identidad de commits
+
+19 de octubre de 2026. Todas las reglas suma la 55: todo commit de cualquier repo de osmancitov se firma con el correo personal de Osmancito, como autor y como committer.
+
+[Leer](https://osmancitov.github.io/maquinas/html/cgbabi_todas-las-reglas.html)
+
+### Identidad de commits limpia en los tres repos
+
+19 de octubre de 2026. Reescrito el historial de maquinas, taller y lobby para retirar 73 commits firmados con una identidad noreply ajena; todo commit queda a nombre de Osmancito.
+
+### Journal del 19 de octubre publicado
+
+19 de octubre de 2026. «Nombres, medidas, mirada y firma»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/cgbabj_nombres-medidas-mirada.html)
+
+### Alambique - Imagen General
+
+19 de octubre de 2026. Entrada nueva del Taller: el protocolo recibe un fragmento de texto y devuelve el prompt de su imagen.
+
+[Leer](https://osmancitov.github.io/taller/html/cgbabj_alambique-imagen-general.html)
+
+### Tres entradas obsoletas fuera del Taller
+
+19 de octubre de 2026. Eliminadas «Cómo escribir un manual sobre cómo escribir manuales», «Los permisos de GitHub» y «Ramillete y ventana», sin enlaces huérfanos.
+
+### Las medidas de On Writing publicadas
+
+19 de octubre de 2026. Entrada nueva del Taller con las medidas del C.V. de «Mientras escribo» de King, encabezada por el ranking de menciones; la sala del Taller recuperó su texto.
+
+[Leer](https://osmancitov.github.io/taller/html/cgbabj_medidas-on-writing.html)
+
 ### Rey Lear terminado
 
 18 de octubre de 2026. Dibujos de las 26 escenas completados; la entrada queda terminada.

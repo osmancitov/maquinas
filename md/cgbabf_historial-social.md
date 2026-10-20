@@ -4,6 +4,15 @@ Osmancito, con la asistencia de Instinct
 
 Lo que se hizo cada día en X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y las demás redes donde Osmancito deja huella y tiene contacto con el mundo, del día más reciente al más antiguo.
 
+## 19 de octubre de 2026
+
+- X (@LibretoStar): la cita de Butler con dibujo publicada por la mañana y borrada a su pedido por el dibujo mediocre.
+- Mastodon (@osmancito@mastodon.social): la misma cita, publicada y borrada.
+- Bluesky (@osmanvielma.bsky.social): la misma cita, publicada y borrada.
+- Slack: la cita publicada en #escritura-y-textos y borrada; tarde de exploración del workspace propio.
+- Matrix: borrador del post sobre el protocolo Matrix listo, sin publicar.
+- Investigación de hashtags: en X casi no pesan (0-1 por post), en Mastodon son la vía de descubrimiento, en Bluesky sirven 1-2 precisos.
+
 ## 18 de octubre de 2026
 
 - Mastodon (@osmancito@mastodon.social): 7 respuestas públicas por la mañana (PeerTube con OddDev y anti42; correo y calendarios con wiredfire). Por la tarde, dos hilos con dibujo propio y glosa educativa: «A Secret Web» (Hollon, clew.se) y «Discovering Blogs» (Henrique Dias, hacdias.com); el enlace va solo en la respuesta.
