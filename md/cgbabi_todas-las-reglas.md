@@ -72,4 +72,4 @@ Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, c
 
 ## Commits
 
-55. Todo commit sale con osmanvielma@gmail.com como autor y como committer. Con ningún otro correo. *(2026-10-19)*
+55. Identidad de commits. Todo commit, de cualquier repositorio de osmancitov, se firma con el correo personal de Osmancito como autor y como committer. Ningún agente ni proceso usa otra identidad ni la configura por su cuenta; si no puede firmar así, se detiene y avisa. *(2026-10-19)*
