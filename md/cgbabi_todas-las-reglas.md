@@ -69,3 +69,7 @@ Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, c
 ## Publicación programada
 
 54. La Capilla sale servida a las 05:00 (el trabajo arranca a las 04:30); el Journal sale hacia las 23:00; a medianoche el Status pasa al Historial en el repo maquinas. *(autonomy, 2026-10-14)*
+
+## Commits
+
+55. Nunca hagas un commit con otro email que no sea el mío, osmanvielma@gmail.com, nunca. *(2026-10-19)*
