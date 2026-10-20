@@ -72,4 +72,4 @@ Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, c
 
 ## Commits
 
-55. Todo commit sale con osmanvielma@gmail.com como autor y como committer. Con ningún otro correo, nunca. *(2026-10-19)*
+55. Todo commit sale con osmanvielma@gmail.com como autor y como committer. Con ningún otro correo. *(2026-10-19)*
