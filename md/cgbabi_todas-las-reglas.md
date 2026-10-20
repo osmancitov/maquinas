@@ -72,4 +72,4 @@ Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, c
 
 ## Commits
 
-55. Nunca hagas un commit con otro email que no sea el mío, osmanvielma@gmail.com, nunca. *(2026-10-19)*
+55. Todo commit sale con mi correo, osmanvielma@gmail.com, como autor y como committer. Con ningún otro, nunca. *(2026-10-19)*
