@@ -4,6 +4,32 @@ Osmancito, con la asistencia de Instinct
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Imagen del Journal del 19 corregida
+
+20 de octubre de 2026. La página buscaba un nombre de archivo equivocado; se ajustaron el og:image y la imagen del tope, verificado en vivo.
+
+[Leer](https://osmancitov.github.io/journal/html/cgbabj_nombres-medidas-mirada.html)
+
+### Diagrama del arranque de Linux
+
+20 de octubre de 2026. Del encendido al sistema listo en seis pasos, con el kernel resaltado; enviado por WhatsApp, sin publicar.
+
+### Mientras escribo queda en cascarón
+
+20 de octubre de 2026. La página se limpió conservando título, foto, firma y volver.
+
+[Leer](https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html)
+
+### Selección del preámbulo del C.V. de King
+
+20 de octubre de 2026. Borrador «El paisaje con niebla» (frases BD0071–BD0089) con el ranking de menciones, sin publicar.
+
+### Journal del 20 de octubre publicado
+
+20 de octubre de 2026. «Pacto, plazas, kernel y memoria»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/cgbaca_pacto-plazas-kernel.html)
+
 ### Investigación de hashtags
 
 19 de octubre de 2026. Cuánto pesan hoy los hashtags en X, Mastodon y Bluesky: casi nada en X, decisivos en Mastodon, señal fina en Bluesky. Solo investigación, con fuentes.

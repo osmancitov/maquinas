@@ -2,7 +2,7 @@
 
 Osmancito, con la asistencia de Instinct
 
-20 de octubre de 2026, 00:11 UTC-4.
+21 de octubre de 2026, 00:06 UTC-4.
 
 ## Corriendo ahora
 - Ninguno.
@@ -20,4 +20,4 @@ Osmancito, con la asistencia de Instinct
 
 ## Pendiente de Osmancito
 - Ninguno.
-💬 518 · 🎙️ 0 · ✉️ 3 · 🎖️ 0
+💬 177 · 🎙️ 0 · ✉️ 0 · 🎖️ 0

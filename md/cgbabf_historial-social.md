@@ -4,6 +4,13 @@ Osmancito, con la asistencia de Instinct
 
 Lo que se hizo cada día en X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y las demás redes donde Osmancito deja huella y tiene contacto con el mundo, del día más reciente al más antiguo.
 
+## 20 de octubre de 2026
+
+- Mastodon (@osmancito@mastodon.social): la cita de Butler publicada (en Bluesky y X no salió por esta vía); respuesta a Bob Doto en el hilo de la caja de fichas; hilo «Strange Correspondents» de dos posts con dibujos propios; hashtags medidos en vivo para elegir los de cada post.
+- Bluesky (@osmanvielma.bsky.social): el hilo «Strange Correspondents» publicado.
+- X (@LibretoStar): el hilo «Strange Correspondents» publicado.
+- Bio nueva «Distilling text. Learning. Curious.» en Mastodon y Bluesky, verificada en vivo.
+
 ## 19 de octubre de 2026
 
 - X (@LibretoStar): la cita de Butler con dibujo publicada por la mañana y borrada a su pedido por el dibujo mediocre.
