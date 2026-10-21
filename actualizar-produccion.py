@@ -21,9 +21,9 @@ DURANTE EL DÍA
 PROCEDIMIENTO DE MEDIANOCHE (00:00 UTC-4, el día que termina es el de ayer)
   1. git pull --rebase origin main
   2. Revisar el borrador: que tenga todo lo terminado ese día. Lo que falte se añade con
-       python3 lab/actualizar-produccion.py --anota "Título" "Detalle en una o dos frases" ["url"] --fecha AAAA-MM-DD
-  3. Probar sin escribir:  python3 lab/actualizar-produccion.py --cierra-dia --dry-run
-  4. Cerrar el día:        python3 lab/actualizar-produccion.py --cierra-dia
+       python3 actualizar-produccion.py --anota "Título" "Detalle en una o dos frases" ["url"] --fecha AAAA-MM-DD
+  3. Probar sin escribir:  python3 actualizar-produccion.py --cierra-dia --dry-run
+  4. Cerrar el día:        python3 actualizar-produccion.py --cierra-dia
      Esto hace: pasa las líneas del borrador al principio del historial como bloques con su fecha, vacía el borrador,
      deja "## Hecho hoy" de Estado en "- Nada todavía.", pasa las viñetas de "## Sociales" al principio del
      historial social bajo la fecha del día que termina y deja ese bloque en "- Nada todavía.", y regenera los md y html de las tres páginas.
@@ -38,7 +38,7 @@ from pathlib import Path
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-root=Path(__file__).resolve().parents[1]
+root=Path(__file__).resolve().parents[0]
 p=argparse.ArgumentParser(description='Regenera Estado actual, Historial de tareas e Historial social; ver cabecera para el cierre del día.')
 p.add_argument('--pendientes',type=Path,default=root/'md/pendientes.md')
 p.add_argument('--cierra-dia',action='store_true',help='mueve el borrador del día al historial y vacía "Hecho hoy"')
