@@ -5,7 +5,7 @@ Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, c
 ## Escritura pública
 
 1. Libro abierto: puentes y contexto se escriben con la fuente abierta, verificados línea por línea, nunca de memoria. *(2026-10-09 · escritura-publica)*
-2. Cada HTML publicado lleva su propio dibujo arriba, que sirve además de og:image, en la resolución nativa de Gemini, sin redimensionar: 1024×506 las anchas (páginas HTML y og:image) y 1024×1024 las cuadradas, para redes sociales o casos específicos; JPG al 80 %, nombre de archivo con el código de iniciados y el nombre de la página. *(2026-10-21 · escritura-publica)*
+2. Cada HTML publicado lleva su propio dibujo arriba, que sirve además de og:image, hecho con el módulo Alambique Imagen Pintor del Taller, con la proporción que cada caso necesite, sin resoluciones fijas, sin recortar ni estirar; JPG al 75 %, nombre de archivo con el código de iniciados y el nombre de la página. *(2026-10-21 · escritura-publica)*
 3. Las URL largas no aparecen como texto visible del enlace (rompen el scroll horizontal del teléfono): se usa una etiqueta corta. *(escritura-publica)*
 4. Listas en las páginas índice: lo más nuevo arriba; a igual fecha, orden por lógica de la obra. *(escritura-publica)*
 
@@ -24,7 +24,7 @@ Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, c
 15. Entradas de recuperación: se fechan en el día vivido, aunque él las dicte por partes a la mañana siguiente. *(journal-y-titulos)*
 16. El Journal como «historieta»: «Que el incauto que lo lea tenga la impresión de que mi vida es bonita e interesante.» *(2026-10-06 · journal-y-titulos)*
 17. Títulos del Taller: artículo más sustantivo, como un plato en un menú; de 3 a 6 palabras, sin dos puntos ni gerundios, de largo parecido; los créditos van dentro del cuaderno, no en el título de la lista. *(2026-10-06 · journal-y-titulos)*
-18. Una ilustración y una página HTML por entrada: un dibujo (estilo n105; el pintor del Journal es Rembrandt, claroscuro) arriba, tras el título, y su página con imagen, fecha, firma y rúbricas; el índice `journal.html` se mantiene al día. Una sola imagen, no el par n105. *(2026-10-11 · journal-y-titulos)*
+18. Una ilustración y una página HTML por entrada: un dibujo (hecho con el Alambique Imagen Pintor; el pintor del Journal es Rembrandt, claroscuro) arriba, tras el título, y su página con imagen, fecha, firma y rúbricas; el índice `journal.html` se mantiene al día. Una sola imagen por entrada. *(2026-10-11 · journal-y-titulos)*
 19. Sin habla de amigos en las entradas publicadas: los chistes dichos en confianza en el chat no se citan. «Ficha» se queda como la palabra del Journal para token. *(2026-10-11 · journal-y-titulos)*
 20. El Journal como novela ilustrada: con el dibujo arriba y el texto abajo se lee como «una especie de novelita»; su materia apunta a un público estrecho («quizás nosotros mismos»). *(2026-10-12 · journal-y-titulos)*
 
@@ -53,9 +53,9 @@ Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, c
 41. Nombres de archivo serializados: 001 es el más viejo; las listas del README descienden del número mayor. Raíz corta, contenido en carpetas; las carpetas de contenido se llaman `md/`. *(hotel-sitio)*
 42. «quitar quitar y quitar y seguir quitando»: recorta taglines, citas, divisores y pies con agresividad; palabras de pie llanas («volver», «Subir»). *(hotel-sitio)*
 43. No llamar «sociales» a las imágenes, ni en prosa ni en nombres de archivo: ese es el término interno de GitHub. *(hotel-sitio)*
-44. Checklist de sala nueva: imagen de puerta, JPG al 80 %, og tags, listado en el lobby, fila de navegación en cada README, sección de entradas en el README. *(2026-10-07 · hotel-sitio)*
-45. Imágenes de puertas: ilustración n105, cada puerta con su propio estilo de pintor, 1280×640 con borde seguro de 40 pt, puesta como Social preview del repo y og:image; JPG al 80 % («eso es fijo»). *(2026-10-07 · hotel-sitio)*
-46. Toda página publicada lleva su dibujo arriba, usado como og:image, JPG al 80 %. Instinct propone una opción literal y una simbólica, y elige: literal por defecto; simbólica cuando convenga. *(2026-10-12 · hotel-sitio)*
+44. Checklist de sala nueva: imagen de puerta, JPG al 75 %, og tags, listado en el lobby, fila de navegación en cada README, sección de entradas en el README. *(2026-10-07 · hotel-sitio)*
+45. Imágenes de puertas: hechas con el Alambique Imagen Pintor del Taller, cada puerta con su propio estilo de pintor, puesta como Social preview del repo y og:image; JPG al 75 %. *(2026-10-07 · hotel-sitio)*
+46. Toda página publicada lleva su dibujo arriba, usado como og:image, hecho con el Alambique Imagen Pintor, JPG al 75 %. *(2026-10-12 · hotel-sitio)*
 47. Las puertas se quedan en la paleta oscura y cálida de la casa (para cambiar una se sobrescribe el mismo archivo); los dibujos de las entradas son libres: «de día de noche, con total libertad». *(2026-10-16 · hotel-sitio)*
 48. Cada página de sala lleva sus propios og tags, para que los enlaces compartidos muestren miniatura (él quiere el nombre común: «og tags» / «los meta tags»); favicon heredado de la raíz del lobby. *(hotel-sitio)*
 49. Toda entrada visible en HTML tiene su propia página HTML: ningún clic salta al visor de Markdown de GitHub. MD y HTML son gemelos («morochos, gemelos, espejos»): siempre cambian juntos. *(2026-10-13 · hotel-sitio)*

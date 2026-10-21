@@ -66,7 +66,7 @@ Si solo hay una señal para un elemento, se marca con duda explícita y se prese
 
 ## Notación de imágenes
 
-Los prompts de imagen se escriben en prosa continua, no en formulario. Cada prompt nombra el estilo pictórico elegido y por qué la forma del corpus lo pide. Toda imagen de la Destilería: sin fotorrealismo, relación 5:8, etiqueta discreta en la esquina inferior con el sello DESTILERÍA OSMANCITO (el texto completo de la etiqueta lo fija cada serie). Título en negrita de dos a cuatro palabras sobre cada prompt.
+Los prompts de imagen se escriben en prosa continua, no en formulario. Cada prompt nombra el estilo pictórico elegido y por qué la forma del corpus lo pide. Toda imagen de la Destilería: sin fotorrealismo, con la proporción que el caso necesite, etiqueta discreta en la esquina inferior con el sello DESTILERÍA OSMANCITO (el texto completo de la etiqueta lo fija cada serie). Título en negrita de dos a cuatro palabras sobre cada prompt.
 
 Cada prompt va seguido de su bloque HTML para Pandoc, sin alterar clases ni atributos. La ruta usa el `slug` del YAML y el nombre de la serie que el protocolo declare (`_presentacion_`, `_atmosfera_`, `_s`), con número correlativo:
 

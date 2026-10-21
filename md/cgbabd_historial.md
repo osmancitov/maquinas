@@ -58,7 +58,6 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 19 de octubre de 2026. Entrada nueva del Taller: el protocolo recibe un fragmento de texto y devuelve el prompt de su imagen.
 
-[Leer](https://osmancitov.github.io/taller/html/cgbabj_alambique-imagen-general.html)
 
 ### Tres entradas obsoletas fuera del Taller
 
@@ -176,7 +175,6 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 15 de octubre de 2026. Publicado en el Taller, con el protocolo renombrado.
 
-[Leer](https://osmancitov.github.io/taller/html/cgbabf_imagen-alambique.html)
 
 ### Páginas corregidas
 
