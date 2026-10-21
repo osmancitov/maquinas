@@ -75,7 +75,6 @@ Cada línea es una preferencia o instrucción permanente. Estado al 11 de octubr
 
 ## 7. Scripts y terminal
 
-- Los scripts son archivos `.sh` en `lab/`, comentados en castellano para enseñar. Se le dice la ruta.
 - Se parte de cero en cada corrida, no se reanuda una rota.
 - Para pruebas de cuota: un solo pedido, sin reintentos.
 
