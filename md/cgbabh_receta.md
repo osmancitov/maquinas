@@ -2,7 +2,7 @@
 
 # La receta
 
-![Sala de máquinas](../img/maquinas.jpg)
+[![Sala de máquinas](../img/maquinas.jpg)](../img/maquinas.jpg)
 
 La receta completa de la Destilería, de principio a fin: de un libro a su página destilada. Queda fijada el 17 de octubre de 2026 («la misma receta, 1, con glosa nivel 3 escuela. Esa receta va fija de ahora en adelante hasta que consigamos una mejor»). Vive en este archivo y en ningún otro; lo que la cambie, la cambia aquí.
 
