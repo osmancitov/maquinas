@@ -300,7 +300,6 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 10 de octubre de 2026. Veinticuatro páginas publicadas y vinculadas desde la Destilería.
 
-[Leer](https://osmancitov.github.io/maquinas/html/cgbabe_protocolos-antiguos.html)
 
 ### Macbeth en ocho frases publicado
 

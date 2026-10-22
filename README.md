@@ -14,4 +14,3 @@ La expresión "sala de máquinas" nombra el espacio de un barco que alberga los 
 - [Los motores](md/cgbabd_motores.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_motores.html): los modelos de lectura usados para traducir, revisar y comparar textos.
 - [Preferencias generales](md/cgbabe_preferencias-generales.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabe_preferencias-generales.html): Las preferencias y reglas permanentes con que trabaja Instinct.
 - [Preferencias sociales](md/cgbabg_preferencias-sociales.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabg_preferencias-sociales.html): cómo se presenta y cómo conversa Osmancito en sus redes.
-- [Protocolos antiguos](md/cgbabe_protocolos-antiguos.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabe_protocolos-antiguos.html): los textos con que la Destilería funcionó en su primera etapa.

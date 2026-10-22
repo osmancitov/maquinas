@@ -87,7 +87,7 @@ Con la obra abierta, nunca de memoria. Cada cita se busca literal en la fuente �
 
 ## Historia
 
-Esta receta sustituye al cuaderno del Taller «El procedimiento de la Destilería» (14 de octubre de 2026) y a todo lo que ese absorbió: la Receta 2.0, los criterios de corpus, la medida de significado, el mapa del corpus y el demi-glace. Los Protocolos antiguos quedan como están: son la primera etapa, ya declarada historia.
+Esta receta sustituye al cuaderno del Taller «El procedimiento de la Destilería» (14 de octubre de 2026) y a todo lo que ese absorbió: la Receta 2.0, los criterios de corpus, la medida de significado, el mapa del corpus y el demi-glace.
 
 Cambios después de fijada:
 
