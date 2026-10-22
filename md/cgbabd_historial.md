@@ -304,3 +304,7 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 ### Primer mapa de Macbeth
 
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
+
+<!-- BORRADOR-DEL-DIA
+21 de octubre de 2026 | Mientras escribo: tramo 2 del C.V. | «El niño forzudo», segundo tramo del C.V. de King (BD0090–BD0106): ganaron la BD0103 y la BD0104, con su dibujo | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
+-->

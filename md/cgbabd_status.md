@@ -13,7 +13,7 @@
 - Status → Historial de tareas e Historial social: rotación a medianoche.
 
 ## Hecho hoy
-- Nada todavía.
+- «Mientras escribo» (Destilería): segundo tramo del C.V. de King, «El niño forzudo» (BD0103 y BD0104), con su dibujo.
 
 ## Sociales
 - Nada todavía.
