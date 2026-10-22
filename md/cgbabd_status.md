@@ -17,6 +17,7 @@
 - «Mientras escribo» (Destilería): tercer tramo del C.V. de King, «Siete huevos» (Frases 134, 137, 139, 140 y 160), con su dibujo; Frases Selectas pide escribir para el lector cero.
 - «Mientras escribo» (Destilería): cuarto tramo del C.V. de King, «El tejado» (Frase 165), con su dibujo.
 - «Mientras escribo» (Destilería): quinto tramo del C.V. de King, «Ver morir» (Frase 175), con su dibujo.
+- «Mientras escribo» (Destilería): sexto tramo del C.V. de King, «No va a doler» (Frases 184, 196, 198, 213 y 232), con su dibujo.
 
 ## Sociales
 - Nada todavía.
