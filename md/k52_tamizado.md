@@ -69,7 +69,7 @@ Para cada estilo produce un prompt completo en castellano con:
 - Sin personas. Sin texto decorativo. Solo las muestras, la superficie, la luz y el eje
 - Instrucción final de atmósfera: lo que la imagen debe producir en quien la ve
 
-Cada prompt termina con: Sin fotorealismo. Si el encargo da una proporción, se añade: Relación de aspecto [la proporción].
+Cada prompt termina con: Sin fotorealismo. Relación de aspecto 5:8.
 
 **Formato de cada prompt:**
 

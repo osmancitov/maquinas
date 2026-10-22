@@ -19,6 +19,4 @@ Cada prompt incluye el siguiente bloque de encabezado html:
   </figure>
 </div>
 
-Cada prompt termina con: "Sin fotorrealismo. Etiqueta discreta en esquina inferior: DESTILERÍA OSMANCITO · [Título de la imagen]."
-
-Si el encargo da una proporción, se pide al final del prompt; si no, ninguna.
+Cada prompt termina con: "Sin fotorrealismo. Etiqueta discreta en esquina inferior: DESTILERÍA OSMANCITO · [Título de la imagen] . Relación de aspecto 5:8."
