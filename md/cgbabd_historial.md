@@ -296,10 +296,6 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 [Leer](https://osmancitov.github.io/journal/journal.html)
 
-### Firma unificada
-
-11 de octubre de 2026. Las publicaciones adoptan la firma: Osmancito, con la asistencia de Instinct.
-
 ### Protocolos disponibles en HTML
 
 10 de octubre de 2026. Veinticuatro páginas publicadas y vinculadas desde la Destilería.
