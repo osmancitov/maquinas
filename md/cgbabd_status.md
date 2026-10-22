@@ -2,7 +2,7 @@
 
 © 2026 Osmancito
 
-22 de octubre de 2026, 08:21 UTC-4.
+22 de octubre de 2026, 08:24 UTC-4.
 
 ## Corriendo ahora
 - Ninguno.
@@ -37,6 +37,8 @@
 - «Mientras escribo» (Destilería): decimosexto tramo del C.V. de King, «Happy Stamps» (Frases 443, 448, 455 y 460), con su dibujo.
 
 - «Mientras escribo» (Destilería): decimoséptimo tramo del C.V. de King, «La noche del tigre» (Frases 485 y 491), con su dibujo.
+
+- «Mientras escribo» (Destilería): decimoctavo tramo del C.V. de King, «Dave's Rag» (Frases 502, 518 y 524), con su dibujo.
 
 ## Sociales
 - Nada todavía.
