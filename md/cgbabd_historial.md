@@ -63,10 +63,6 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 19 de octubre de 2026. Eliminadas «Cómo escribir un manual sobre cómo escribir manuales», «Los permisos de GitHub» y «Ramillete y ventana», sin enlaces huérfanos.
 
-### Las medidas de On Writing publicadas
-
-19 de octubre de 2026. Entrada nueva del Taller con las medidas del C.V. de «Mientras escribo» de King, encabezada por el ranking de menciones; la sala del Taller recuperó su texto.
-
 ### Rey Lear terminado
 
 18 de octubre de 2026. Dibujos de las 26 escenas completados; la entrada queda terminada.
