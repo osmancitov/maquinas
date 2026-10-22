@@ -2,7 +2,7 @@
 
 © 2026 Osmancito
 
-22 de octubre de 2026, 08:12 UTC-4.
+22 de octubre de 2026, 08:14 UTC-4.
 
 ## Corriendo ahora
 - Ninguno.
@@ -27,6 +27,8 @@
 - «Mientras escribo» (Destilería): undécimo tramo del C.V. de King, «El Súper Duper Electromán» (Frases 346, 364, 370 y 379), con su dibujo.
 
 - «Mientras escribo» (Destilería): duodécimo tramo del C.V. de King, «Video bullshit» (Frase 393), con su dibujo.
+
+- «Mientras escribo» (Destilería): decimotercer tramo del C.V. de King, «El Ackermonster» (Frase 406), con su dibujo.
 
 ## Sociales
 - Nada todavía.
