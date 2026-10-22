@@ -2,7 +2,7 @@
 
 © 2026 Osmancito
 
-22 de octubre de 2026, 08:36 UTC-4.
+22 de octubre de 2026, 08:45 UTC-4.
 
 ## Corriendo ahora
 - Ninguno.
@@ -45,6 +45,8 @@
 - «Mientras escribo» (Destilería): vigésimo tramo del C.V. de King, «The Village Vomit» (Frases 657, 658, 665, 670, 672, 673 y 675), con su dibujo.
 
 - «Mientras escribo» (Destilería): vigésimo primer tramo del C.V. de King, «Con la puerta cerrada» (Frases 700, 705, 709, 723, 732 y 736), con su dibujo.
+
+- «Mientras escribo» (Destilería): vigésimo segundo tramo del C.V. de King, «Ratas grandes como perros» (Frases 738, 739, 744 y 767), con su dibujo.
 
 ## Sociales
 - Nada todavía.
