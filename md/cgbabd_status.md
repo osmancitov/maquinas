@@ -14,6 +14,7 @@
 
 ## Hecho hoy
 - «Mientras escribo» (Destilería): presentación de la obra y los tres prólogos de King, «La pregunta de Amy» (Frases 23, 25, 37 y 52), con su dibujo; Frases Selectas suma «Frase N» y la presentación inicial; el Taller corrige sus preliminares.
+- «Mientras escribo» (Destilería): tercer tramo del C.V. de King, «Siete huevos» (Frases 134, 137, 139, 140 y 160), con su dibujo; Frases Selectas pide escribir para el lector cero.
 
 ## Sociales
 - Nada todavía.
