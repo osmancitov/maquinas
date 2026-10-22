@@ -2,7 +2,7 @@
 
 © 2026 Osmancito
 
-21 de octubre de 2026, 00:06 UTC-4.
+22 de octubre de 2026, 00:07 UTC-4.
 
 ## Corriendo ahora
 - Ninguno.
@@ -13,11 +13,11 @@
 - Status → Historial de tareas e Historial social: rotación a medianoche.
 
 ## Hecho hoy
-- «Mientras escribo» (Destilería): segundo tramo del C.V. de King, «El niño forzudo» (BD0103 y BD0104), con su dibujo.
+- Nada todavía.
 
 ## Sociales
 - Nada todavía.
 
 ## Pendiente de Osmancito
 - Ninguno.
-💬 177 · 🎙️ 0 · ✉️ 0 · 🎖️ 0
+💬 7 · 🎙️ 44 · ✉️ 0 · 🎖️ 0

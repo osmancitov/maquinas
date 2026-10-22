@@ -4,6 +4,12 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Mientras escribo: tramo 2 del C.V.
+
+21 de octubre de 2026. «El niño forzudo», segundo tramo del C.V. de King (BD0090–BD0106): ganaron la BD0103 y la BD0104, con su dibujo.
+
+[Leer](https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html)
+
 ### Imagen del Journal del 19 corregida
 
 20 de octubre de 2026. La página buscaba un nombre de archivo equivocado; se ajustaron el og:image y la imagen del tope, verificado en vivo.
@@ -306,5 +312,4 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
-21 de octubre de 2026 | Mientras escribo: tramo 2 del C.V. | «El niño forzudo», segundo tramo del C.V. de King (BD0090–BD0106): ganaron la BD0103 y la BD0104, con su dibujo | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
 -->
