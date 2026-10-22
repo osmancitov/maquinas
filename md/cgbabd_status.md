@@ -2,7 +2,7 @@
 
 © 2026 Osmancito
 
-22 de octubre de 2026, 08:06 UTC-4.
+22 de octubre de 2026, 08:09 UTC-4.
 
 ## Corriendo ahora
 - Ninguno.
@@ -21,6 +21,8 @@
 - «Mientras escribo» (Destilería): séptimo tramo del C.V. de King, «Las amígdalas» (Frases 249, 251 y 253), con su dibujo.
 - «Mientras escribo» (Destilería): octavo tramo del C.V. de King, «Escribe uno tuyo» (Frases 274, 276 y 279), con su dibujo.
 - «Mientras escribo» (Destilería): noveno tramo del C.V. de King, «A cuarto el cuento» (Frases 290 y 296), con su dibujo.
+
+- «Mientras escribo» (Destilería): décimo tramo del C.V. de King, «La jungla» (Frases 313, 324, 329 y 334), con su dibujo.
 
 ## Sociales
 - Nada todavía.
