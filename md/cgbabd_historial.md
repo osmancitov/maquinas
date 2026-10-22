@@ -1,6 +1,6 @@
 # Historial de tareas
 
-Osmancito, con la asistencia de Instinct
+© 2026 Osmancito
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 

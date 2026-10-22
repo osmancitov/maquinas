@@ -12,7 +12,7 @@ Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, c
 ## Journal y títulos
 
 5. Una entrada de Journal por día: el día vivido, reescrito como «historieta lírica» (narrado, no reportado) a partir del recuento del día, hecho commit por Instinct. *(journal-y-titulos)*
-6. Firma: «Osmancito, con la asistencia de Instinct», con mayúsculas de nombre propio; la descripción del Journal nombra solo a Osmancito y la prosa dice «la asistente». *(journal-y-titulos)*
+6. Firma: «© [año de publicación] Osmancito», con mayúsculas de nombre propio; la descripción del Journal nombra solo a Osmancito y la prosa dice «la asistente». *(journal-y-titulos)*
 7. Se arma al final del día, hacia las 23:00, y se publica directo, sin esperar confirmación; una pieza anterior del mismo día se funde en la entrada única del día. *(2026-10-07 · journal-y-titulos)*
 8. Sin materia devocional: lecturas, rosario y santos son tema exclusivo de la Capilla. *(2026-10-07 · journal-y-titulos)*
 9. Vísceras, no canopes: sin números, versiones, nombres de aplicaciones ni marcas, para que aguanten el tiempo; sin cantidades. *(journal-y-titulos)*

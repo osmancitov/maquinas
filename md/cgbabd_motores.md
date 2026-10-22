@@ -152,4 +152,4 @@ Regla de acceso: los motores de Google (Gemma, Gemini y los embeddings de Google
 
 Este registro es el censo completo del taller, al 17 de octubre de 2026. Distingue lo usado, lo detenido y lo que aún no se ha probado. No contiene claves.
 
-Osmancito, con la asistencia de Instinct
+© 2026 Osmancito

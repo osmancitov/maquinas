@@ -48,6 +48,7 @@ p.add_argument('--dry-run',action='store_true',help='muestra lo que haría sin e
 a=p.parse_args()
 caracas=ZoneInfo('America/Caracas')
 now=datetime.now(caracas)
+FIRMA=f'© {now.year} Osmancito'
 months=['','enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre']
 def fecha_larga(iso):
  d=datetime.fromisoformat(iso[:10]);return f'{d.day} de {months[d.month]} de {d.year}'
@@ -157,13 +158,13 @@ for e in entries:
  md.append(f'### {e["title"]}\n\n{date}. {e["detail"]}\n'+(f'\n[Leer]({e["url"]})\n' if e.get('url') else ''))
 H='cgbabd_historial'
 E='cgbabd_status'
-hist_md='# Historial de tareas\n\nOsmancito, con la asistencia de Instinct\n\nTrabajos terminados hasta ayer, del más reciente al más antiguo.\n\n'+'\n'.join(md)
+hist_md='# Historial de tareas\n\n'+FIRMA+'\n\nTrabajos terminados hasta ayer, del más reciente al más antiguo.\n\n'+'\n'.join(md)
 if draft: hist_md=hist_md.rstrip('\n')+'\n\n<!-- BORRADOR-DEL-DIA\n'+'\n'.join(draft)+'\n-->\n'
-estado_md='# Estado actual\n\nOsmancito, con la asistencia de Instinct\n\n'+source
+estado_md='# Estado actual\n\n'+FIRMA+'\n\n'+source
 if a.dry_run:
  print('DRY RUN: no se escribe nada.');print('--- historial (primeras líneas) ---');print('\n'.join(hist_md.splitlines()[:24]));print('--- borrador restante:',len(draft),'líneas ---');print('--- estado ---');print(estado_md)
  raise SystemExit(0)
-SOC_INTRO='# Historial social\n\nOsmancito, con la asistencia de Instinct\n\nLo que se hizo cada día en X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y las demás redes donde Osmancito deja huella y tiene contacto con el mundo, del día más reciente al más antiguo.\n'
+SOC_INTRO='# Historial social\n\n'+FIRMA+'\n\nLo que se hizo cada día en X, Slack, Element/Matrix, Mastodon, Bluesky, LinkedIn y las demás redes donde Osmancito deja huella y tiene contacto con el mundo, del día más reciente al más antiguo.\n'
 soc_md=SOC_INTRO+''.join('\n## '+d+'\n\n'+'\n'.join('- '+x for x in items)+'\n' for d,items in soc_days)
 (root/'md/pendientes.md').write_text(source)
 (root/f'md/{S}.md').write_text(soc_md)
@@ -193,7 +194,7 @@ CSS
 <main>
 <h1>{title}</h1>
 <img src="../img/{img}" alt="{alt_corto}" width="{w}" height="{h}">
-<p>Osmancito, con la asistencia de Instinct</p>
+<p>{FIRMA}</p>
 {body}
 <nav><a href="../maquinas.html">Sala de máquinas</a></nav>
 </main>

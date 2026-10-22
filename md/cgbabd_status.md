@@ -1,6 +1,6 @@
 # Estado actual
 
-Osmancito, con la asistencia de Instinct
+© 2026 Osmancito
 
 21 de octubre de 2026, 00:06 UTC-4.
 

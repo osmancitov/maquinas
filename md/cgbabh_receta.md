@@ -69,7 +69,7 @@ Toda página destilada abre con una sola pieza: un párrafo que presenta la obra
 - Lleva fecha arriba, título, su dibujo (hecho con el Alambique Imagen Pintor, `html/img/cgbabX_nombre_og.jpg`, declarado en el `og:image`), el autor, el texto de presentación y el cuerpo por unidad, con un `## ` por escena o capítulo.
 - Cada escena o capítulo puede llevar además su propio dibujo, cuando él lo pida para esa obra; se genera igualmente con el Alambique Imagen Pintor y se coloca justo bajo el encabezado `## ` de la unidad. (El Yogi llevará dibujo por capítulo; se generan cuando la sesión de Gemini Web quede libre, porque solo cabe una sesión a la vez.)
 - Las citas van en bloque, la traducción debajo, el hablante cuando lo hay, los puentes en cursiva.
-- Cierra con la firma: «Osmancito, con la asistencia de Instinct».
+- Cierra con la firma: «© [año de publicación] Osmancito».
 - Después de la firma, un solo enlace de regreso a su sala: «volver».
 
 ## 10. Verificación
