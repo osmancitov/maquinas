@@ -322,4 +322,5 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 22 de octubre de 2026 | Mientras escribo: tramo 9 del C.V. | «A cuarto el cuento», noveno tramo del C.V. de King (BD0283–BD0303): ganaron la BD0290 y la BD0296, con su dibujo | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
 22 de octubre de 2026 | Mientras escribo: tramo 10 del C.V. | «La jungla», décimo tramo del C.V. de King (BD0304–BD0341): Ganaron la BD0313, la BD0324, la BD0329 y la BD0334, 4 de 38 frases, con su dibujo | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
 22 de octubre de 2026 | Mientras escribo: tramo 11 del C.V. | «El Súper Duper Electromán», undécimo tramo del C.V. de King (BD0342–BD0384): Ganaron la BD0346, la BD0364, la BD0370 y la BD0379, 4 de 43 frases, con su dibujo | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
+22 de octubre de 2026 | Mientras escribo: tramo 12 del C.V. | «Video bullshit», duodécimo tramo del C.V. de King (BD0385–BD0397): Ganó la BD0393, 1 de 13 frases, con su dibujo | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
 -->
