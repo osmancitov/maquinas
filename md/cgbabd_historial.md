@@ -319,4 +319,5 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 22 de octubre de 2026 | Mientras escribo: tramo 6 del C.V. | «No va a doler», sexto tramo del C.V. de King (BD0181–BD0234): ganaron la BD0184, la BD0196, la BD0198, la BD0213 y la BD0232, con su dibujo | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
 22 de octubre de 2026 | Mientras escribo: tramo 7 del C.V. | «Las amígdalas», séptimo tramo del C.V. de King (BD0235–BD0263): ganaron la BD0249, la BD0251 y la BD0253, con su dibujo | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
 22 de octubre de 2026 | Mientras escribo: tramo 8 del C.V. | «Escribe uno tuyo», octavo tramo del C.V. de King (BD0264–BD0282): ganaron la BD0274, la BD0276 y la BD0279, con su dibujo | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
+22 de octubre de 2026 | Mientras escribo: tramo 9 del C.V. | «A cuarto el cuento», noveno tramo del C.V. de King (BD0283–BD0303): ganaron la BD0290 y la BD0296, con su dibujo | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
 -->
