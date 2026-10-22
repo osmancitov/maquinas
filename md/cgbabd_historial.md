@@ -325,4 +325,5 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 22 de octubre de 2026 | Mientras escribo: tramo 12 del C.V. | «Video bullshit», duodécimo tramo del C.V. de King (BD0385–BD0397): Ganó la BD0393, 1 de 13 frases, con su dibujo | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
 22 de octubre de 2026 | Mientras escribo: tramo 13 del C.V. | «El Ackermonster», decimotercer tramo del C.V. de King (BD0398–BD0409): Ganó la BD0406, 1 de 12 frases, con su dibujo | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
 22 de octubre de 2026 | Mientras escribo: tramo 14 del C.V. | «Yo fui un ladrón de tumbas adolescente», decimocuarto tramo del C.V. de King (BD0410–BD0414): Ganó la BD0411, 1 de 5 frases, con su dibujo | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
+22 de octubre de 2026 | Mientras escribo: tramo 15 del C.V. | «El Problema de Ruth», decimoquinto tramo del C.V. de King (BD0415–BD0430): Ganaron la BD0421 y la BD0423, 2 de 16 frases, con su dibujo | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
 -->
