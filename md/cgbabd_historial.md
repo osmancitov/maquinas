@@ -312,5 +312,5 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
-22 de octubre de 2026 | Mientras escribo: los prólogos | «Un libro sin paja», los tres prólogos de King (BD0023–BD0068): ganaron la BD0040, la BD0041, la BD0045 y la BD0062, con su dibujo y la presentación de la obra | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
+22 de octubre de 2026 | Mientras escribo: los prólogos | «La pregunta de Amy», los tres prólogos de King (BD0023–BD0068): ganaron la BD0023, la BD0025, la BD0037 y la BD0052, con su dibujo y la presentación de la obra | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
 -->

@@ -13,7 +13,7 @@
 - Status → Historial de tareas e Historial social: rotación a medianoche.
 
 ## Hecho hoy
-- «Mientras escribo» (Destilería): presentación de la obra y los tres prólogos de King, «Un libro sin paja» (Frases 40, 41, 45 y 62), con su dibujo; Frases Selectas suma «Frase N» y la presentación inicial; el Taller corrige sus preliminares.
+- «Mientras escribo» (Destilería): presentación de la obra y los tres prólogos de King, «La pregunta de Amy» (Frases 23, 25, 37 y 52), con su dibujo; Frases Selectas suma «Frase N» y la presentación inicial; el Taller corrige sus preliminares.
 
 ## Sociales
 - Nada todavía.
