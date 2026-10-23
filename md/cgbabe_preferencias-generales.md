@@ -43,7 +43,6 @@ Cada línea es una preferencia o instrucción permanente. Estado al 23 de octubr
 
 ## 4. Escritura pública (Taller, sitio, Journal)
 
-- Sin variables sin definir: toda cita aclara quién habla, a quién y dónde.
 - Solo lo que funcionó: línea recta hacia el resultado, sin intentos fallidos.
 - Cada palabra debe ganarse su lugar, también en gráficos, HTML, repositorios y respuestas. Lo que el dibujo ya muestra no se narra.
 - Los títulos que necesitan un párrafo de explicación son malos títulos.
