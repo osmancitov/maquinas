@@ -66,8 +66,8 @@ Toda página destilada abre con una sola pieza: un párrafo que presenta la obra
 ## 9. Página: la entrega
 
 - La página vive en la Destilería como gemelos `html/cgbabX_nombre.md` y `html/cgbabX_nombre.html`, y entra al tope de la lista en `destileria.html` y en el `README.md`: lo más nuevo primero.
-- Lleva fecha arriba, título, su dibujo (hecho con el Alambique Imagen Pintor, `html/img/cgbabX_nombre_og.jpg`, declarado en el `og:image`), el autor, el texto de presentación y el cuerpo por unidad, con un `## ` por escena o capítulo.
-- Cada escena o capítulo puede llevar además su propio dibujo, cuando él lo pida para esa obra; se genera igualmente con el Alambique Imagen Pintor y se coloca justo bajo el encabezado `## ` de la unidad. (El Yogi llevará dibujo por capítulo; se generan cuando la sesión de Gemini Web quede libre, porque solo cabe una sesión a la vez.)
+- Lleva fecha arriba, título, su dibujo (hecho con el Pintor de Imágenes, `html/img/cgbabX_nombre_og.jpg`, declarado en el `og:image`), el autor, el texto de presentación y el cuerpo por unidad, con un `## ` por escena o capítulo.
+- Cada escena o capítulo puede llevar además su propio dibujo, cuando él lo pida para esa obra; se genera igualmente con el Pintor de Imágenes y se coloca justo bajo el encabezado `## ` de la unidad. (El Yogi llevará dibujo por capítulo; se generan cuando la sesión de Gemini Web quede libre, porque solo cabe una sesión a la vez.)
 - Las citas van en bloque, la traducción debajo, el hablante cuando lo hay, los puentes en cursiva.
 - Cierra con la firma: «© [año de publicación] Osmancito».
 - Después de la firma, un solo enlace de regreso a su sala: «volver».
@@ -79,7 +79,7 @@ Con la obra abierta, nunca de memoria. Cada cita se busca literal en la fuente �
 ## Reglas transversales
 
 - Gasto cero sin permiso expreso.
-- Los dibujos de las páginas se generan con el Alambique Imagen Pintor en Gemini Web (su sesión de Google), nunca con la herramienta de imágenes de Instinct; la cuota propia de Instinct es solo para la Capilla.
+- Los dibujos de las páginas se generan con el Pintor de Imágenes en Gemini Web (su sesión de Google), nunca con la herramienta de imágenes de Instinct; la cuota propia de Instinct es solo para la Capilla.
 - La frase es la referencia y la moneda de la casa.
 - El idioma es el castellano.
 - Sin URLs en las páginas.

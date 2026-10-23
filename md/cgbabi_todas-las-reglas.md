@@ -24,7 +24,7 @@ Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, c
 15. Entradas de recuperación: se fechan en el día vivido, aunque él las dicte por partes a la mañana siguiente. *(journal-y-titulos)*
 16. El Journal como «historieta»: «Que el incauto que lo lea tenga la impresión de que mi vida es bonita e interesante.» *(2026-10-06 · journal-y-titulos)*
 17. Títulos del Taller: artículo más sustantivo, como un plato en un menú; de 3 a 6 palabras, sin dos puntos ni gerundios, de largo parecido; los créditos van dentro del cuaderno, no en el título de la lista. *(2026-10-06 · journal-y-titulos)*
-18. Una ilustración y una página HTML por entrada: un dibujo (hecho con el Alambique Imagen Pintor; el pintor del Journal es Rembrandt, claroscuro) arriba, tras el título, y su página con imagen, fecha, firma y rúbricas; el índice `journal.html` se mantiene al día. Una sola imagen por entrada. *(2026-10-11 · journal-y-titulos)*
+18. Una ilustración y una página HTML por entrada: un dibujo (hecho con el Pintor de Imágenes; el pintor del Journal es Rembrandt, claroscuro) arriba, tras el título, y su página con imagen, fecha, firma y rúbricas; el índice `journal.html` se mantiene al día. Una sola imagen por entrada. *(2026-10-11 · journal-y-titulos)*
 19. Sin habla de amigos en las entradas publicadas: los chistes dichos en confianza en el chat no se citan. «Ficha» se queda como la palabra del Journal para token. *(2026-10-11 · journal-y-titulos)*
 20. El Journal como novela ilustrada: con el dibujo arriba y el texto abajo se lee como «una especie de novelita»; su materia apunta a un público estrecho («quizás nosotros mismos»). *(2026-10-12 · journal-y-titulos)*
 
@@ -48,7 +48,7 @@ Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, c
 42. «quitar quitar y quitar y seguir quitando»: recorta taglines, citas, divisores y pies con agresividad; palabras de pie llanas («volver», «Subir»). *(hotel-sitio)*
 43. No llamar «sociales» a las imágenes, ni en prosa ni en nombres de archivo: ese es el término interno de GitHub. *(hotel-sitio)*
 44. Checklist de sala nueva: imagen de puerta, JPG al 75 %, og tags, listado en el lobby, fila de navegación en cada README, sección de entradas en el README. *(2026-10-07 · hotel-sitio)*
-45. Imágenes de puertas: hechas con el Alambique Imagen Pintor del Taller, cada puerta con su propio estilo de pintor, puesta como Social preview del repo y og:image; JPG al 75 %. *(2026-10-07 · hotel-sitio)*
+45. Imágenes de puertas: hechas con el Pintor de Imágenes, cada puerta con su propio estilo de pintor, puesta como Social preview del repo y og:image; JPG al 75 %. *(2026-10-07 · hotel-sitio)*
 47. Las puertas se quedan en la paleta oscura y cálida de la casa (para cambiar una se sobrescribe el mismo archivo); los dibujos de las entradas son libres: «de día de noche, con total libertad». *(2026-10-16 · hotel-sitio)*
 49. Toda entrada visible en HTML tiene su propia página HTML: ningún clic salta al visor de Markdown de GitHub. MD y HTML son gemelos («morochos, gemelos, espejos»): siempre cambian juntos. *(2026-10-13 · hotel-sitio)*
 50. Páginas movidas o reemplazadas: sin redirecciones y sin rastro -«que borres la vieja, que no dejes rastro»-; cuando una página se muda de repo, cada enlace interno al lugar viejo se reescribe. Una página borrada puede mencionarse en el Historial como texto, sin enlace. *(2026-10-13 · hotel-sitio)*
