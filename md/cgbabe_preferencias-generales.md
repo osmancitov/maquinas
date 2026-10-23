@@ -88,10 +88,7 @@ Cada línea es una preferencia o instrucción permanente. Estado al 11 de octubr
 - Las listas van de lo más nuevo a lo más viejo.
 - Los archivos de Journal y Capilla llevan nombre con código de fecha.
 - Todas las salas siguen el mismo patrón.
-- Mínimo HTML. Un solo estilo común en `css/base.css` (en el Lobby) para todas las páginas. Se declaran tamaños de imagen.
 - Los enlaces son dorados y su color vive solo en `css/base.css`: enlace dorado solar, visitado en dorado apagado, hover más claro. Ninguna página declara color de enlace propio.
-- Imágenes de puertas: estilo propio por sala, hechas con el Pintor de Imágenes, JPG al 75 %. Cada página con sus etiquetas og.
-- Cada página publicada lleva su `og:image` y su dibujo propio, hecho con el Pintor de Imágenes, en JPG al 75 %.
 - Las ilustraciones pasan por el Pintor de Imágenes: literal o encarnada según el texto, con la proporción que cada caso necesite.
 - La vitrina antigua de la bodega-103 se queda con su aspecto, como testimonio de época.
 
