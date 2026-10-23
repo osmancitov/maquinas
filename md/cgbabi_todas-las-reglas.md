@@ -1,10 +1,10 @@
 # Todas las reglas
 
-Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, cada una numerada con su fecha y su fuente, agrupadas por tema. Estado al 18 de octubre de 2026. Sirve para marcar cuáles están obsoletas.
+Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, cada una numerada con su fecha y su fuente, agrupadas por tema. Estado al 23 de octubre de 2026. Sirve para marcar cuáles están obsoletas.
 
 ## Escritura pública
 
-1. Libro abierto: puentes y contexto se escriben con la fuente abierta, verificados línea por línea, nunca de memoria. *(2026-10-09 · escritura-publica)*
+56. Toda escritura pública debe cumplir con [dominio-cero.md](https://github.com/osmancitov/osmancitov.github.io/blob/main/md/dominio-cero.md). *(2026-10-23)*
 2. Las imágenes adicionales dentro de una entrada se nombran aammdd_titulo-de-la-entrada_titulo-de-la-imagen.jpg: la fecha en seis cifras es la de la entrada, la misma para todas sus imágenes. *(2026-10-22 · escritura-publica)*
 3. Las URL largas no aparecen como texto visible del enlace (rompen el scroll horizontal del teléfono): se usa una etiqueta corta. *(escritura-publica)*
 4. Listas en las páginas índice: lo más nuevo arriba; a igual fecha, orden por lógica de la obra. *(escritura-publica)*

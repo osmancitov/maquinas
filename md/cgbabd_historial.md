@@ -281,8 +281,6 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 17 de octubre de 2026. La receta completa de la Destilería, de un libro a su página destilada, escrita de principio a fin en un solo lugar de la sala de máquinas.
 
-[Leer](https://osmancitov.github.io/maquinas/html/cgbabh_receta.html)
-
 ### El Libro de Arena reescrito con la receta
 
 17 de octubre de 2026. Los trece cuentos rehechos con la receta, con una introducción que presenta el libro; renombrado a cgbabc_borges_arena.html con el título «El Libro de Arena».

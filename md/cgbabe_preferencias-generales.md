@@ -1,6 +1,6 @@
 # Preferencias generales
 
-Cada línea es una preferencia o instrucción permanente. Estado al 11 de octubre de 2026.
+Cada línea es una preferencia o instrucción permanente. Estado al 23 de octubre de 2026.
 
 ## 1. Cómo se habla
 
@@ -43,9 +43,7 @@ Cada línea es una preferencia o instrucción permanente. Estado al 11 de octubr
 
 ## 4. Escritura pública (Taller, sitio, Journal)
 
-- Nada se da por sabido: cada término se explica al aparecer.
 - Sin variables sin definir: toda cita aclara quién habla, a quién y dónde.
-- Se escribe con el texto fuente abierto y verificado línea por línea, no de memoria.
 - Solo lo que funcionó: línea recta hacia el resultado, sin intentos fallidos.
 - Cada palabra debe ganarse su lugar, también en gráficos, HTML, repositorios y respuestas. Lo que el dibujo ya muestra no se narra.
 - Los títulos que necesitan un párrafo de explicación son malos títulos.

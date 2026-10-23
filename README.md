@@ -7,7 +7,6 @@ La expresión "sala de máquinas" nombra el espacio de un barco que alberga los 
 ## Entradas
 
 - [Todas las reglas](md/cgbabi_todas-las-reglas.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabi_todas-las-reglas.html): todas las reglas vigentes con que trabaja Instinct, numeradas con su fecha y su fuente, para marcar cuáles están obsoletas.
-- [La receta](md/cgbabh_receta.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabh_receta.html): la receta completa de la Destilería, de un libro a su página destilada. Fija desde el 17 de octubre de 2026.
 - [Status](md/cgbabd_status.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_status.html): qué corre ahora, qué se hizo hoy y qué queda pendiente.
 - [Historial social](md/cgbabf_historial-social.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabf_historial-social.html): lo que se hizo cada día en X, Slack, Mastodon, Bluesky y las demás redes, del día más reciente al más antiguo.
 - [Historial de tareas](md/cgbabd_historial.md) · [HTML](https://osmancitov.github.io/maquinas/html/cgbabd_historial.html): los trabajos terminados hasta ayer, del más reciente al más antiguo.
