@@ -2,7 +2,7 @@
 
 © 2026 Osmancito
 
-22 de octubre de 2026, 21:38 UTC-4.
+22 de octubre de 2026, 22:20 UTC-4.
 
 ## Corriendo ahora
 - Ninguno.
@@ -13,42 +13,7 @@
 - Status → Historial de tareas e Historial social: rotación a medianoche.
 
 ## Hecho hoy
-- «Mientras escribo» (Destilería): presentación de la obra y los tres prólogos de King, «La pregunta de Amy» (Frases 23, 25, 37 y 52), con su dibujo; Frases Selectas suma «Frase N» y la presentación inicial; el Taller corrige sus preliminares.
-- «Mientras escribo» (Destilería): tercer tramo del C.V. de King, «Siete huevos» (Frases 134, 137, 139, 140 y 160), con su dibujo; Frases Selectas pide escribir para el lector cero.
-- «Mientras escribo» (Destilería): cuarto tramo del C.V. de King, «El tejado» (Frase 165), con su dibujo.
-- «Mientras escribo» (Destilería): quinto tramo del C.V. de King, «Ver morir» (Frase 175), con su dibujo.
-- «Mientras escribo» (Destilería): sexto tramo del C.V. de King, «No va a doler» (Frases 184, 196, 198, 213 y 232), con su dibujo.
-- «Mientras escribo» (Destilería): séptimo tramo del C.V. de King, «Las amígdalas» (Frases 249, 251 y 253), con su dibujo.
-- «Mientras escribo» (Destilería): octavo tramo del C.V. de King, «Escribe uno tuyo» (Frases 274, 276 y 279), con su dibujo.
-- «Mientras escribo» (Destilería): noveno tramo del C.V. de King, «A cuarto el cuento» (Frases 290 y 296), con su dibujo.
-
-- «Mientras escribo» (Destilería): décimo tramo del C.V. de King, «La jungla» (Frases 313, 324, 329 y 334), con su dibujo.
-
-- «Mientras escribo» (Destilería): undécimo tramo del C.V. de King, «El Súper Duper Electromán» (Frases 346, 364, 370 y 379), con su dibujo.
-
-- «Mientras escribo» (Destilería): duodécimo tramo del C.V. de King, «Video bullshit» (Frase 393), con su dibujo.
-
-- «Mientras escribo» (Destilería): decimotercer tramo del C.V. de King, «El Ackermonster» (Frase 406), con su dibujo.
-
-- «Mientras escribo» (Destilería): decimocuarto tramo del C.V. de King, «Yo fui un ladrón de tumbas adolescente» (Frase 411), con su dibujo.
-
-- «Mientras escribo» (Destilería): decimoquinto tramo del C.V. de King, «El Problema de Ruth» (Frases 421 y 423), con su dibujo.
-
-- «Mientras escribo» (Destilería): decimosexto tramo del C.V. de King, «Happy Stamps» (Frases 443, 448, 455 y 460), con su dibujo.
-
-- «Mientras escribo» (Destilería): decimoséptimo tramo del C.V. de King, «La noche del tigre» (Frases 485 y 491), con su dibujo.
-
-- «Mientras escribo» (Destilería): decimoctavo tramo del C.V. de King, «Dave's Rag» (Frases 502, 518 y 524), con su dibujo.
-
-- «Mientras escribo» (Destilería): decimonoveno tramo del C.V. de King, «El pozo y el péndulo» (Frases 562, 567, 568, 569, 573, 574, 579, 580 y 591), con su dibujo.
-
-- «Mientras escribo» (Destilería): vigésimo tramo del C.V. de King, «The Village Vomit» (Frases 657, 658, 665, 670, 672, 673 y 675), con su dibujo.
-
-- «Mientras escribo» (Destilería): vigésimo primer tramo del C.V. de King, «Con la puerta cerrada» (Frases 700, 705, 709, 723, 732 y 736), con su dibujo.
-
-- «Mientras escribo» (Destilería): vigésimo segundo tramo del C.V. de King, «Ratas grandes como perros» (Frases 738, 739, 744 y 767), con su dibujo.
-
-- «Mientras escribo» (Destilería): vigésimo tercer tramo del C.V. de King, «La risa sin miedo» (Frases 787 y 792), con su dibujo.
+- «Mientras escribo» (Destilería): presentación de la obra y los tres prólogos de King, «La pregunta de Amy», y los tramos 3 a 23 del C.V., publicados cada uno con su dibujo. Frases Selectas suma «Frase N» y la presentación inicial y pide escribir para el lector cero; el Taller corrige sus preliminares.
 
 ## Sociales
 - Nada todavía.
