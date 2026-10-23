@@ -176,8 +176,6 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 22 de octubre de 2026. El procedimiento suma el rótulo «Frase N» en cada cita, la presentación de la obra al abrir la entrada y la regla de escribir todo para el lector cero, que llega en frío.
 
-[Leer](https://osmancitov.github.io/taller/html/cgbacb_alambique-frases-selectas.html)
-
 ### Destilando On Writing: preliminares corregidos
 
 22 de octubre de 2026. El cuaderno del Taller corrige los preliminares del libro: entran los tres prólogos, la nota del autor y los permisos que completan las 4.253 frases, y queda el registro de los prólogos.
