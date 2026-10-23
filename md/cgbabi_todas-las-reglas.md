@@ -5,7 +5,7 @@ Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, c
 ## Escritura pública
 
 1. Libro abierto: puentes y contexto se escriben con la fuente abierta, verificados línea por línea, nunca de memoria. *(2026-10-09 · escritura-publica)*
-2. Cada HTML publicado lleva su propio dibujo arriba, que sirve además de og:image, hecho con el módulo Alambique Imagen Pintor del Taller, con la proporción que cada caso necesite, sin resoluciones fijas, sin recortar ni estirar; JPG al 75 %, nombre de archivo con el código de iniciados y el nombre de la página. *(2026-10-21 · escritura-publica)*
+2. Las imágenes adicionales dentro de una entrada se nombran aammdd_titulo-de-la-entrada_titulo-de-la-imagen.jpg: la fecha en seis cifras es la de la entrada, la misma para todas sus imágenes. *(2026-10-22 · escritura-publica)*
 3. Las URL largas no aparecen como texto visible del enlace (rompen el scroll horizontal del teléfono): se usa una etiqueta corta. *(escritura-publica)*
 4. Listas en las páginas índice: lo más nuevo arriba; a igual fecha, orden por lógica de la obra. *(escritura-publica)*
 
