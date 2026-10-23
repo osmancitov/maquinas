@@ -49,7 +49,6 @@ Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, c
 43. No llamar «sociales» a las imágenes, ni en prosa ni en nombres de archivo: ese es el término interno de GitHub. *(hotel-sitio)*
 44. Checklist de sala nueva: imagen de puerta, JPG al 75 %, og tags, listado en el lobby, fila de navegación en cada README, sección de entradas en el README. *(2026-10-07 · hotel-sitio)*
 45. Imágenes de puertas: hechas con el Alambique Imagen Pintor del Taller, cada puerta con su propio estilo de pintor, puesta como Social preview del repo y og:image; JPG al 75 %. *(2026-10-07 · hotel-sitio)*
-46. Toda página publicada lleva su dibujo arriba, usado como og:image, hecho con el Alambique Imagen Pintor, JPG al 75 %. *(2026-10-12 · hotel-sitio)*
 47. Las puertas se quedan en la paleta oscura y cálida de la casa (para cambiar una se sobrescribe el mismo archivo); los dibujos de las entradas son libres: «de día de noche, con total libertad». *(2026-10-16 · hotel-sitio)*
 49. Toda entrada visible en HTML tiene su propia página HTML: ningún clic salta al visor de Markdown de GitHub. MD y HTML son gemelos («morochos, gemelos, espejos»): siempre cambian juntos. *(2026-10-13 · hotel-sitio)*
 50. Páginas movidas o reemplazadas: sin redirecciones y sin rastro -«que borres la vieja, que no dejes rastro»-; cuando una página se muda de repo, cada enlace interno al lugar viejo se reescribe. Una página borrada puede mencionarse en el Historial como texto, sin enlace. *(2026-10-13 · hotel-sitio)*
