@@ -504,5 +504,5 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 23 de octubre de 2026 | Mientras escribo: tramo 31 del C.V. | «Una noche para soñar», trigésimo primer tramo del C.V. de King (BD1158–BD1205): Ganaron la BD1159, la BD1168, la BD1186, la BD1191 y la BD1201, 5 de 48 frases, con su dibujo | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
 23 de octubre de 2026 | Mientras escribo: On Writing completo | On Writing publicado en diecisiete unidades, la introducción y W1 a W16, con 121 citas seleccionadas y 17 dibujos | https://osmancitov.github.io/destileria/html/cgbacd_mientras-escribo-ii.html
 23 de octubre de 2026 | Protocolos de las rutinas diarias | Creados y verificados los cuatro módulos que dirigen las rutinas automáticas: publicar en el Journal, publicar en la Capilla, actualizar el Status y rotar el Historial; retirados los protocolos viejos y las reglas absorbidas | https://github.com/osmancitov/osmancitov.github.io/tree/main/md
+23 de octubre de 2026 | Mientras escribo: On Living y And Furthermore | La posdata «On Living» en siete unidades (L1 a L7) y las dos partes de «And Furthermore» (F1a, F1b, F2a y la bibliografía F2b): 39 citas seleccionadas, los 96 libros completos y 11 dibujos; On Writing queda completo | https://osmancitov.github.io/destileria/html/cgbacd_mientras-escribo-ii.html
 -->
-
