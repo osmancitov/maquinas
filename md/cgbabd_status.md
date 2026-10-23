@@ -2,7 +2,7 @@
 
 © 2026 Osmancito
 
-23 de octubre de 2026, 00:16 UTC-4.
+23 de octubre de 2026, 00:44 UTC-4.
 
 ## Corriendo ahora
 - Ninguno.
@@ -13,7 +13,7 @@
 - Status → Historial de tareas e Historial social: rotación a medianoche.
 
 ## Hecho hoy
-- «Mientras escribo» (Destilería): presentación de la obra y los tres prólogos de King, «La pregunta de Amy», y los tramos 3 a 30 del C.V., publicados, con dibujo en los tramos 3 a 30. Frases Selectas suma «Frase N» y la presentación inicial y pide escribir para el lector cero; el Taller corrige sus preliminares.
+- «Mientras escribo» (Destilería): presentación de la obra y los tres prólogos de King, «La pregunta de Amy», y los tramos 3 a 31 del C.V., publicados, con dibujo en los tramos 3 a 31. Frases Selectas suma «Frase N» y la presentación inicial y pide escribir para el lector cero; el Taller corrige sus preliminares.
 
 ## Sociales
 - Nada todavía.
