@@ -11,22 +11,10 @@ Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, c
 
 ## Journal y títulos
 
-5. Una entrada de Journal por día: el día vivido, reescrito como «historieta lírica» (narrado, no reportado) a partir del recuento del día, hecho commit por Instinct. *(journal-y-titulos)*
-6. Firma: «© [año de publicación] Osmancito», con mayúsculas de nombre propio; la descripción del Journal nombra solo a Osmancito y la prosa dice «la asistente». *(journal-y-titulos)*
-7. Se arma al final del día, hacia las 23:00, y se publica directo, sin esperar confirmación; una pieza anterior del mismo día se funde en la entrada única del día. *(2026-10-07 · journal-y-titulos)*
-8. Sin materia devocional: lecturas, rosario y santos son tema exclusivo de la Capilla. *(2026-10-07 · journal-y-titulos)*
-9. Vísceras, no canopes: sin números, versiones, nombres de aplicaciones ni marcas, para que aguanten el tiempo; sin cantidades. *(journal-y-titulos)*
-10. Goteo lento: las entradas se van destilando durante el día, proceso lento y prolongado - «hay que dejar que escurra». *(journal-y-titulos)*
-11. Títulos: cuatro sustantivos descriptivos, sin artículos. *(journal-y-titulos)*
-12. Cierre fijo desde el 2026-10-10: tres rúbricas -«Parte del día», «Lectura en curso», «En la copa»- más una línea de clima-ánimo dentro de la historieta; en un día flojo se publica una entrada mínima y digna para no romper la cadena. «En la copa» se lee «una bebida de X»: una frase en positivo, sin negativas. *(2026-10-10 · journal-y-titulos)*
 13. Parejas: «esto y esto» - título de dos palabras, cada una nombrando lo que hace una parte. *(journal-y-titulos)*
 14. La prosa lírica es ley de la casa. *(2026-10-05 · journal-y-titulos)*
-15. Entradas de recuperación: se fechan en el día vivido, aunque él las dicte por partes a la mañana siguiente. *(journal-y-titulos)*
-16. El Journal como «historieta»: «Que el incauto que lo lea tenga la impresión de que mi vida es bonita e interesante.» *(2026-10-06 · journal-y-titulos)*
 17. Títulos del Taller: artículo más sustantivo, como un plato en un menú; de 3 a 6 palabras, sin dos puntos ni gerundios, de largo parecido; los créditos van dentro del cuaderno, no en el título de la lista. *(2026-10-06 · journal-y-titulos)*
-18. Una ilustración y una página HTML por entrada: un dibujo (hecho con el Pintor de Imágenes; el pintor del Journal es Rembrandt, claroscuro) arriba, tras el título, y su página con imagen, fecha, firma y rúbricas; el índice `journal.html` se mantiene al día. Una sola imagen por entrada. *(2026-10-11 · journal-y-titulos)*
-19. Sin habla de amigos en las entradas publicadas: los chistes dichos en confianza en el chat no se citan. «Ficha» se queda como la palabra del Journal para token. *(2026-10-11 · journal-y-titulos)*
-20. El Journal como novela ilustrada: con el dibujo arriba y el texto abajo se lee como «una especie de novelita»; su materia apunta a un público estrecho («quizás nosotros mismos»). *(2026-10-12 · journal-y-titulos)*
+
 
 ## El sitio
 
@@ -57,9 +45,6 @@ Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, c
 
 
 
-## Publicación programada
-
-54. La Capilla sale servida a las 05:00 (el trabajo arranca a las 04:30); el Journal sale hacia las 23:00; a medianoche el Status pasa al Historial en el repo maquinas. *(autonomy, 2026-10-14)*
 
 ## Commits
 

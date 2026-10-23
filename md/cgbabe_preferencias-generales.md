@@ -51,18 +51,6 @@ Cada línea es una preferencia o instrucción permanente. Estado al 23 de octubr
 - Se conserva la lírica: los textos públicos enseñan algo y no se nombran a sí mismos.
 - Los comentarios de los scripts se entienden solos: sin contexto de sesión ni historial de versiones.
 
-## 5. Journal
-
-- Una entrada por día, "historieta lírica": el día vivido, narrado, no reportado.
-- Firma: "© [año de publicación] Osmancito".
-- Se arma al final del día, alrededor de las 23:00, y se publica directo sin esperar confirmación.
-- Sin números, versiones ni nombres de aplicaciones, para que aguante el tiempo ("vísceras, no canopes").
-- Sin temas devocionales: lecturas, rosario y santos son exclusivos de la Capilla.
-- Título de cuatro sustantivos descriptivos, sin artículos.
-- Cierre fijo con tres rubros: "Parte del día", "Lectura en curso" y "En la copa", más una línea de ánimo dentro del texto.
-- En un día flojo se publica una entrada mínima y digna para no romper la cadena.
-- Las entradas atrasadas se fechan el día vivido.
-- Prosa lírica como ley de la casa.
 
 ## 6. Títulos del Taller
 
@@ -95,5 +83,3 @@ Cada línea es una preferencia o instrucción permanente. Estado al 23 de octubr
 
 
 - Censo de motores (modelos de lenguaje de Google por API directa: Gemma 4 26B y 31B, Gemini flash y flash-lite, y el agente Antigravity): mantener al día [`cgbabd_motores.md`](https://osmancitov.github.io/maquinas/html/cgbabd_motores.html), con la configuración que funciona por motor, cada vez que una medición la confirme o la cambie.
-- La actualización del Status incluye los contadores en el pie.
-- El Status lleva la sección «Sociales», con las tareas sociales y de interacción con los mercados: un renglón directo y corto por frente o por interacción, unas 500 palabras en total. A medianoche esa sección pasa al Historial social.
