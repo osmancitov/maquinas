@@ -5,7 +5,8 @@
 23 de octubre de 2026, 01:13 UTC-4.
 
 ## Corriendo ahora
-- «Mientras escribo» (Destilería): el C.V. de On Writing está completo; publicados los tramos 1 a 39, cada uno con su dibujo.
+- «Mientras Escribo I» (Destilería): el C.V. de On Writing está completo; publicados los tramos 1 a 39, cada uno con su dibujo.
+- «Mientras Escribo II» (Destilería): publicada «Qué es escribir»; siguen la caja de herramientas y el resto del libro.
 
 ## Automáticos diarios
 - Capilla: 04:30.
@@ -13,7 +14,7 @@
 - Status → Historial de tareas e Historial social: rotación a medianoche.
 
 ## Hecho hoy
-- «Mientras escribo» (Destilería): los tramos 30 a 39 del C.V. de King, publicados, con dibujo.
+- «Mientras Escribo I» (Destilería): los tramos 30 a 39 del C.V. de King, publicados, con dibujo.
 
 ## Sociales
 - Nada todavía.
