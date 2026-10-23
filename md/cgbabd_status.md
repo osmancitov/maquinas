@@ -2,7 +2,7 @@
 
 © 2026 Osmancito
 
-23 de octubre de 2026, 16:35 UTC-4.
+23 de octubre de 2026, 16:48 UTC-4.
 
 ## Corriendo ahora
 - «Mientras Escribo I» (Destilería): el C.V. de On Writing está completo; publicados los tramos 1 a 39, cada uno con su dibujo.
@@ -24,4 +24,4 @@
 
 ## Pendiente de Osmancito
 - Ninguno.
-💬 1 · 🎙️ 9 · ✉️ 0 · 🎖️ 0
+💬 0 · 🎙️ 0 · ✉️ 0 · 🎖️ 0
