@@ -82,4 +82,4 @@ Cada línea es una preferencia o instrucción permanente. Estado al 23 de octubr
 - Reconstruir limpio en vez de parchar.
 
 
-- Censo de motores (modelos de lenguaje de Google por API directa: Gemma 4 26B y 31B, Gemini flash y flash-lite, y el agente Antigravity): mantener al día [`cgbabd_motores.md`](https://osmancitov.github.io/maquinas/html/cgbabd_motores.html), con la configuración que funciona por motor, cada vez que una medición la confirme o la cambie.
+- Censo de motores (modelos de lenguaje de Google por API directa: Gemma 4 26B y 31B, Gemini flash y flash-lite, y el agente Antigravity): mantener al día [`261013_motores.md`](https://osmancitov.github.io/maquinas/html/261013_motores.html), con la configuración que funciona por motor, cada vez que una medición la confirme o la cambie.
