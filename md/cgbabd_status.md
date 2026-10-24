@@ -24,4 +24,3 @@
 
 ## Pendiente de Osmancito
 - Ninguno.
-💬 0 · 🎙️ 0 · ✉️ 0 · 🎖️ 0
