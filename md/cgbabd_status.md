@@ -1,7 +1,5 @@
 # Estado actual
 
-© 2026 Osmancito
-
 23 de octubre de 2026, 20:13 UTC-4.
 
 ## Corriendo ahora
@@ -24,3 +22,5 @@
 
 ## Pendiente de Osmancito
 - Ninguno.
+
+© 2026 Osmancito
