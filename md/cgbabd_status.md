@@ -2,11 +2,10 @@
 
 © 2026 Osmancito
 
-23 de octubre de 2026, 18:18 UTC-4.
+23 de octubre de 2026, 20:13 UTC-4.
 
 ## Corriendo ahora
-- «Mientras Escribo I» (Destilería): el C.V. de On Writing está completo; publicados los tramos 1 a 39, cada uno con su dibujo.
-- «Mientras Escribo II» (Destilería): la obra está completa: «Qué es escribir», «Caja de herramientas» (T1 a T5), On Writing (la introducción y W1 a W16), On Living (L1 a L7) y los dos And Furthermore.
+- Ninguno.
 
 ## Automáticos diarios
 - Capilla: 04:30.
