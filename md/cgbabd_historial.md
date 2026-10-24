@@ -4,6 +4,66 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Mientras escribo: tramo 30 del C.V.
+
+23 de octubre de 2026. «La resaca del instituto», trigésimo tramo del C.V. de King (BD1071–BD1157): Ganaron la BD1086, la BD1095, la BD1102, la BD1123, la BD1132, la BD1136, la BD1137, la BD1146 y la BD1156, 9 de 87 frases, con su dibujo.
+
+[Leer](https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html)
+
+### Mientras escribo: tramo 31 del C.V.
+
+23 de octubre de 2026. «Una noche para soñar», trigésimo primer tramo del C.V. de King (BD1158–BD1205): Ganaron la BD1159, la BD1168, la BD1186, la BD1191 y la BD1201, 5 de 48 frases, con su dibujo.
+
+[Leer](https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html)
+
+### Mientras escribo: tramos 32 a 39 del C.V.
+
+23 de octubre de 2026. «Un cuatro y cinco ceros», «Chicos de universidad», «Mis niños», «El elogio», «Soy alcohólico», «Dos semanas para pensarlo», «La casa de verano» y «El escritorio en el rincón»: los ocho tramos que cierran el C.V. de King, cada uno con su dibujo.
+
+[Leer](https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html)
+
+### Mientras escribo: Qué es escribir
+
+23 de octubre de 2026. «El conejo del ocho», la unidad del capítulo «Qué es escribir»: 6 de 73 frases, con su dibujo.
+
+[Leer](https://osmancitov.github.io/destileria/html/cgbacd_mientras-escribo-ii.html)
+
+### Mientras escribo: la caja de herramientas
+
+23 de octubre de 2026. La «Caja de herramientas» completa en cinco unidades (T1 a T5), con dibujos del Pintor de Imágenes.
+
+[Leer](https://osmancitov.github.io/destileria/html/cgbacd_mientras-escribo-ii.html)
+
+### Mientras escribo: On Writing completo
+
+23 de octubre de 2026. On Writing publicado en diecisiete unidades, la introducción y W1 a W16, con 121 citas seleccionadas y 17 dibujos.
+
+[Leer](https://osmancitov.github.io/destileria/html/cgbacd_mientras-escribo-ii.html)
+
+### Protocolos de las rutinas diarias
+
+23 de octubre de 2026. Creados y verificados los cuatro módulos que dirigen las rutinas automáticas: publicar en el Journal, publicar en la Capilla, actualizar el Status y rotar el Historial; retirados los protocolos viejos y las reglas absorbidas.
+
+[Leer](https://github.com/osmancitov/osmancitov.github.io/tree/main/md)
+
+### Mientras escribo: On Living y And Furthermore
+
+23 de octubre de 2026. La posdata «On Living» en siete unidades (L1 a L7) y las dos partes de «And Furthermore» (F1a, F1b, F2a y la bibliografía F2b): 39 citas seleccionadas, los 96 libros completos y 11 dibujos; On Writing queda completo.
+
+[Leer](https://osmancitov.github.io/destileria/html/cgbacd_mientras-escribo-ii.html)
+
+### Mientras escribo: los puentes sobre los huecos
+
+23 de octubre de 2026. Revisados los puentes de las dos partes contra el original y aplicadas las doce propuestas aprobadas; el módulo Frases Selectas suma la revisión de cada hueco: fuera los anuncios sin contenido y las omisiones sustantivas.
+
+[Leer](https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html)
+
+### Journal del 23 de octubre publicado
+
+23 de octubre de 2026. «Obra, módulos, puentes y proporción»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261023_obra-modulos-puentes.html)
+
 ### Mientras escribo: los prólogos
 
 22 de octubre de 2026. «La pregunta de Amy», los tres prólogos de King (BD0023–BD0068): ganaron la BD0023, la BD0025, la BD0037 y la BD0052, con su dibujo y la presentación de la obra.
@@ -500,9 +560,4 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
-23 de octubre de 2026 | Mientras escribo: tramo 30 del C.V. | «La resaca del instituto», trigésimo tramo del C.V. de King (BD1071–BD1157): Ganaron la BD1086, la BD1095, la BD1102, la BD1123, la BD1132, la BD1136, la BD1137, la BD1146 y la BD1156, 9 de 87 frases, con su dibujo | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
-23 de octubre de 2026 | Mientras escribo: tramo 31 del C.V. | «Una noche para soñar», trigésimo primer tramo del C.V. de King (BD1158–BD1205): Ganaron la BD1159, la BD1168, la BD1186, la BD1191 y la BD1201, 5 de 48 frases, con su dibujo | https://osmancitov.github.io/destileria/html/cgbabh_mientras-escribo.html
-23 de octubre de 2026 | Mientras escribo: On Writing completo | On Writing publicado en diecisiete unidades, la introducción y W1 a W16, con 121 citas seleccionadas y 17 dibujos | https://osmancitov.github.io/destileria/html/cgbacd_mientras-escribo-ii.html
-23 de octubre de 2026 | Protocolos de las rutinas diarias | Creados y verificados los cuatro módulos que dirigen las rutinas automáticas: publicar en el Journal, publicar en la Capilla, actualizar el Status y rotar el Historial; retirados los protocolos viejos y las reglas absorbidas | https://github.com/osmancitov/osmancitov.github.io/tree/main/md
-23 de octubre de 2026 | Mientras escribo: On Living y And Furthermore | La posdata «On Living» en siete unidades (L1 a L7) y las dos partes de «And Furthermore» (F1a, F1b, F2a y la bibliografía F2b): 39 citas seleccionadas, los 96 libros completos y 11 dibujos; On Writing queda completo | https://osmancitov.github.io/destileria/html/cgbacd_mientras-escribo-ii.html
 -->
