@@ -4,6 +4,12 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 24 de octubre publicado
+
+24 de octubre de 2026. «Vetas, norma, espejo y juego»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261024_vetas-norma-espejo-juego.html)
+
 ### Mientras escribo: tramo 30 del C.V.
 
 23 de octubre de 2026. «La resaca del instituto», trigésimo tramo del C.V. de King (BD1071–BD1157): Ganaron la BD1086, la BD1095, la BD1102, la BD1123, la BD1132, la BD1136, la BD1137, la BD1146 y la BD1156, 9 de 87 frases, con su dibujo.
