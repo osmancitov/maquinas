@@ -242,18 +242,6 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 22 de octubre de 2026. El procedimiento suma el rótulo «Frase N» en cada cita, la presentación de la obra al abrir la entrada y la regla de escribir todo para el lector cero, que llega en frío.
 
-### Destilando On Writing: preliminares corregidos
-
-22 de octubre de 2026. El cuaderno del Taller corrige los preliminares del libro: entran los tres prólogos, la nota del autor y los permisos que completan las 4.253 frases, y queda el registro de los prólogos.
-
-[Leer](https://osmancitov.github.io/taller/html/261021_destilando-on-writing.html)
-
-### Alambique - Escritura Cero: cuaderno nuevo
-
-22 de octubre de 2026. Cómo escribir un texto para que una persona o una máquina lo entienda sin haber leído nada más: palabras primitivas, definiciones y reglas, con su dibujo.
-
-[Leer](https://osmancitov.github.io/taller/html/261022_alambique-escritura-cero.html)
-
 ### Journal del 22 de octubre publicado
 
 22 de octubre de 2026. «Dibujos, tramos, raya y prueba»: texto e ilustración.
@@ -424,11 +412,6 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 15 de octubre de 2026. Glosa del verso de Victor Hugo, con el dibujo «Everything Speaks».
 
 [Leer](https://osmancitov.github.io/destileria/html/261015_todo-es-una-voz.html)
-
-### El protocolo de imagen Alambique
-
-15 de octubre de 2026. Publicado en el Taller, con el protocolo renombrado.
-
 
 ### Páginas corregidas
 
