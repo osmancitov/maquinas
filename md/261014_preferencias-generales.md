@@ -74,6 +74,8 @@ Cada línea es una preferencia o instrucción permanente. Estado al 23 de octubr
 - Los archivos de Journal y Capilla llevan nombre con código de fecha.
 - Todas las salas siguen el mismo patrón.
 - Los enlaces son dorados y su color vive solo en `css/base.css`: enlace dorado solar, visitado en dorado apagado, hover más claro. Ninguna página declara color de enlace propio.
+- El estilo de las páginas vive en `css/base.css`; las clases llevan el nombre de la función del texto (`cita`, `puente`, `glosa`, `fecha`, `firma`), no el de su apariencia.
+- Cada página elige su paleta con una marca en el cuerpo (`<body class="...">`), y la marca lleva el nombre de la paleta. La paleta vigente es Tres Tierras, definida en `css/base.css`; una página sin marca conserva la paleta anterior.
 - Las ilustraciones pasan por el Pintor de Imágenes: literal o encarnada según el texto, con la proporción que cada caso necesite.
 - La vitrina antigua de la bodega-103 se queda con su aspecto, como testimonio de época.
 
