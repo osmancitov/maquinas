@@ -4,6 +4,12 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 25 de octubre publicado
+
+25 de octubre de 2026. «Briefing, escucha, ruido y núcleo»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261025_briefing-escucha-ruido-nucleo.html)
+
 ### Journal del 24 de octubre publicado
 
 24 de octubre de 2026. «Vetas, norma, espejo y juego»: texto e ilustración.
