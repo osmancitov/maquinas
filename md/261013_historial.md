@@ -16,9 +16,9 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 [Leer](https://osmancitov.github.io/destileria/html/261025_white-noise.html)
 
-### Frases selectas: reglas de conteo y propósito
+### Cobertura Léxica: antecedentes de conteo y propósito
 
-26 de octubre de 2026. «We» y «they» reparten su punto entre los integrantes, el sujeto implícito del imperativo cuenta como puesto, y el texto de Destilar una obra dice ahora para qué sirve la selección y dónde va el esfuerzo.
+26 de octubre de 2026. En el método predecesor de Cobertura Léxica, «We» y «they» reparten su punto entre los integrantes, el sujeto implícito del imperativo cuenta como puesto, y el texto de Destilar una obra dice ahora para qué sirve la selección y dónde va el esfuerzo.
 
 [Leer](https://github.com/osmancitov/osmancitov.github.io/tree/main/md)
 
@@ -84,7 +84,7 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 ### Mientras escribo: los puentes sobre los huecos
 
-23 de octubre de 2026. Revisados los puentes de las dos partes contra el original y aplicadas las doce propuestas aprobadas; el módulo Frases Selectas suma la revisión de cada hueco: fuera los anuncios sin contenido y las omisiones sustantivas.
+23 de octubre de 2026. Revisados los puentes de las dos partes contra el original y aplicadas las doce propuestas aprobadas; el protocolo predecesor de Cobertura Léxica suma la revisión de cada hueco: fuera los anuncios sin contenido y las omisiones sustantivas.
 
 [Leer](https://osmancitov.github.io/destileria/html/261017_mientras-escribo.html)
 
@@ -262,9 +262,9 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
 [Leer](https://osmancitov.github.io/destileria/html/261017_mientras-escribo.html)
 
-### Frases Selectas: «Frase N», presentación inicial y lector cero
+### Cobertura Léxica: antecedentes del rótulo y del lector cero
 
-22 de octubre de 2026. El procedimiento suma el rótulo «Frase N» en cada cita, la presentación de la obra al abrir la entrada y la regla de escribir todo para el lector cero, que llega en frío.
+22 de octubre de 2026. El método predecesor de Cobertura Léxica suma el rótulo «Frase N» en cada cita, la presentación de la obra al abrir la entrada y la regla de escribir todo para el lector cero, que llega en frío.
 
 ### Journal del 22 de octubre publicado
 
