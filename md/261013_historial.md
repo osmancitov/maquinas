@@ -4,6 +4,24 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 26 de octubre publicado
+
+26 de octubre de 2026. «Criba, voces, remiendo y umbral»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261026_criba-voces-remiendo-umbral.html)
+
+### Destilar White Noise terminado
+
+26 de octubre de 2026. Los 40 capítulos de White Noise quedaron destilados y publicados. La segunda lectura corrigió los capítulos 4 a 8 y recalculó los demás con las reglas vigentes.
+
+[Leer](https://osmancitov.github.io/destileria/html/261025_white-noise.html)
+
+### Frases selectas: reglas de conteo y propósito
+
+26 de octubre de 2026. «We» y «they» reparten su punto entre los integrantes, el sujeto implícito del imperativo cuenta como puesto, y el texto de Destilar una obra dice ahora para qué sirve la selección y dónde va el esfuerzo.
+
+[Leer](https://github.com/osmancitov/osmancitov.github.io/tree/main/md)
+
 ### Journal del 25 de octubre publicado
 
 25 de octubre de 2026. «Briefing, escucha, ruido y núcleo»: texto e ilustración.
