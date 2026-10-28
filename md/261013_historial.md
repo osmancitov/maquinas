@@ -4,6 +4,42 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 27 de octubre publicado
+
+27 de octubre de 2026. «Cobertura, venda, glosas y columnas»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261027_cobertura-venda-glosas-columnas.html)
+
+### Autobiografía de un yogui actualizada con Cobertura Léxica
+
+27 de octubre de 2026. La entrada quedó con párrafos completos, puentes y glosas.
+
+[Leer](https://osmancitov.github.io/destileria/html/261017_autobiografia-de-un-yogui.html)
+
+### Mientras escribo actualizada con Cobertura Léxica
+
+27 de octubre de 2026. La primera parte quedó con citas por párrafo, puentes y glosas, en una sola voz y con las anclas «Frase N» conservadas.
+
+[Leer](https://osmancitov.github.io/destileria/html/261017_mientras-escribo.html)
+
+### Mientras escribo II actualizada con Cobertura Léxica
+
+27 de octubre de 2026. La segunda parte quedó con citas por párrafo, puentes y glosas, en una sola voz y con las anclas «Frase N» conservadas.
+
+[Leer](https://osmancitov.github.io/destileria/html/261023_mientras-escribo-ii.html)
+
+### White Noise redestilado con Cobertura Léxica
+
+27 de octubre de 2026. Los 40 capítulos quedaron con el método aprobado: reescritos los diez primeros, completados del 11 al 40, cada cita con su glosa; retirados los subtítulos de ranking.
+
+[Leer](https://osmancitov.github.io/destileria/html/261025_white-noise.html)
+
+### Cobertura Léxica instalada como método aprobado
+
+27 de octubre de 2026. El método quedó instalado como el aprobado para destilar: verificación de la fuente antes del cálculo, reglas de redondeo y redacción precisadas y glosa por cita sin cantidad fija de palabras; eliminado el archivo histórico de Frases Selectas.
+
+[Leer](https://github.com/osmancitov/osmancitov.github.io/tree/main/md)
+
 ### Journal del 26 de octubre publicado
 
 26 de octubre de 2026. «Criba, voces, remiendo y umbral»: texto e ilustración.
