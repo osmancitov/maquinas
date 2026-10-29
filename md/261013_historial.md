@@ -4,12 +4,6 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
-### Journal del 28 de octubre publicado
-
-28 de octubre de 2026. «Módulo, sala, puerta y currículum»: texto e ilustración.
-
-[Leer](https://osmancitov.github.io/journal/html/261028_modulo-sala-puerta-curriculum.html)
-
 ### Journal del 27 de octubre publicado
 
 27 de octubre de 2026. «Cobertura, venda, glosas y columnas»: texto e ilustración.
