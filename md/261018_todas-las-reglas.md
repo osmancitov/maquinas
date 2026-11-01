@@ -44,8 +44,3 @@ Todas las reglas vigentes tal como están guardadas en la memoria de Instinct, c
 53. Él navega el sitio, no las rutas: mientras trabaja una página va a la sala y busca la entrada; decir «está en Bodega 110» es suficiente. *(2026-10-13 · hotel-sitio)*
 
 
-
-
-## Commits
-
-55. Identidad de commits. Todo commit, de cualquier repositorio de osmancitov, se firma con el correo personal de Osmancito como autor y como committer. Ningún agente ni proceso usa otra identidad ni la configura por su cuenta; si no puede firmar así, se detiene y avisa. *(2026-10-19)*
