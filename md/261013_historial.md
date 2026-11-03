@@ -609,4 +609,5 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
+2 de noviembre de 2026 | Investigación de activos: Zcash, diez años de dinero privado | Visión estructurada de ZEC publicada en Tesorería, corregida con las fuentes primarias del protocolo | https://osmancitov.github.io/tesoreria/html/261102_zcash-diez-anos-de-dinero-privado.html
 -->
