@@ -4,6 +4,12 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 4 de noviembre publicado
+
+4 de noviembre de 2026. «Despegue, cuentas, taller y víspera»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261104_despegue-cuentas-taller-y-vispera.html)
+
 ### Investigación de activos: Zcash, diez años de dinero privado
 
 2 de noviembre de 2026. Visión estructurada de ZEC publicada en Tesorería, corregida con las fuentes primarias del protocolo.
