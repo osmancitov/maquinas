@@ -4,6 +4,12 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 6 de noviembre publicado
+
+6 de noviembre de 2026. «Catálogo, puente, servicio y módulos»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261106_catalogo-puente-servicio-y-modulos.html)
+
 ### Journal del 5 de noviembre publicado
 
 5 de noviembre de 2026. «Luz, mudanza, cerrojo y montada»: texto e ilustración.
@@ -627,5 +633,4 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
-6 de noviembre de 2026 | Journal del 6 de noviembre publicado | «Catálogo, puente, servicio y módulos»: texto e ilustración. | https://osmancitov.github.io/journal/html/261106_catalogo-puente-servicio-y-modulos.html
 -->
