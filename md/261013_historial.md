@@ -633,4 +633,5 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
+7 de noviembre de 2026 | Journal del 7 de noviembre publicado | «Recolector, deseos, parches y racha»: texto e ilustración. | https://osmancitov.github.io/journal/html/261107_recolector-deseos-parches-y-racha.html
 -->
