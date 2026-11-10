@@ -4,6 +4,12 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 9 de noviembre publicado
+
+9 de noviembre de 2026. «Carpetas, cociente, franjas y apagón»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261109_carpetas-cociente-franjas-y-apagon.html)
+
 ### Journal del 8 de noviembre publicado
 
 8 de noviembre de 2026. «Astrología, montaña, prensa y hotel»: texto e ilustración.
@@ -645,5 +651,4 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
-9 de noviembre de 2026 | Journal del 9 de noviembre publicado | «Carpetas, cociente, franjas y apagón»: texto e ilustración | https://osmancitov.github.io/journal/html/261109_carpetas-cociente-franjas-y-apagon.html
 -->
