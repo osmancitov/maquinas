@@ -4,6 +4,12 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 10 de noviembre publicado
+
+10 de noviembre de 2026. «Sacudida, sobremesa, caballo y fichas»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261110_sacudida-sobremesa-caballo-y-fichas.html)
+
 ### Journal del 9 de noviembre publicado
 
 9 de noviembre de 2026. «Carpetas, cociente, franjas y apagón»: texto e ilustración.
@@ -651,5 +657,4 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
-10 de noviembre de 2026 | Sacudida, sobremesa, caballo y fichas | Journal del día publicado: texto e ilustración | https://osmancitov.github.io/journal/html/261110_sacudida-sobremesa-caballo-y-fichas.html
 -->
