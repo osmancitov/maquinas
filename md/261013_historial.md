@@ -663,4 +663,5 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
+12 de noviembre de 2026 | Conferencia, electricidad, teatro y renuncia | Journal del día: la conferencia trimestral escuchada en vivo y transcrita en casa, la moraleja de la fábrica sin electricidad, la renuncia inesperada de la noche y la lección de llegar temprano al teatro | https://osmancitov.github.io/journal/html/261112_conferencia-electricidad-teatro-y-renuncia.html
 -->
