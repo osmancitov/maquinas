@@ -669,5 +669,5 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
-13 de noviembre de 2026 | Gainers, losers, pulgar y cartel | Journal del día: la página de los que suben y los que bajan con tortas y balance ponderado, el primer pulgar aprobador que unificó los permisos, el módulo nuevo de las láminas y el cartel de cine del milagro que aún no llega | https://osmancitov.github.io/journal/html/261113_gainers-losers-pulgar-y-cartel.html
+13 de noviembre de 2026 | Gainers, losers, pulgar y cartel | Journal del día: la página de los que suben y los que bajan con tortas y balance ponderado, el primer pulgar aprobador que unificó las aprobaciones del bot, el módulo nuevo de las láminas y el cartel de cine del milagro que aún no llega | https://osmancitov.github.io/journal/html/261113_gainers-losers-pulgar-y-cartel.html
 -->
