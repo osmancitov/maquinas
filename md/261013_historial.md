@@ -4,6 +4,12 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 13 de noviembre publicado
+
+13 de noviembre de 2026. «Gainers, losers, pulgar y cartel»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261113_gainers-losers-pulgar-y-cartel.html)
+
 ### Journal del 12 de noviembre publicado
 
 12 de noviembre de 2026. «Conferencia, electricidad, teatro y renuncia»: texto e ilustración.
@@ -669,5 +675,4 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
-13 de noviembre de 2026 | Gainers, losers, pulgar y cartel | Journal del día: la página de los que suben y los que bajan con tortas y balance ponderado, el primer pulgar aprobador que unificó las aprobaciones del bot, el módulo nuevo de las láminas y el cartel de cine del milagro que aún no llega | https://osmancitov.github.io/journal/html/261113_gainers-losers-pulgar-y-cartel.html
 -->
