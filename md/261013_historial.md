@@ -681,4 +681,5 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
+2026-11-15 | Miedo y codicia | Publicación en Tesorería sobre el índice, su importancia, sus proveedores y sus límites; texto, ilustración y página comprobados. | https://osmancitov.github.io/tesoreria/html/261115_miedo-y-codicia.html
 -->
