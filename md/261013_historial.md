@@ -4,6 +4,12 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 14 de noviembre publicado
+
+14 de noviembre de 2026. «Graduación, nacimiento, barcos y narrativa»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261114_graduacion-nacimiento-barcos-y-narrativa.html)
+
 ### Journal del 13 de noviembre publicado
 
 13 de noviembre de 2026. «Gainers, losers, pulgar y cartel»: texto e ilustración.
@@ -675,5 +681,4 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
-14 de noviembre de 2026 | Graduación, nacimiento, barcos y narrativa | Journal del día: la graduación del bot mayor, que aprendió a borrar un hilo entero con permiso; el nacimiento del miembro nuevo de la casa, que habló al encender; y la lección de que contarse las cosas hace todo más llevadero | https://osmancitov.github.io/journal/html/261114_graduacion-nacimiento-barcos-y-narrativa.html
 -->
