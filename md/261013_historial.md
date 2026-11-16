@@ -4,6 +4,18 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 15 de noviembre publicado
+
+15 de noviembre de 2026. «Miedo, codicia, película y velas»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261115_miedo-codicia-pelicula-y-velas.html)
+
+### Miedo y codicia publicado en Tesorería
+
+15 de noviembre de 2026. Qué mide el índice, su importancia, sus proveedores y sus límites; texto, ilustración y página comprobados.
+
+[Leer](https://osmancitov.github.io/tesoreria/html/261115_miedo-y-codicia.html)
+
 ### Journal del 14 de noviembre publicado
 
 14 de noviembre de 2026. «Graduación, nacimiento, barcos y narrativa»: texto e ilustración.
@@ -681,6 +693,4 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
-2026-11-15 | Miedo, codicia, película y velas | Journal del día: catálogos en la Tesorería, el hijito pidiendo permiso para su película y el registro de velas diarias creciendo mes a mes. | https://osmancitov.github.io/journal/html/261115_miedo-codicia-pelicula-y-velas.html
-2026-11-15 | Miedo y codicia | Publicación en Tesorería sobre el índice, su importancia, sus proveedores y sus límites; texto, ilustración y página comprobados. | https://osmancitov.github.io/tesoreria/html/261115_miedo-y-codicia.html
 -->
