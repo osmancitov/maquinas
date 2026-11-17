@@ -4,6 +4,12 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 16 de noviembre publicado
+
+16 de noviembre de 2026. «Mapas, galería, viñeta y semilla»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261116_mapas-galeria-vineta-y-semilla.html)
+
 ### Journal del 15 de noviembre publicado
 
 15 de noviembre de 2026. «Miedo, codicia, película y velas»: texto e ilustración.
@@ -693,5 +699,4 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
-2026-11-16 | Mapas, galería, viñeta y semilla | Journal del día: la maratón de radiografías completada, la galería del mercado nacida y pulida, la viñeta del día rojo y una nota retirada por semilla podrida. | https://osmancitov.github.io/journal/html/261116_mapas-galeria-vineta-y-semilla.html
 -->
