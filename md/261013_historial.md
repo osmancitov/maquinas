@@ -4,6 +4,12 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 17 de noviembre publicado
+
+17 de noviembre de 2026. «Vara, titulares, debut y cómic»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261117_vara-titulares-debut-y-comic.html)
+
 ### Journal del 16 de noviembre publicado
 
 16 de noviembre de 2026. «Mapas, galería, viñeta y semilla»: texto e ilustración.
@@ -699,5 +705,4 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
-2026-11-17 | Vara, titulares, debut y cómic | Journal del día: la vara del informe superada, el cazador de titulares nacido y retirado, el debut contado en cómic y reporte final. | https://osmancitov.github.io/journal/html/261117_vara-titulares-debut-y-comic.html
 -->
