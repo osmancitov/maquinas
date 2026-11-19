@@ -4,6 +4,12 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 18 de noviembre publicado
+
+18 de noviembre de 2026. «Rachas, ganancia, caricatura y cajita»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261118_rachas-ganancia-caricatura-y-cajita.html)
+
 ### Journal del 17 de noviembre publicado
 
 17 de noviembre de 2026. «Vara, titulares, debut y cómic»: texto e ilustración.
@@ -705,5 +711,4 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
-18 de noviembre de 2026 | Rachas, ganancia, caricatura y cajita | Journal 261118 publicado: vista de rachas en el visor, primera ganancia bursátil contada en tira de tres viñetas, cuenta cuadrada fila por fila y cajita única de reportes para el hijito. | https://osmancitov.github.io/journal/html/261118_rachas-ganancia-caricatura-y-cajita.html
 -->
