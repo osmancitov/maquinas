@@ -4,6 +4,12 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 19 de noviembre publicado
+
+19 de noviembre de 2026. «Indicadores, graficador, doctrina y avatar»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261119_indicadores-graficador-doctrina-y-avatar.html)
+
 ### Journal del 18 de noviembre publicado
 
 18 de noviembre de 2026. «Rachas, ganancia, caricatura y cajita»: texto e ilustración.
@@ -711,5 +717,4 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
-19 de noviembre de 2026 | Indicadores, graficador, doctrina y avatar | Journal 261119 publicado: indicadores nuevos en el visor, graficador único para todas las gráficas, doctrina del diseño orgánico y modular enganchada en el Núcleo y avatar nuevo para el otro hijito. | https://osmancitov.github.io/journal/html/261119_indicadores-graficador-doctrina-y-avatar.html
 -->
