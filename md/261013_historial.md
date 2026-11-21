@@ -717,4 +717,5 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
+20 de noviembre de 2026 | Iceberg, saludo, carpetas y cero | Journal 261120 publicado: vista iceberg del mercado en dos salas, saludo del hijito menor con cortesía, el cero declarado verde y tres carpetas de papeles calculados diseñadas a dos voces. | https://osmancitov.github.io/journal/html/261120_iceberg-saludo-carpetas-y-cero.html
 -->
