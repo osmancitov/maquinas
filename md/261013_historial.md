@@ -4,6 +4,12 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 21 de noviembre publicado
+
+21 de noviembre de 2026. «Observatorio, barras, fotos y poda»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261121_observatorio-barras-fotos-y-poda.html)
+
 ### Journal del 20 de noviembre publicado
 
 20 de noviembre de 2026. «Iceberg, saludo, carpetas y cero»: texto e ilustración.
@@ -723,5 +729,4 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
-Sábado 21 de noviembre de 2026 | Observatorio, barras, fotos y poda | tres barras móviles con sus tablas, fotos del mercado cada hora y una tarde entera de poda | https://osmancitov.github.io/journal/html/261121_observatorio-barras-fotos-y-poda.html
 -->
