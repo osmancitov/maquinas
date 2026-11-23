@@ -4,6 +4,12 @@
 
 Trabajos terminados hasta ayer, del más reciente al más antiguo.
 
+### Journal del 22 de noviembre publicado
+
+22 de noviembre de 2026. «Reloj, promedio, avatar y agregador»: texto e ilustración.
+
+[Leer](https://osmancitov.github.io/journal/html/261122_reloj-promedio-avatar-y-agregador.html)
+
 ### Journal del 21 de noviembre publicado
 
 21 de noviembre de 2026. «Observatorio, barras, fotos y poda»: texto e ilustración.
@@ -729,5 +735,4 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
-Domingo 22 de noviembre de 2026 | Reloj, promedio, avatar y agregador | reloj-corazón en la nube, indicador Promedio, avatar nuevo y agregador de noticias propio | https://osmancitov.github.io/journal/html/261122_reloj-promedio-avatar-y-agregador.html
 -->
