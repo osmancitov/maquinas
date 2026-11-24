@@ -735,4 +735,5 @@ Trabajos terminados hasta ayer, del más reciente al más antiguo.
 7 de octubre de 2026. Conteos y densidad por escena para explorar la estructura de la obra.
 
 <!-- BORRADOR-DEL-DIA
+Lunes 23 de noviembre de 2026 | Poda, nombre, presentación y puntas | poda de la rúbrica de la lectura y nombre nuevo, Cimiento, para el proyecto de las cuentas | https://osmancitov.github.io/journal/html/261123_poda-nombre-presentacion-y-puntas.html
 -->
